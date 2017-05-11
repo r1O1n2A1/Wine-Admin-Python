@@ -1,6 +1,12 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
-
+'''
+    File name: __init__.py
+    Author: Ronan Lachater
+    Date created: 05/12/2017
+    Date last modified: --/--/----
+    Python Version: 3.x
+'''
 from flask import Flask
 from flask import jsonify
 from flask import request
@@ -10,36 +16,14 @@ from bson import json_util
 import json
 import requests
 
+
+
 # add from our architecture
 from . import config
-from backend.utils.elasticsearchUtil import *
-from backend.utils.encoding import JSONEncoder
-
-# define logger
+from backend.utils import constantsUtil
+from backend.utils.elasticsearch.elasticsearchUtil import *
+from backend.utils.encodingUtil import JSONEncoder
 import logging
-from logging.handlers import RotatingFileHandler
-
-#-------- define logging properties ------
-
-logger = logging.getLogger()
-logger.setLevel(logging.DEBUG)
-
-# set logger in a file
-# logging.basicConfig(filename='logs/python.log',level=logging.DEBUG,\
-#       format='%(asctime)s -- %(name)s -- %(levelname)s -- %(message)
-formatter = logging.Formatter('%(asctime)s :: %(levelname)s :: %(message)s')
-# création d'un handler qui va rediriger une écriture du log vers
-# un fichier en mode 'append', avec 1 backup et une taille max de 1Mo
-file_handler = RotatingFileHandler('logs/activity.log', 'a', 1000000, 10)
-file_handler.setLevel(logging.DEBUG)
-file_handler.setFormatter(formatter)
-logger.addHandler(file_handler)
-
-# set logger in console
-steam_handler = logging.StreamHandler()
-steam_handler.setLevel(logging.DEBUG)
-steam_handler.setFormatter(formatter)
-logger.addHandler(steam_handler)
 
 # -------- END loggin properties ---------
 
@@ -72,9 +56,33 @@ class AdminSearch:
     def not_found(error):
         return 'search returns, no match found', 404
 
-    @app.route(config.api_base_url + '/search',
+    @app.route(config.api_base_url + '/search/all',
         methods=['GET'])
-    def searchDashboard():
-        logging.debug('REST call:  get elasticsearch query')
-        ElasticsearchUtil.getSearch()
-        return json.dumps({"empty": "empty"}, default=json_util.default)
+    def searchAllUsers():
+        logging.debug('REST call:  get elasticsearch query for all users')
+        users = ElasticsearchUtil.getSearchAll()
+        jsonUsers = json.dumps(users,
+            default=json_util.default)
+        parsed_json = json.loads(jsonUsers)
+        logging.debug('--------beginning--------')
+        logging.debug(parsed_json['hits']['hits'][0]['_source']['user'][0]['order'][0]['product'])
+        # for key,val in parsed_json['hits'].items():
+        #     if(key == 'hits'):
+        #         logging.debug(val[key].items())
+        # for key,role in users.items():
+        #     if(key == 'hits'):
+        #         for val in role[key]:
+        #             for a,role in val.items():
+        #                 if (a == '_source'):
+        #                         logging.debug(a)
+        logging.debug('----------end----------')
+        return 'em'
+
+    @app.route(config.api_base_url + '/search/active',
+        methods=['GET'])
+    def searchDashboardActiveUsers():
+        logging.debug('REST call:  get elasticsearch query for active users')
+        activeUsers = ElasticsearchUtil.getActiveUsers()
+        jsonActiveUsers = json.dumps(activeUsers,
+            default=json_util.default)
+        return jsonActiveUsers
