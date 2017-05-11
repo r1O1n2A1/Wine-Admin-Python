@@ -135,3 +135,387 @@
 2017-05-09 09:12:43,633 :: INFO :: 127.0.0.1 - - [09/May/2017 09:12:43] "GET /wine/admin/ronan.lachater@gmail.com/admin HTTP/1.1" 200 -
 2017-05-09 09:29:02,780 :: DEBUG :: REST call: admin with login and password
 2017-05-09 09:29:02,782 :: INFO :: 127.0.0.1 - - [09/May/2017 09:29:02] "GET /wine/admin/ronan.lachater@gmail.com/admin HTTP/1.1" 200 -
+2017-05-09 10:52:53,215 :: DEBUG :: REST call: admin with login and password
+2017-05-09 10:52:53,217 :: INFO :: 127.0.0.1 - - [09/May/2017 10:52:53] "GET /wine/admin/ronan.lachater@gmail.com/admin HTTP/1.1" 200 -
+2017-05-09 11:10:01,979 :: INFO ::  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2017-05-09 11:10:01,980 :: INFO ::  * Restarting with stat
+2017-05-09 11:10:02,287 :: WARNING ::  * Debugger is active!
+2017-05-09 11:10:02,288 :: INFO ::  * Debugger PIN: 335-866-364
+2017-05-09 11:10:44,373 :: DEBUG :: REST call: admin with login and password
+2017-05-09 11:10:44,376 :: INFO :: 127.0.0.1 - - [09/May/2017 11:10:44] "GET /wine/admin/ronan.lachater@gmail.com/admi HTTP/1.1" 404 -
+2017-05-09 11:10:56,659 :: DEBUG :: REST call: admin with login and password
+2017-05-09 11:10:56,660 :: INFO :: 127.0.0.1 - - [09/May/2017 11:10:56] "GET /wine/admin/ronan.lachater@gmail.com/aefefe HTTP/1.1" 404 -
+2017-05-09 11:12:44,322 :: DEBUG :: REST call: admin with login and password
+2017-05-09 11:12:44,324 :: INFO :: 127.0.0.1 - - [09/May/2017 11:12:44] "GET /wine/admin/ronan.lachater@gmail.com/admin HTTP/1.1" 200 -
+2017-05-09 11:13:04,806 :: DEBUG :: REST call: admin with login and password
+2017-05-09 11:13:04,808 :: INFO :: 127.0.0.1 - - [09/May/2017 11:13:04] "GET /wine/admin/ronan.lachater@gmail.com/adrrrr HTTP/1.1" 404 -
+2017-05-10 10:36:30,630 :: INFO ::  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2017-05-10 10:36:30,653 :: INFO ::  * Restarting with stat
+2017-05-10 10:36:31,034 :: WARNING ::  * Debugger is active!
+2017-05-10 10:36:31,075 :: INFO ::  * Debugger PIN: 335-866-364
+2017-05-10 10:39:29,145 :: INFO :: 127.0.0.1 - - [10/May/2017 10:39:29] "GET / HTTP/1.1" 404 -
+2017-05-10 10:39:29,222 :: INFO :: 127.0.0.1 - - [10/May/2017 10:39:29] "GET /favicon.ico HTTP/1.1" 404 -
+2017-05-10 10:39:35,573 :: DEBUG :: REST call: admin with login and password
+2017-05-10 10:39:35,802 :: INFO :: 127.0.0.1 - - [10/May/2017 10:39:35] "GET /wine/admin/ronan.lachater@gmail.com/admin HTTP/1.1" 500 -
+2017-05-10 10:39:35,855 :: INFO :: 127.0.0.1 - - [10/May/2017 10:39:35] "GET /wine/admin/ronan.lachater@gmail.com/admin?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2017-05-10 10:39:41,611 :: INFO :: 127.0.0.1 - - [10/May/2017 10:39:41] "GET /wine/admin/ronan.lachater@gmail.com/admin?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2017-05-10 10:39:41,627 :: INFO :: 127.0.0.1 - - [10/May/2017 10:39:41] "GET /wine/admin/ronan.lachater@gmail.com/admin?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+2017-05-10 10:39:41,671 :: INFO :: 127.0.0.1 - - [10/May/2017 10:39:41] "GET /wine/admin/ronan.lachater@gmail.com/admin?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2017-05-10 10:39:41,739 :: INFO :: 127.0.0.1 - - [10/May/2017 10:39:41] "GET /wine/admin/ronan.lachater@gmail.com/admin?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2017-05-10 10:46:27,573 :: INFO ::  * Detected change in '/home/ronan/Project1AL/Wine-Admin-Python/backend/__init__.py', reloading
+2017-05-10 10:46:27,785 :: INFO ::  * Restarting with stat
+2017-05-10 10:46:28,164 :: WARNING ::  * Debugger is active!
+2017-05-10 10:46:28,165 :: INFO ::  * Debugger PIN: 335-866-364
+2017-05-10 10:46:38,957 :: DEBUG :: REST call: admin with login and password
+2017-05-10 10:46:38,962 :: INFO :: 127.0.0.1 - - [10/May/2017 10:46:38] "GET /wine/admin/ronan.lachater@gmail.com/admin HTTP/1.1" 200 -
+2017-05-10 10:48:14,803 :: INFO ::  * Detected change in '/home/ronan/Project1AL/Wine-Admin-Python/backend/utils/encoding.py', reloading
+2017-05-10 10:48:15,315 :: INFO ::  * Restarting with stat
+2017-05-10 10:48:15,655 :: WARNING ::  * Debugger is active!
+2017-05-10 10:48:15,656 :: INFO ::  * Debugger PIN: 335-866-364
+2017-05-10 10:48:25,713 :: INFO ::  * Detected change in '/home/ronan/Project1AL/Wine-Admin-Python/backend/__init__.py', reloading
+2017-05-10 10:48:26,195 :: INFO ::  * Restarting with stat
+2017-05-10 10:48:26,534 :: WARNING ::  * Debugger is active!
+2017-05-10 10:48:26,535 :: INFO ::  * Debugger PIN: 335-866-364
+2017-05-10 10:48:33,931 :: DEBUG :: REST call: admin with login and password
+2017-05-10 10:48:33,949 :: INFO :: 127.0.0.1 - - [10/May/2017 10:48:33] "GET /wine/admin/ronan.lachater@gmail.com/admin HTTP/1.1" 500 -
+2017-05-10 10:48:34,002 :: INFO :: 127.0.0.1 - - [10/May/2017 10:48:34] "GET /wine/admin/ronan.lachater@gmail.com/admin?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2017-05-10 10:48:39,790 :: INFO :: 127.0.0.1 - - [10/May/2017 10:48:39] "GET /wine/admin/ronan.lachater@gmail.com/admin?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2017-05-10 10:48:39,791 :: INFO :: 127.0.0.1 - - [10/May/2017 10:48:39] "GET /wine/admin/ronan.lachater@gmail.com/admin?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+2017-05-10 10:48:39,792 :: INFO :: 127.0.0.1 - - [10/May/2017 10:48:39] "GET /wine/admin/ronan.lachater@gmail.com/admin?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2017-05-10 10:48:39,905 :: INFO :: 127.0.0.1 - - [10/May/2017 10:48:39] "GET /wine/admin/ronan.lachater@gmail.com/admin?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2017-05-10 10:48:46,898 :: INFO :: 127.0.0.1 - - [10/May/2017 10:48:46] "GET /wine/admin/ronan.lachater@gmail.com/admin?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2017-05-10 10:49:33,937 :: INFO ::  * Detected change in '/home/ronan/Project1AL/Wine-Admin-Python/backend/utils/encoding.py', reloading
+2017-05-10 10:49:34,155 :: INFO ::  * Restarting with stat
+2017-05-10 10:49:34,505 :: WARNING ::  * Debugger is active!
+2017-05-10 10:49:34,506 :: INFO ::  * Debugger PIN: 335-866-364
+2017-05-10 10:49:37,525 :: INFO ::  * Detected change in '/home/ronan/Project1AL/Wine-Admin-Python/backend/__init__.py', reloading
+2017-05-10 10:49:38,046 :: INFO ::  * Restarting with stat
+2017-05-10 10:49:38,401 :: WARNING ::  * Debugger is active!
+2017-05-10 10:49:38,401 :: INFO ::  * Debugger PIN: 335-866-364
+2017-05-10 10:49:40,352 :: DEBUG :: REST call: admin with login and password
+2017-05-10 10:49:40,355 :: INFO :: 127.0.0.1 - - [10/May/2017 10:49:40] "GET /wine/admin/ronan.lachater@gmail.com/admin HTTP/1.1" 200 -
+2017-05-10 11:04:52,133 :: DEBUG :: REST call: admin with login and password
+2017-05-10 11:04:52,135 :: INFO :: 127.0.0.1 - - [10/May/2017 11:04:52] "GET /wine/admin/ronan.lachater@gmail.com/admin HTTP/1.1" 200 -
+2017-05-10 11:08:12,901 :: DEBUG :: REST call: admin with login and password
+2017-05-10 11:08:12,902 :: INFO :: 127.0.0.1 - - [10/May/2017 11:08:12] "GET /wine/admin/ronan.lachater@gmail.com/admin HTTP/1.1" 200 -
+2017-05-10 11:08:12,954 :: INFO :: 127.0.0.1 - - [10/May/2017 11:08:12] "GET /favicon.ico HTTP/1.1" 404 -
+2017-05-10 11:13:00,645 :: DEBUG :: REST call: admin with login and password
+2017-05-10 11:13:00,647 :: INFO :: 127.0.0.1 - - [10/May/2017 11:13:00] "GET /wine/admin/ronan.lachater@gmail.com/admin HTTP/1.1" 200 -
+2017-05-10 11:14:15,538 :: DEBUG :: REST call: admin with login and password
+2017-05-10 11:14:15,543 :: INFO :: 127.0.0.1 - - [10/May/2017 11:14:15] "GET /wine/admin/ronan.lachater@gmail.com/admin HTTP/1.1" 200 -
+2017-05-10 11:22:43,650 :: DEBUG :: REST call: admin with login and password
+2017-05-10 11:22:43,653 :: INFO :: 127.0.0.1 - - [10/May/2017 11:22:43] "GET /wine/admin/ronan.lachater@gmail.com/admin HTTP/1.1" 200 -
+2017-05-10 11:23:17,364 :: DEBUG :: REST call: admin with login and password
+2017-05-10 11:23:17,368 :: INFO :: 127.0.0.1 - - [10/May/2017 11:23:17] "GET /wine/admin/ronan.lachater@gmail.com/admin HTTP/1.1" 200 -
+2017-05-10 11:23:45,347 :: DEBUG :: REST call: admin with login and password
+2017-05-10 11:23:45,349 :: INFO :: 127.0.0.1 - - [10/May/2017 11:23:45] "GET /wine/admin/ronan.lachater@gmail.com/admin HTTP/1.1" 200 -
+2017-05-10 11:24:31,583 :: DEBUG :: REST call: admin with login and password
+2017-05-10 11:24:31,586 :: INFO :: 127.0.0.1 - - [10/May/2017 11:24:31] "GET /wine/admin/ronan.lachater@gmail.com/admin HTTP/1.1" 200 -
+2017-05-10 11:33:51,209 :: DEBUG :: REST call: admin with login and password
+2017-05-10 11:33:51,212 :: INFO :: 127.0.0.1 - - [10/May/2017 11:33:51] "GET /wine/admin/ronan.lachater@gmail.com/admin HTTP/1.1" 200 -
+2017-05-10 11:34:05,483 :: DEBUG :: REST call: admin with login and password
+2017-05-10 11:34:05,486 :: INFO :: 127.0.0.1 - - [10/May/2017 11:34:05] "GET /wine/admin/ronan.lachater@gmail.com/admin HTTP/1.1" 200 -
+2017-05-10 11:34:58,097 :: DEBUG :: REST call: admin with login and password
+2017-05-10 11:34:58,101 :: INFO :: 127.0.0.1 - - [10/May/2017 11:34:58] "GET /wine/admin/ronan.lachater@gmail.com/admin HTTP/1.1" 200 -
+2017-05-10 11:47:18,042 :: DEBUG :: REST call: admin with login and password
+2017-05-10 11:47:18,045 :: INFO :: 127.0.0.1 - - [10/May/2017 11:47:18] "GET /wine/admin/ronan.lachater@gmail.com/admin HTTP/1.1" 200 -
+2017-05-10 13:44:00,234 :: INFO ::  * Detected change in '/home/ronan/Project1AL/Wine-Admin-Python/backend/__init__.py', reloading
+2017-05-10 13:44:00,689 :: INFO ::  * Restarting with stat
+2017-05-10 13:59:11,925 :: INFO ::  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2017-05-10 13:59:11,926 :: INFO ::  * Restarting with stat
+2017-05-10 13:59:12,261 :: WARNING ::  * Debugger is active!
+2017-05-10 13:59:12,262 :: INFO ::  * Debugger PIN: 335-866-364
+2017-05-10 13:59:32,699 :: DEBUG :: REST call: admin with login and password
+2017-05-10 13:59:32,701 :: INFO :: 127.0.0.1 - - [10/May/2017 13:59:32] "GET /wine/admin/ronan.lachater@gmail.com/admin HTTP/1.1" 200 -
+2017-05-10 13:59:50,432 :: DEBUG :: REST call: admin with login and password
+2017-05-10 13:59:50,433 :: INFO :: 127.0.0.1 - - [10/May/2017 13:59:50] "GET /wine/admin/ronan.lachater@gmail.com/admin HTTP/1.1" 200 -
+2017-05-10 14:00:24,500 :: DEBUG :: REST call: admin with login and password
+2017-05-10 14:00:24,501 :: INFO :: 127.0.0.1 - - [10/May/2017 14:00:24] "GET /wine/admin/ronan.lachater@gmail.com/admin HTTP/1.1" 200 -
+2017-05-10 14:01:20,719 :: DEBUG :: REST call: admin with login and password
+2017-05-10 14:01:20,721 :: INFO :: 127.0.0.1 - - [10/May/2017 14:01:20] "GET /wine/admin/ronan.lachater@gmail.com/admin HTTP/1.1" 200 -
+2017-05-10 14:08:17,019 :: DEBUG :: REST call: admin with login and password
+2017-05-10 14:08:17,022 :: INFO :: 127.0.0.1 - - [10/May/2017 14:08:17] "GET /wine/admin/ronan.lachater@gmail.com/admin HTTP/1.1" 200 -
+2017-05-10 14:08:30,048 :: DEBUG :: REST call: admin with login and password
+2017-05-10 14:08:30,052 :: INFO :: 127.0.0.1 - - [10/May/2017 14:08:30] "GET /wine/admin/ronan.lachater@gmail.com/admin HTTP/1.1" 200 -
+2017-05-10 14:11:30,865 :: DEBUG :: REST call: admin with login and password
+2017-05-10 14:11:30,869 :: INFO :: 127.0.0.1 - - [10/May/2017 14:11:30] "GET /wine/admin/ronan.lachater@gmail.com/admin HTTP/1.1" 200 -
+2017-05-10 14:13:09,057 :: DEBUG :: REST call: admin with login and password
+2017-05-10 14:13:09,060 :: INFO :: 127.0.0.1 - - [10/May/2017 14:13:09] "GET /wine/admin/ronan.lachater@gmail.com/admin HTTP/1.1" 200 -
+2017-05-10 14:17:47,034 :: DEBUG :: REST call: admin with login and password
+2017-05-10 14:17:47,038 :: INFO :: 127.0.0.1 - - [10/May/2017 14:17:47] "GET /wine/admin/ronan.lachater@gmail.com/admin HTTP/1.1" 200 -
+2017-05-10 14:27:15,742 :: DEBUG :: REST call: admin with login and password
+2017-05-10 14:27:15,746 :: INFO :: 127.0.0.1 - - [10/May/2017 14:27:15] "GET /wine/admin/ronan.lachater@gmail.com/admin HTTP/1.1" 200 -
+2017-05-10 14:28:01,388 :: DEBUG :: REST call: admin with login and password
+2017-05-10 14:28:01,392 :: INFO :: 127.0.0.1 - - [10/May/2017 14:28:01] "GET /wine/admin/ronan.lachater@gmail.com/admin HTTP/1.1" 200 -
+2017-05-10 14:31:43,446 :: DEBUG :: REST call: admin with login and password
+2017-05-10 14:31:43,448 :: INFO :: 127.0.0.1 - - [10/May/2017 14:31:43] "GET /wine/admin/ronan.lachater@gmail.com/admin HTTP/1.1" 200 -
+2017-05-10 14:34:23,981 :: DEBUG :: REST call: admin with login and password
+2017-05-10 14:34:23,985 :: INFO :: 127.0.0.1 - - [10/May/2017 14:34:23] "GET /wine/admin/ronan.lachater@gmail.com/admin HTTP/1.1" 200 -
+2017-05-10 14:45:45,103 :: DEBUG :: REST call: admin with login and password
+2017-05-10 14:45:45,107 :: INFO :: 127.0.0.1 - - [10/May/2017 14:45:45] "GET /wine/admin/ronan.lachater@gmail.com/admin HTTP/1.1" 200 -
+2017-05-10 14:47:19,435 :: DEBUG :: REST call: admin with login and password
+2017-05-10 14:47:19,439 :: INFO :: 127.0.0.1 - - [10/May/2017 14:47:19] "GET /wine/admin/ronan.lachater@gmail.com/admin HTTP/1.1" 200 -
+2017-05-10 14:49:09,059 :: DEBUG :: REST call: admin with login and password
+2017-05-10 14:49:09,087 :: INFO :: 127.0.0.1 - - [10/May/2017 14:49:09] "GET /wine/admin/ronan.lachater@gmail.com/admin HTTP/1.1" 200 -
+2017-05-10 14:50:39,665 :: DEBUG :: REST call: admin with login and password
+2017-05-10 14:50:39,668 :: INFO :: 127.0.0.1 - - [10/May/2017 14:50:39] "GET /wine/admin/ronan.lachater@gmail.com/admin HTTP/1.1" 200 -
+2017-05-10 14:53:42,081 :: DEBUG :: REST call: admin with login and password
+2017-05-10 14:53:42,084 :: INFO :: 127.0.0.1 - - [10/May/2017 14:53:42] "GET /wine/admin/ronan.lachater@gmail.com/admin HTTP/1.1" 200 -
+2017-05-10 15:03:18,947 :: DEBUG :: REST call: admin with login and password
+2017-05-10 15:03:18,977 :: INFO :: 127.0.0.1 - - [10/May/2017 15:03:18] "GET /wine/admin/ronan.lachater@gmail.com/rrerere HTTP/1.1" 404 -
+2017-05-10 15:03:19,804 :: DEBUG :: REST call: admin with login and password
+2017-05-10 15:03:19,806 :: INFO :: 127.0.0.1 - - [10/May/2017 15:03:19] "GET /wine/admin/ronan.lachater@gmail.com/rrerere HTTP/1.1" 404 -
+2017-05-10 15:03:19,949 :: DEBUG :: REST call: admin with login and password
+2017-05-10 15:03:19,953 :: INFO :: 127.0.0.1 - - [10/May/2017 15:03:19] "GET /wine/admin/ronan.lachater@gmail.com/rrerere HTTP/1.1" 404 -
+2017-05-10 15:03:20,149 :: DEBUG :: REST call: admin with login and password
+2017-05-10 15:03:20,177 :: INFO :: 127.0.0.1 - - [10/May/2017 15:03:20] "GET /wine/admin/ronan.lachater@gmail.com/rrerere HTTP/1.1" 404 -
+2017-05-10 15:03:31,611 :: DEBUG :: REST call: admin with login and password
+2017-05-10 15:03:31,613 :: INFO :: 127.0.0.1 - - [10/May/2017 15:03:31] "GET /wine/admin/ronan.lachater@gmail.com/admin HTTP/1.1" 200 -
+2017-05-10 15:23:59,203 :: DEBUG :: REST call: admin with login and password
+2017-05-10 15:23:59,205 :: INFO :: 127.0.0.1 - - [10/May/2017 15:23:59] "GET /wine/admin/ronan.lachater@gmail.com/admin HTTP/1.1" 200 -
+2017-05-10 16:05:04,300 :: DEBUG :: REST call: admin with login and password
+2017-05-10 16:05:04,702 :: INFO :: 127.0.0.1 - - [10/May/2017 16:05:04] "GET /wine/admin/ronan.lachater@gmail.com/admin HTTP/1.1" 200 -
+2017-05-10 20:54:00,843 :: INFO ::  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2017-05-10 20:54:00,868 :: INFO ::  * Restarting with stat
+2017-05-10 20:54:01,184 :: WARNING ::  * Debugger is active!
+2017-05-10 20:54:01,224 :: INFO ::  * Debugger PIN: 310-356-289
+2017-05-10 21:05:26,181 :: DEBUG :: REST call: admin with login and password
+2017-05-10 21:05:26,320 :: INFO :: 127.0.0.1 - - [10/May/2017 21:05:26] "GET /wine/admin/ronan.lachater@gmail.com/admin HTTP/1.1" 200 -
+2017-05-10 21:05:54,647 :: DEBUG :: REST call: admin with login and password
+2017-05-10 21:05:54,648 :: INFO :: 127.0.0.1 - - [10/May/2017 21:05:54] "GET /wine/admin/ronan.lachater@gmail.com/admin HTTP/1.1" 200 -
+2017-05-10 21:05:54,755 :: INFO :: 127.0.0.1 - - [10/May/2017 21:05:54] "GET /favicon.ico HTTP/1.1" 404 -
+2017-05-11 08:47:09,420 :: INFO ::  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2017-05-11 08:47:09,454 :: INFO ::  * Restarting with stat
+2017-05-11 08:47:09,868 :: WARNING ::  * Debugger is active!
+2017-05-11 08:47:09,921 :: INFO ::  * Debugger PIN: 310-356-289
+2017-05-11 08:52:21,369 :: DEBUG :: REST call: admin with login and password
+2017-05-11 08:52:51,923 :: INFO :: 127.0.0.1 - - [11/May/2017 08:52:51] "GET /wine/admin/ronan.lachater@gmail.com/admin HTTP/1.1" 500 -
+2017-05-11 08:52:51,925 :: DEBUG :: REST call: admin with login and password
+2017-05-11 08:53:22,423 :: INFO :: 127.0.0.1 - - [11/May/2017 08:53:22] "GET /wine/admin/ronan.lachater@gmail.com/admin HTTP/1.1" 500 -
+2017-05-11 08:53:22,424 :: DEBUG :: REST call: admin with login and password
+2017-05-11 08:53:52,512 :: INFO :: 127.0.0.1 - - [11/May/2017 08:53:52] "GET /wine/admin/ronan.lachater@gmail.com/admin HTTP/1.1" 500 -
+2017-05-11 08:53:52,514 :: DEBUG :: REST call: admin with login and password
+2017-05-11 08:54:22,595 :: INFO :: 127.0.0.1 - - [11/May/2017 08:54:22] "GET /wine/admin/ronan.lachater@gmail.com/admin HTTP/1.1" 500 -
+2017-05-11 08:54:22,599 :: INFO :: 127.0.0.1 - - [11/May/2017 08:54:22] "GET / HTTP/1.1" 404 -
+2017-05-11 08:54:22,601 :: DEBUG :: REST call: admin with login and password
+2017-05-11 08:54:52,681 :: INFO :: 127.0.0.1 - - [11/May/2017 08:54:52] "GET /wine/admin/ronan.lachater@gmail.com/admin HTTP/1.1" 500 -
+2017-05-11 08:54:52,744 :: INFO :: 127.0.0.1 - - [11/May/2017 08:54:52] "GET /wine/admin/ronan.lachater@gmail.com/admin?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2017-05-11 08:54:52,760 :: INFO :: 127.0.0.1 - - [11/May/2017 08:54:52] "GET /wine/admin/ronan.lachater@gmail.com/admin?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+2017-05-11 08:54:52,771 :: INFO :: 127.0.0.1 - - [11/May/2017 08:54:52] "GET /wine/admin/ronan.lachater@gmail.com/admin?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2017-05-11 08:54:52,977 :: INFO :: 127.0.0.1 - - [11/May/2017 08:54:52] "GET /wine/admin/ronan.lachater@gmail.com/admin?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2017-05-11 08:54:52,995 :: INFO :: 127.0.0.1 - - [11/May/2017 08:54:52] "GET /wine/admin/ronan.lachater@gmail.com/admin?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2017-05-11 08:56:19,996 :: DEBUG :: REST call: admin with login and password
+2017-05-11 08:56:20,000 :: INFO :: 127.0.0.1 - - [11/May/2017 08:56:20] "GET /wine/admin/ronan.lachater@gmail.com/admin HTTP/1.1" 200 -
+2017-05-11 08:56:20,068 :: INFO :: 127.0.0.1 - - [11/May/2017 08:56:20] "GET /favicon.ico HTTP/1.1" 404 -
+2017-05-11 08:56:22,147 :: DEBUG :: REST call: admin with login and password
+2017-05-11 08:56:22,149 :: INFO :: 127.0.0.1 - - [11/May/2017 08:56:22] "GET /wine/admin/ronan.lachater@gmail.com/admin HTTP/1.1" 200 -
+2017-05-11 09:27:04,205 :: DEBUG :: REST call: admin with login and password
+2017-05-11 09:27:04,208 :: INFO :: 127.0.0.1 - - [11/May/2017 09:27:04] "GET /wine/admin/ronan.lachater@gmail.com/admin HTTP/1.1" 200 -
+2017-05-11 10:04:22,858 :: INFO ::  * Detected change in '/home/ronan/Project1AL/Wine-Admin-Python/backend/__init__.py', reloading
+2017-05-11 10:04:23,562 :: INFO ::  * Restarting with stat
+2017-05-11 10:04:26,275 :: WARNING ::  * Debugger is active!
+2017-05-11 10:04:26,277 :: INFO ::  * Debugger PIN: 310-356-289
+2017-05-11 10:08:55,013 :: INFO ::  * Detected change in '/home/ronan/Project1AL/Wine-Admin-Python/backend/__init__.py', reloading
+2017-05-11 10:08:55,449 :: INFO ::  * Restarting with stat
+2017-05-11 10:12:19,077 :: INFO ::  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2017-05-11 10:12:19,079 :: INFO ::  * Restarting with stat
+2017-05-11 10:12:19,823 :: WARNING ::  * Debugger is active!
+2017-05-11 10:12:19,824 :: INFO ::  * Debugger PIN: 310-356-289
+2017-05-11 10:12:26,930 :: DEBUG :: REST call:  get elasticsearch query
+2017-05-11 10:12:26,998 :: INFO :: 127.0.0.1 - - [11/May/2017 10:12:26] "GET /wine/admin/search HTTP/1.1" 500 -
+2017-05-11 10:12:27,044 :: INFO :: 127.0.0.1 - - [11/May/2017 10:12:27] "GET /wine/admin/search?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2017-05-11 10:12:27,094 :: INFO :: 127.0.0.1 - - [11/May/2017 10:12:27] "GET /wine/admin/search?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+2017-05-11 10:12:27,138 :: INFO :: 127.0.0.1 - - [11/May/2017 10:12:27] "GET /wine/admin/search?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2017-05-11 10:12:27,299 :: INFO :: 127.0.0.1 - - [11/May/2017 10:12:27] "GET /wine/admin/search?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2017-05-11 10:12:27,360 :: INFO :: 127.0.0.1 - - [11/May/2017 10:12:27] "GET /wine/admin/search?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2017-05-11 10:12:31,506 :: INFO :: 127.0.0.1 - - [11/May/2017 10:12:31] "GET /wine/admin/search?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2017-05-11 10:12:59,022 :: INFO ::  * Detected change in '/home/ronan/Project1AL/Wine-Admin-Python/backend/__init__.py', reloading
+2017-05-11 10:12:59,377 :: INFO ::  * Restarting with stat
+2017-05-11 10:12:59,795 :: WARNING ::  * Debugger is active!
+2017-05-11 10:12:59,795 :: INFO ::  * Debugger PIN: 310-356-289
+2017-05-11 10:13:05,175 :: DEBUG :: REST call:  get elasticsearch query
+2017-05-11 10:13:05,186 :: INFO :: 127.0.0.1 - - [11/May/2017 10:13:05] "GET /wine/admin/search HTTP/1.1" 500 -
+2017-05-11 10:13:05,214 :: INFO :: 127.0.0.1 - - [11/May/2017 10:13:05] "GET /wine/admin/search?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2017-05-11 10:13:05,217 :: INFO :: 127.0.0.1 - - [11/May/2017 10:13:05] "GET /wine/admin/search?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+2017-05-11 10:13:05,219 :: INFO :: 127.0.0.1 - - [11/May/2017 10:13:05] "GET /wine/admin/search?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2017-05-11 10:13:05,382 :: INFO :: 127.0.0.1 - - [11/May/2017 10:13:05] "GET /wine/admin/search?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2017-05-11 10:14:32,257 :: INFO ::  * Detected change in '/home/ronan/Project1AL/Wine-Admin-Python/backend/__init__.py', reloading
+2017-05-11 10:14:32,422 :: INFO ::  * Restarting with stat
+2017-05-11 10:14:33,103 :: WARNING ::  * Debugger is active!
+2017-05-11 10:14:33,104 :: INFO ::  * Debugger PIN: 310-356-289
+2017-05-11 10:14:36,504 :: DEBUG :: REST call:  get elasticsearch query
+2017-05-11 10:14:36,512 :: INFO :: 127.0.0.1 - - [11/May/2017 10:14:36] "GET /wine/admin/search HTTP/1.1" 500 -
+2017-05-11 10:14:36,526 :: INFO :: 127.0.0.1 - - [11/May/2017 10:14:36] "GET /wine/admin/search?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2017-05-11 10:14:36,527 :: INFO :: 127.0.0.1 - - [11/May/2017 10:14:36] "GET /wine/admin/search?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+2017-05-11 10:14:36,529 :: INFO :: 127.0.0.1 - - [11/May/2017 10:14:36] "GET /wine/admin/search?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2017-05-11 10:14:36,606 :: INFO :: 127.0.0.1 - - [11/May/2017 10:14:36] "GET /wine/admin/search?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2017-05-11 10:14:47,176 :: INFO ::  * Detected change in '/home/ronan/Project1AL/Wine-Admin-Python/backend/__init__.py', reloading
+2017-05-11 10:14:47,654 :: INFO ::  * Restarting with stat
+2017-05-11 10:14:48,254 :: WARNING ::  * Debugger is active!
+2017-05-11 10:14:48,255 :: INFO ::  * Debugger PIN: 310-356-289
+2017-05-11 10:14:50,435 :: DEBUG :: REST call:  get elasticsearch query
+2017-05-11 10:14:50,436 :: INFO :: 127.0.0.1 - - [11/May/2017 10:14:50] "GET /wine/admin/search HTTP/1.1" 200 -
+2017-05-11 10:15:23,429 :: DEBUG :: REST call:  get elasticsearch query
+2017-05-11 10:15:23,430 :: INFO :: 127.0.0.1 - - [11/May/2017 10:15:23] "GET /wine/admin/search HTTP/1.1" 200 -
+2017-05-11 10:17:43,025 :: INFO ::  * Detected change in '/home/ronan/Project1AL/Wine-Admin-Python/backend/__init__.py', reloading
+2017-05-11 10:17:43,471 :: INFO ::  * Restarting with stat
+2017-05-11 10:20:05,335 :: INFO ::  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2017-05-11 10:20:05,337 :: INFO ::  * Restarting with stat
+2017-05-11 10:20:05,965 :: WARNING ::  * Debugger is active!
+2017-05-11 10:20:05,965 :: INFO ::  * Debugger PIN: 310-356-289
+2017-05-11 10:20:56,276 :: INFO ::  * Detected change in '/home/ronan/Project1AL/Wine-Admin-Python/backend/__init__.py', reloading
+2017-05-11 10:20:56,545 :: INFO ::  * Restarting with stat
+2017-05-11 10:20:56,992 :: WARNING ::  * Debugger is active!
+2017-05-11 10:20:56,993 :: INFO ::  * Debugger PIN: 310-356-289
+2017-05-11 10:21:48,332 :: INFO ::  * Detected change in '/home/ronan/Project1AL/Wine-Admin-Python/backend/config.py', reloading
+2017-05-11 10:21:48,575 :: INFO ::  * Restarting with stat
+2017-05-11 10:21:48,992 :: WARNING ::  * Debugger is active!
+2017-05-11 10:21:48,992 :: INFO ::  * Debugger PIN: 310-356-289
+2017-05-11 10:22:09,101 :: INFO ::  * Detected change in '/home/ronan/Project1AL/Wine-Admin-Python/backend/__init__.py', reloading
+2017-05-11 10:22:09,542 :: INFO ::  * Restarting with stat
+2017-05-11 10:22:09,970 :: WARNING ::  * Debugger is active!
+2017-05-11 10:22:09,970 :: INFO ::  * Debugger PIN: 310-356-289
+2017-05-11 10:22:31,099 :: INFO ::  * Detected change in '/home/ronan/Project1AL/Wine-Admin-Python/backend/__init__.py', reloading
+2017-05-11 10:22:31,520 :: INFO ::  * Restarting with stat
+2017-05-11 10:22:31,942 :: WARNING ::  * Debugger is active!
+2017-05-11 10:22:31,942 :: INFO ::  * Debugger PIN: 310-356-289
+2017-05-11 10:22:34,965 :: INFO ::  * Detected change in '/home/ronan/Project1AL/Wine-Admin-Python/backend/__init__.py', reloading
+2017-05-11 10:22:35,500 :: INFO ::  * Restarting with stat
+2017-05-11 10:22:36,232 :: WARNING ::  * Debugger is active!
+2017-05-11 10:22:36,233 :: INFO ::  * Debugger PIN: 310-356-289
+2017-05-11 10:23:08,415 :: INFO ::  * Detected change in '/home/ronan/Project1AL/Wine-Admin-Python/backend/config.py', reloading
+2017-05-11 10:23:08,804 :: INFO ::  * Restarting with stat
+2017-05-11 10:23:09,493 :: WARNING ::  * Debugger is active!
+2017-05-11 10:23:09,494 :: INFO ::  * Debugger PIN: 310-356-289
+2017-05-11 10:23:47,742 :: INFO ::  * Detected change in '/home/ronan/Project1AL/Wine-Admin-Python/backend/config.py', reloading
+2017-05-11 10:23:48,053 :: INFO ::  * Restarting with stat
+2017-05-11 10:23:48,476 :: WARNING ::  * Debugger is active!
+2017-05-11 10:23:48,477 :: INFO ::  * Debugger PIN: 310-356-289
+2017-05-11 10:24:00,542 :: INFO ::  * Detected change in '/home/ronan/Project1AL/Wine-Admin-Python/backend/config.py', reloading
+2017-05-11 10:24:01,039 :: INFO ::  * Restarting with stat
+2017-05-11 10:24:01,758 :: WARNING ::  * Debugger is active!
+2017-05-11 10:24:01,759 :: INFO ::  * Debugger PIN: 310-356-289
+2017-05-11 10:25:18,218 :: INFO ::  * Detected change in '/home/ronan/Project1AL/Wine-Admin-Python/backend/__init__.py', reloading
+2017-05-11 10:25:18,387 :: INFO ::  * Restarting with stat
+2017-05-11 10:25:23,937 :: INFO ::  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2017-05-11 10:25:23,939 :: INFO ::  * Restarting with stat
+2017-05-11 10:25:24,736 :: WARNING ::  * Debugger is active!
+2017-05-11 10:25:24,737 :: INFO ::  * Debugger PIN: 310-356-289
+2017-05-11 10:31:14,813 :: INFO ::  * Detected change in '/home/ronan/Project1AL/Wine-Admin-Python/backend/__init__.py', reloading
+2017-05-11 10:31:15,136 :: INFO ::  * Restarting with stat
+2017-05-11 10:31:15,664 :: WARNING ::  * Debugger is active!
+2017-05-11 10:31:15,665 :: INFO ::  * Debugger PIN: 310-356-289
+2017-05-11 10:32:01,917 :: INFO ::  * Detected change in '/home/ronan/Project1AL/Wine-Admin-Python/backend/__init__.py', reloading
+2017-05-11 10:32:02,255 :: INFO ::  * Restarting with stat
+2017-05-11 10:32:09,880 :: INFO ::  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2017-05-11 10:32:09,881 :: INFO ::  * Restarting with stat
+2017-05-11 10:32:10,596 :: WARNING ::  * Debugger is active!
+2017-05-11 10:32:10,597 :: INFO ::  * Debugger PIN: 310-356-289
+2017-05-11 10:32:31,769 :: INFO ::  * Detected change in '/home/ronan/Project1AL/Wine-Admin-Python/backend/__init__.py', reloading
+2017-05-11 10:32:32,166 :: INFO ::  * Restarting with stat
+2017-05-11 10:32:32,602 :: WARNING ::  * Debugger is active!
+2017-05-11 10:32:32,603 :: INFO ::  * Debugger PIN: 310-356-289
+2017-05-11 10:32:39,659 :: INFO ::  * Detected change in '/home/ronan/Project1AL/Wine-Admin-Python/backend/__init__.py', reloading
+2017-05-11 10:32:40,162 :: INFO ::  * Restarting with stat
+2017-05-11 10:32:40,595 :: WARNING ::  * Debugger is active!
+2017-05-11 10:32:40,595 :: INFO ::  * Debugger PIN: 310-356-289
+2017-05-11 10:32:46,644 :: INFO ::  * Detected change in '/home/ronan/Project1AL/Wine-Admin-Python/backend/__init__.py', reloading
+2017-05-11 10:32:47,149 :: INFO ::  * Restarting with stat
+2017-05-11 10:32:47,590 :: WARNING ::  * Debugger is active!
+2017-05-11 10:32:47,591 :: INFO ::  * Debugger PIN: 310-356-289
+2017-05-11 10:33:00,691 :: INFO ::  * Detected change in '/home/ronan/Project1AL/Wine-Admin-Python/backend/__init__.py', reloading
+2017-05-11 10:33:01,153 :: INFO ::  * Restarting with stat
+2017-05-11 10:33:01,567 :: WARNING ::  * Debugger is active!
+2017-05-11 10:33:01,567 :: INFO ::  * Debugger PIN: 310-356-289
+2017-05-11 10:37:39,546 :: INFO ::  * Detected change in '/home/ronan/Project1AL/Wine-Admin-Python/backend/utils/elasticsearchUtil.py', reloading
+2017-05-11 10:37:39,925 :: INFO ::  * Restarting with stat
+2017-05-11 10:37:40,341 :: WARNING ::  * Debugger is active!
+2017-05-11 10:37:40,341 :: INFO ::  * Debugger PIN: 310-356-289
+2017-05-11 10:38:30,727 :: INFO ::  * Detected change in '/home/ronan/Project1AL/Wine-Admin-Python/backend/__init__.py', reloading
+2017-05-11 10:38:30,959 :: INFO ::  * Restarting with stat
+2017-05-11 10:38:31,342 :: WARNING ::  * Debugger is active!
+2017-05-11 10:38:31,343 :: INFO ::  * Debugger PIN: 310-356-289
+2017-05-11 10:38:39,812 :: DEBUG :: REST call:  get elasticsearch query
+2017-05-11 10:38:39,822 :: INFO :: 127.0.0.1 - - [11/May/2017 10:38:39] "GET /wine/admin/search HTTP/1.1" 500 -
+2017-05-11 10:38:39,836 :: INFO :: 127.0.0.1 - - [11/May/2017 10:38:39] "GET /wine/admin/search?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2017-05-11 10:38:39,837 :: INFO :: 127.0.0.1 - - [11/May/2017 10:38:39] "GET /wine/admin/search?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+2017-05-11 10:38:39,839 :: INFO :: 127.0.0.1 - - [11/May/2017 10:38:39] "GET /wine/admin/search?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2017-05-11 10:38:39,943 :: INFO :: 127.0.0.1 - - [11/May/2017 10:38:39] "GET /wine/admin/search?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2017-05-11 10:39:02,584 :: INFO ::  * Detected change in '/home/ronan/Project1AL/Wine-Admin-Python/backend/__init__.py', reloading
+2017-05-11 10:39:02,921 :: INFO ::  * Restarting with stat
+2017-05-11 10:39:03,296 :: WARNING ::  * Debugger is active!
+2017-05-11 10:39:03,296 :: INFO ::  * Debugger PIN: 310-356-289
+2017-05-11 10:39:05,252 :: DEBUG :: REST call:  get elasticsearch query
+2017-05-11 10:39:05,261 :: INFO :: 127.0.0.1 - - [11/May/2017 10:39:05] "GET /wine/admin/search HTTP/1.1" 500 -
+2017-05-11 10:39:05,274 :: INFO :: 127.0.0.1 - - [11/May/2017 10:39:05] "GET /wine/admin/search?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2017-05-11 10:39:05,275 :: INFO :: 127.0.0.1 - - [11/May/2017 10:39:05] "GET /wine/admin/search?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+2017-05-11 10:39:05,277 :: INFO :: 127.0.0.1 - - [11/May/2017 10:39:05] "GET /wine/admin/search?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2017-05-11 10:39:05,338 :: INFO :: 127.0.0.1 - - [11/May/2017 10:39:05] "GET /wine/admin/search?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2017-05-11 10:39:11,360 :: INFO ::  * Detected change in '/home/ronan/Project1AL/Wine-Admin-Python/backend/__init__.py', reloading
+2017-05-11 10:39:11,853 :: INFO ::  * Restarting with stat
+2017-05-11 10:39:12,273 :: WARNING ::  * Debugger is active!
+2017-05-11 10:39:12,273 :: INFO ::  * Debugger PIN: 310-356-289
+2017-05-11 10:41:35,306 :: INFO ::  * Detected change in '/home/ronan/Project1AL/Wine-Admin-Python/backend/__init__.py', reloading
+2017-05-11 10:41:35,488 :: INFO ::  * Restarting with stat
+2017-05-11 10:41:43,431 :: INFO ::  * Restarting with stat
+2017-05-11 10:43:16,052 :: INFO ::  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2017-05-11 10:43:16,053 :: INFO ::  * Restarting with stat
+2017-05-11 10:43:16,405 :: WARNING ::  * Debugger is active!
+2017-05-11 10:43:16,406 :: INFO ::  * Debugger PIN: 310-356-289
+2017-05-11 10:43:18,925 :: INFO :: 127.0.0.1 - - [11/May/2017 10:43:18] "GET /wine/admin/search HTTP/1.1" 500 -
+2017-05-11 10:43:18,941 :: INFO :: 127.0.0.1 - - [11/May/2017 10:43:18] "GET /wine/admin/search?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2017-05-11 10:43:18,941 :: INFO :: 127.0.0.1 - - [11/May/2017 10:43:18] "GET /wine/admin/search?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+2017-05-11 10:43:18,942 :: INFO :: 127.0.0.1 - - [11/May/2017 10:43:18] "GET /wine/admin/search?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2017-05-11 10:43:19,018 :: INFO :: 127.0.0.1 - - [11/May/2017 10:43:19] "GET /wine/admin/search?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2017-05-11 10:43:26,110 :: INFO :: 127.0.0.1 - - [11/May/2017 10:43:26] "GET /wine/admin/ronan.lachater@gmail.com/admin HTTP/1.1" 500 -
+2017-05-11 10:43:26,297 :: INFO :: 127.0.0.1 - - [11/May/2017 10:43:26] "GET /wine/admin/ronan.lachater@gmail.com/admin?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+2017-05-11 10:43:26,299 :: INFO :: 127.0.0.1 - - [11/May/2017 10:43:26] "GET /wine/admin/ronan.lachater@gmail.com/admin?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2017-05-11 10:43:26,321 :: INFO :: 127.0.0.1 - - [11/May/2017 10:43:26] "GET /wine/admin/ronan.lachater@gmail.com/admin?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2017-05-11 10:43:26,457 :: INFO :: 127.0.0.1 - - [11/May/2017 10:43:26] "GET /wine/admin/ronan.lachater@gmail.com/admin?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2017-05-11 10:43:26,472 :: INFO :: 127.0.0.1 - - [11/May/2017 10:43:26] "GET /wine/admin/ronan.lachater@gmail.com/admin?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2017-05-11 10:43:44,603 :: INFO ::  * Detected change in '/home/ronan/Project1AL/Wine-Admin-Python/backend/__init__.py', reloading
+2017-05-11 10:43:44,965 :: INFO ::  * Restarting with stat
+2017-05-11 10:43:45,333 :: WARNING ::  * Debugger is active!
+2017-05-11 10:43:45,333 :: WARNING ::  * Debugger is active!
+2017-05-11 10:43:45,333 :: INFO ::  * Debugger PIN: 310-356-289
+2017-05-11 10:43:45,333 :: INFO ::  * Debugger PIN: 310-356-289
+2017-05-11 10:43:54,404 :: INFO ::  * Detected change in '/home/ronan/Project1AL/Wine-Admin-Python/runbackend.py', reloading
+2017-05-11 10:43:54,404 :: INFO ::  * Detected change in '/home/ronan/Project1AL/Wine-Admin-Python/runbackend.py', reloading
+2017-05-11 10:43:54,897 :: INFO ::  * Restarting with stat
+2017-05-11 10:43:55,257 :: WARNING ::  * Debugger is active!
+2017-05-11 10:43:55,257 :: INFO ::  * Debugger PIN: 310-356-289
+2017-05-11 10:43:56,370 :: DEBUG :: REST call: admin with login and password
+2017-05-11 10:43:56,412 :: INFO :: 127.0.0.1 - - [11/May/2017 10:43:56] "GET /wine/admin/ronan.lachater@gmail.com/admin HTTP/1.1" 200 -
+2017-05-11 10:43:59,380 :: DEBUG :: REST call:  get elasticsearch query
+2017-05-11 10:43:59,389 :: INFO :: 127.0.0.1 - - [11/May/2017 10:43:59] "GET /wine/admin/search HTTP/1.1" 500 -
+2017-05-11 10:43:59,404 :: INFO :: 127.0.0.1 - - [11/May/2017 10:43:59] "GET /wine/admin/search?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2017-05-11 10:43:59,405 :: INFO :: 127.0.0.1 - - [11/May/2017 10:43:59] "GET /wine/admin/search?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+2017-05-11 10:43:59,406 :: INFO :: 127.0.0.1 - - [11/May/2017 10:43:59] "GET /wine/admin/search?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2017-05-11 10:43:59,471 :: INFO :: 127.0.0.1 - - [11/May/2017 10:43:59] "GET /wine/admin/search?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2017-05-11 10:48:13,283 :: INFO ::  * Detected change in '/home/ronan/Project1AL/Wine-Admin-Python/runbackend.py', reloading
+2017-05-11 10:48:13,627 :: INFO ::  * Restarting with stat
+2017-05-11 10:48:14,034 :: WARNING ::  * Debugger is active!
+2017-05-11 10:48:14,035 :: INFO ::  * Debugger PIN: 310-356-289
+2017-05-11 10:48:19,741 :: DEBUG :: REST call:  get elasticsearch query
+2017-05-11 10:48:19,755 :: INFO :: 127.0.0.1 - - [11/May/2017 10:48:19] "GET /wine/admin/search HTTP/1.1" 500 -
+2017-05-11 10:48:19,773 :: INFO :: 127.0.0.1 - - [11/May/2017 10:48:19] "GET /wine/admin/search?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2017-05-11 10:48:19,775 :: INFO :: 127.0.0.1 - - [11/May/2017 10:48:19] "GET /wine/admin/search?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+2017-05-11 10:48:19,776 :: INFO :: 127.0.0.1 - - [11/May/2017 10:48:19] "GET /wine/admin/search?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2017-05-11 10:48:19,854 :: INFO :: 127.0.0.1 - - [11/May/2017 10:48:19] "GET /wine/admin/search?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2017-05-11 10:48:36,196 :: INFO ::  * Detected change in '/home/ronan/Project1AL/Wine-Admin-Python/runbackend.py', reloading
+2017-05-11 10:48:36,589 :: INFO ::  * Restarting with stat
+2017-05-11 10:48:36,958 :: WARNING ::  * Debugger is active!
+2017-05-11 10:48:36,958 :: INFO ::  * Debugger PIN: 310-356-289
+2017-05-11 10:49:46,477 :: INFO ::  * Detected change in '/home/ronan/Project1AL/Wine-Admin-Python/backend/utils/elasticsearchUtil.py', reloading
+2017-05-11 10:49:46,565 :: INFO ::  * Restarting with stat
+2017-05-11 10:49:46,956 :: WARNING ::  * Debugger is active!
+2017-05-11 10:49:46,957 :: INFO ::  * Debugger PIN: 310-356-289
+2017-05-11 10:49:49,820 :: DEBUG :: REST call:  get elasticsearch query
+2017-05-11 10:49:49,820 :: DEBUG :: Call REST for GET ES
+2017-05-11 10:49:49,821 :: INFO :: 127.0.0.1 - - [11/May/2017 10:49:49] "GET /wine/admin/search HTTP/1.1" 200 -
+2017-05-11 10:49:59,208 :: DEBUG :: REST call:  get elasticsearch query
+2017-05-11 10:49:59,209 :: DEBUG :: Call REST for GET ES
+2017-05-11 10:49:59,209 :: INFO :: 127.0.0.1 - - [11/May/2017 10:49:59] "GET /wine/admin/search HTTP/1.1" 200 -
+2017-05-11 10:50:00,444 :: DEBUG :: REST call:  get elasticsearch query
+2017-05-11 10:50:00,444 :: DEBUG :: Call REST for GET ES
+2017-05-11 10:50:00,445 :: INFO :: 127.0.0.1 - - [11/May/2017 10:50:00] "GET /wine/admin/search HTTP/1.1" 200 -
