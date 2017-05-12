@@ -8,7 +8,7 @@
     Python Version: 3.x
 '''
 import logging
-import .. from constantsUtil
+from .. import constantsUtil
 
 class Handler(object):
 
@@ -23,12 +23,24 @@ class Handler(object):
     def _handle(self, request):
         raise NotImplementedError('Must provide implementation in subclass')
 
-class userHandler(Handler):
+class UserHandler(Handler):
 
     def _handle(self, request):
         if not request:
-            return "not empty"
-        else:
             return "empty"
+        else:
+            return "not empty"
 
 ''' define other Handlers '''
+
+class Client(object):
+
+    def __init__(self):
+        self.handler = UserHandler()
+
+    def delegate(self, request):
+        if type(request) == dict:
+            self.handler.handle(request)
+        else:
+            logging.log('chainOfResponsability: not processed')
+            return "not processd"

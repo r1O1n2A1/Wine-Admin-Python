@@ -24,6 +24,7 @@ from . import config
 from backend.utils import constantsUtil
 from backend.utils.elasticsearch.elasticsearchUtil import *
 from backend.utils.elasticsearch.catalogParsingQueries import CatalogParsingQueries
+from backend.utils.elasticsearch.chainOfResponsabilityESQueries import *
 from backend.utils.encodingUtil import JSONEncoder
 from backend.utils.exception import customException
 import logging
@@ -71,6 +72,8 @@ class AdminSearch:
             default=json_util.default)
         logging.debug('--------beginning--------')
         constantsUtil.JSON_ES_QUERY = resultQueryJson
+        client1 = Client()
+        client1.delegate(resultQueryDict)
         # logging.debug(parsed_json['hits']['hits'][0]['_source']['user'][0]['order'][0]['product'])
         # for key,val in parsed_json['hits'].items():
         #     if(key == 'hits'):
