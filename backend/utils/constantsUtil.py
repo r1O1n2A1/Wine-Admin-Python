@@ -8,6 +8,9 @@
     Python Version: 3.x
 '''
 
+global JSON_ES_QUERY
+global ARRAY_ES_RESULT
+
 es_query_return = {
     'hits': 'hits'
 }
