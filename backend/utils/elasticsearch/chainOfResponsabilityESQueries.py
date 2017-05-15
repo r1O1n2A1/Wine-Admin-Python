@@ -44,8 +44,6 @@ class UserHandler(Handler):
             if type(request) == list and 'signUpLastMonth' in request:
                 CatalogParsingQueries('dashboard_new_visits_month').main_parsing()
                 return "not processed user"
-            else:
-                return " empty user"
         return False
 
 class OrderHandler(Handler):
@@ -56,7 +54,7 @@ class OrderHandler(Handler):
         else:
             if type(request) == list and 'purchaseLastMonth' in request:
                 CatalogParsingQueries('dashboard_purchases_month').main_parsing()
-                return "not processed order"
+                return "processed order"
             else:
                 return " empty order"
         return False

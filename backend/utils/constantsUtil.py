@@ -7,6 +7,7 @@
     Date last modified: --/--/----
     Python Version: 3.x
 '''
+import time
 
 ''' CONFIG File only for ES query + processing '''
 
@@ -62,6 +63,6 @@ queryLoginLastMonth = {
 
 # date to parse
 LAST_MONTH_DATE = "01/05/2017"
-
+dateLastMonth = time.strptime(LAST_MONTH_DATE, "%d/%m/%Y")
 ### ERROR CODE ####
 CODE_PARSING = 'Elasticsearch parsing can not be done'

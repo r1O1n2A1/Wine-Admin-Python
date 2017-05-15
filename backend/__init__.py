@@ -93,8 +93,8 @@ class AdminSearch:
             constantsUtil.CURRENT_USER = value
             clientDashboard = Client()
             returnCOR = clientDashboard.delegate(request_chainResponsability)
-
-        return 'empty'
+        logging.info(constantsUtil.ARRAY_ES_RESULT['purchasesLastMonth'])
+        return json.dumps(constantsUtil.ARRAY_ES_RESULT, default=json_util.default)
 
 
 ''' END OF INIT FILE '''
