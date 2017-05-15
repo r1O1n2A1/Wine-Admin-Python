@@ -8,6 +8,8 @@
     Python Version: 3.x
 '''
 
+''' GLOBAL File config '''
+
 mongo_uri = 'mongodb://localhost:27017/db_wine_admin'
 mongo_db = 'db_wine_admin'
 

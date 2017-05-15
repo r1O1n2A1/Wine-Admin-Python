@@ -38,8 +38,6 @@ app.config['MONGO_URI'] = config.mongo_uri
 
 mongo = PyMongo(app)
 
-
-
 class AdminCRUD:
     @app.errorhandler(404)
     def not_found(error):
@@ -99,7 +97,20 @@ class AdminSearch:
     def initDashboard():
         logging.debug('REST call:  get elasticsearch query / call mongo + \
             to init the OnWine dashboard')
-        activeUsers = ElasticsearchUtil.getActiveUsers()
-        jsonActiveUsers = json.dumps(activeUsers,
-            default=json_util.default)
-        return jsonActiveUsers
+        # active users
+        constantsUtil.JSON_ES_QUERY = ElasticsearchUtil.getActiveUsers()
+        constantsUtil.ARRAY_ES_RESULT['activeUsers'] = constantsUtil.JSON_ES_QUERY['hits']['total']
+        # visits last month
+        constantsUtil.JSON_ES_QUERY = ElasticsearchUtil.getSearchAll()
+        logging.debug(constantsUtil.JSON_ES_QUERY)
+        t = 0
+        # for value in constantsUtil.JSON_ES_QUERY['hits']['hits']:
+        #     logging.debug('----- through that way... -----')
+        #     t += 1
+        #     logging.debug(t)
+        clientDashboard = Client()
+        returnCOR = clientDashboard.delegate('usersInfo')
+        return str(returnCOR)
+
+
+''' END OF INIT FILE '''

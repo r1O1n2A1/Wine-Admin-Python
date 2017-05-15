@@ -14,7 +14,7 @@ import logging
 from logging.handlers import RotatingFileHandler
 
 logger = logging.getLogger()
-logger.setLevel(logging.DEBUG)
+logger.setLevel(logging.INFO)
 
 # set logger in a file
 # logging.basicConfig(filename='logs/python.log',level=logging.DEBUG,\
@@ -29,7 +29,7 @@ logger.addHandler(file_handler)
 
 # set logger in console
 steam_handler = logging.StreamHandler()
-steam_handler.setLevel(logging.DEBUG)
+steam_handler.setLevel(logging.INFO)
 steam_handler.setFormatter(formatter)
 logger.addHandler(steam_handler)
 

@@ -8,8 +8,13 @@
     Python Version: 3.x
 '''
 
+''' CONFIG File only for ES query + processing '''
+
 global JSON_ES_QUERY
-global ARRAY_ES_RESULT
+# return the results for the init dashboard
+ARRAY_ES_RESULT = {
+
+}
 
 es_query_return = {
     'hits': 'hits'

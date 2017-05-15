@@ -9,6 +9,7 @@
 '''
 import logging
 from .. import constantsUtil
+from ..exception import customException
 
 class Handler(object):
 
@@ -26,12 +27,24 @@ class Handler(object):
 class UserHandler(Handler):
 
     def _handle(self, request):
-        if not request:
-            return "empty"
+        if not constantsUtil.JSON_ES_QUERY:
+            return  customException.CustomError('Empty query - could not + \
+                not be processed', CustomError)
         else:
-            return "not empty"
+            if type(request) == str and request == 'usersInfo' :
+                return "not processed user"
+            else:
+                return "not empty user"
+        return ""
 
-''' define other Handlers '''
+
+class OrderHandler(Handler):
+
+    def _handle(self, request):
+        if not request:
+            return "empty order"
+        else:
+            return "not empty order"
 
 class Client(object):
 
@@ -39,8 +52,8 @@ class Client(object):
         self.handler = UserHandler()
 
     def delegate(self, request):
-        if type(request) == dict:
+        if type(request) == str:
             self.handler.handle(request)
         else:
-            logging.log('chainOfResponsability: not processed')
-            return "not processd"
+            logging.debug('chainOfResponsability: not processed')
+            return "not processed"
