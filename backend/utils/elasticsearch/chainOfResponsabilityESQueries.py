@@ -10,9 +10,8 @@
 import logging
 from .. import constantsUtil
 from ..exception import customException
-
+from .catalogParsingQueries import CatalogParsingQueries
 class Handler(object):
-
     def __init__(self, successor=None):
         self._successor = successor
 
@@ -24,36 +23,47 @@ class Handler(object):
     def _handle(self, request):
         raise NotImplementedError('Must provide implementation in subclass')
 
-class UserHandler(Handler):
-
+class MetaHandler(Handler):
     def _handle(self, request):
         if not constantsUtil.JSON_ES_QUERY:
             return  customException.CustomError('Empty query - could not + \
-                not be processed', CustomError)
+                    not be processed', constantsUtil.CODE_PARSING)
         else:
-            if type(request) == str and request == 'usersInfo' :
+            if type(request) == list and  '_source' in request:
+                return "processed _source MetaHandler"
+            elif type(request) == list and '_id' in request:
+                return "processed _id MetaHandler"
+        return False
+
+class UserHandler(Handler):
+    def _handle(self, request):
+        if not constantsUtil.JSON_ES_QUERY:
+            return  customException.CustomError('Empty query - could not + \
+                not be processed',  constantsUtil.CODE_PARSING)
+        else:
+            if type(request) == list and 'signUpLastMonth' in request:
+                CatalogParsingQueries('dashboard_new_visits_month').main_parsing()
                 return "not processed user"
             else:
                 return "not empty user"
-        return ""
-
+        return False
 
 class OrderHandler(Handler):
-
     def _handle(self, request):
         if not request:
             return "empty order"
         else:
             return "not empty order"
+        return False
 
 class Client(object):
 
     def __init__(self):
-        self.handler = UserHandler()
+        self.handler = MetaHandler(UserHandler())
 
     def delegate(self, request):
-        if type(request) == str:
+        if type(request) == list:
             self.handler.handle(request)
         else:
             logging.debug('chainOfResponsability: not processed')
-            return "not processed"
+            return "not processed by chain of responsability impl"

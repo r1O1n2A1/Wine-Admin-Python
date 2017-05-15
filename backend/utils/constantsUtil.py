@@ -10,11 +10,15 @@
 
 ''' CONFIG File only for ES query + processing '''
 
+# result elasticsearch query JSON format
 global JSON_ES_QUERY
+
 # return the results for the init dashboard
 ARRAY_ES_RESULT = {
 
 }
+# use of the current selected user
+global CURRENT_USER
 
 es_query_return = {
     'hits': 'hits'
@@ -34,3 +38,6 @@ queryActiveUser = {
       }
     }
 }
+
+### ERROR CODE ####
+CODE_PARSING = 'Elasticsearch parsing can not be done'

@@ -68,28 +68,6 @@ class AdminSearch:
         # parse in json REST call
         resultQueryJson = json.dumps(resultQueryDict,
             default=json_util.default)
-        logging.debug('--------beginning--------')
-        constantsUtil.JSON_ES_QUERY = resultQueryJson
-        client1 = Client()
-        client1.delegate(resultQueryDict)
-        # logging.debug(parsed_json['hits']['hits'][0]['_source']['user'][0]['order'][0]['product'])
-        # for key,val in parsed_json['hits'].items():
-        #     if(key == 'hits'):
-        #         logging.debug(val[key].items())
-        # for key,role in users.items():
-        #     if(key == 'hits'):
-        #         for val in role[key]:
-        #             for a,role in val.items():
-        #                 if (a == '_source'):
-        #                         logging.debug(a)
-        logging.debug('----------end----------')
-        # CatalogParsingQueries('dashboard_purchases_month').main_parsing()
-        try:
-            CatalogParsingQueries('dashboard_parseHitsES').main_parsing()
-        except customException.CustomError as customError:
-            returnStr = 'query ES can not be processed: ' + str(customError)
-        if returnStr != '':
-            return returnStr
         return str('working progress...')
 
     @app.route(config.api_base_url + '/dashboard/init',
@@ -97,19 +75,19 @@ class AdminSearch:
     def initDashboard():
         logging.debug('REST call:  get elasticsearch query / call mongo + \
             to init the OnWine dashboard')
-        # active users
+        request_chainResponsability = []
+        request_chainResponsability.extend(['signUpLastMonth','purchaseLastMonth','returnedUsers'])
+        # active user
         constantsUtil.JSON_ES_QUERY = ElasticsearchUtil.getActiveUsers()
         constantsUtil.ARRAY_ES_RESULT['activeUsers'] = constantsUtil.JSON_ES_QUERY['hits']['total']
-        # visits last month
+        # chain of responsability to process all the dashboard
         constantsUtil.JSON_ES_QUERY = ElasticsearchUtil.getSearchAll()
-        logging.debug(constantsUtil.JSON_ES_QUERY)
-        t = 0
-        # for value in constantsUtil.JSON_ES_QUERY['hits']['hits']:
-        #     logging.debug('----- through that way... -----')
-        #     t += 1
-        #     logging.debug(t)
-        clientDashboard = Client()
-        returnCOR = clientDashboard.delegate('usersInfo')
+        logging.info(constantsUtil.JSON_ES_QUERY[0])
+        logging.info(request_chainResponsability)
+        for value in constantsUtil.JSON_ES_QUERY:
+            constantsUtil.CURRENT_USER = value
+            clientDashboard = Client()
+            returnCOR = clientDashboard.delegate(request_chainResponsability)
         return str(returnCOR)
 
 

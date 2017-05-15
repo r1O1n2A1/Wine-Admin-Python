@@ -1,0 +1,23 @@
+# res = es.search(
+  #     config.es_base_url['index'],
+  #     body={"query": {"match_all":{}}},
+  #     size=0
+  #     )
+  # s = Search(using=es, index=config.es_base_url['index'])
+  # s = s.source([])
+  # ids = [h.meta.id for h in s.scan()]
+
+  # for hit in s.scan():
+  #     if hasattr(hit, 'user'):
+  #         users = hit.user[0]
+  # ids = [h.meta.id for h in s.scan()]
+  # print(ids)
+  # hits = res['hits']['total']
+  # print ('Processing {} documents'.format(hits))
+
+  try:
+          CatalogParsingQueries('dashboard_parseHitsES').main_parsing()
+      except customException.CustomError as customError:
+          returnStr = 'query ES can not be processed: ' + str(customError)
+      if returnStr != '':
+          return returnStr
