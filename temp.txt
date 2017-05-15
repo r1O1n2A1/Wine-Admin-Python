@@ -21,3 +21,11 @@
           returnStr = 'query ES can not be processed: ' + str(customError)
       if returnStr != '':
           return returnStr
+
+
+18839
+
+user.inscription": {
+          "gte": "1491078676",
+          "lte": "1493670676"
+      }

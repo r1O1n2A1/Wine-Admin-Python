@@ -24,6 +24,7 @@ es_query_return = {
     'hits': 'hits'
 }
 
+### Queries Elasticsearch
 queryActiveUser = {
     "query": {
       "filtered": {
@@ -38,6 +39,29 @@ queryActiveUser = {
       }
     }
 }
+
+queryLoginLastMonth = {
+  "query": {
+    "filtered": {
+      "query": {
+        "match_all": {}
+      },
+      "filter": {
+        "range": {
+            "user.inscription": {
+                  "gte": 1491004800000,
+                  "lt": 1493596800000,
+                  "format": "epoch_millis"
+             }
+         }
+       }
+    }
+  }
+}
+
+
+# date to parse
+LAST_MONTH_DATE = "01/05/2017"
 
 ### ERROR CODE ####
 CODE_PARSING = 'Elasticsearch parsing can not be done'

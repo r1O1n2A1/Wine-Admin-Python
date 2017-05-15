@@ -53,9 +53,18 @@ class ElasticsearchUtil:
 
     def getActiveUsers():
         logging.debug('ES-Module: Call REST to get all active users')
-        registeredUser = es.search(
+        registeredUsers = es.search(
             config.es_base_url['index'],
             body=constantsUtil.queryActiveUser,
             size=0
         )
-        return registeredUser
+        return registeredUsers
+
+    def getLoginLastMonth():
+        logging.debug('ES-Module: Call REST to get last month new users')
+        lastMonthRegisteredUsers = es.search(
+            config.es_base_url['index'],
+            body=constantsUtil.queryLoginLastMonth,
+            size=0
+        )
+        return lastMonthRegisteredUsers

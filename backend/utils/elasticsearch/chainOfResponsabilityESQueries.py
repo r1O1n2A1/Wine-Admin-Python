@@ -45,21 +45,26 @@ class UserHandler(Handler):
                 CatalogParsingQueries('dashboard_new_visits_month').main_parsing()
                 return "not processed user"
             else:
-                return "not empty user"
+                return " empty user"
         return False
 
 class OrderHandler(Handler):
     def _handle(self, request):
-        if not request:
-            return "empty order"
+        if not constantsUtil.JSON_ES_QUERY:
+            return  customException.CustomError('Empty query - could not + \
+                    not be processed',  constantsUtil.CODE_PARSING)
         else:
-            return "not empty order"
+            if type(request) == list and 'purchaseLastMonth' in request:
+                CatalogParsingQueries('dashboard_purchases_month').main_parsing()
+                return "not processed order"
+            else:
+                return " empty order"
         return False
 
 class Client(object):
 
     def __init__(self):
-        self.handler = MetaHandler(UserHandler())
+        self.handler = MetaHandler(UserHandler(OrderHandler()))
 
     def delegate(self, request):
         if type(request) == list:

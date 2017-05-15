@@ -76,19 +76,25 @@ class AdminSearch:
         logging.debug('REST call:  get elasticsearch query / call mongo + \
             to init the OnWine dashboard')
         request_chainResponsability = []
-        request_chainResponsability.extend(['signUpLastMonth','purchaseLastMonth','returnedUsers'])
-        # active user
+        request_chainResponsability.extend(['purchaseLastMonth','returnedUsers'])
+            # active user
         constantsUtil.JSON_ES_QUERY = ElasticsearchUtil.getActiveUsers()
         constantsUtil.ARRAY_ES_RESULT['activeUsers'] = constantsUtil.JSON_ES_QUERY['hits']['total']
-        # chain of responsability to process all the dashboard
+            # login last month
+        constantsUtil.JSON_ES_QUERY = ElasticsearchUtil.getLoginLastMonth()
+        constantsUtil.ARRAY_ES_RESULT['loginLastMonth'] = constantsUtil.JSON_ES_QUERY['hits']['total']
+            # purchases last month
+        constantsUtil.ARRAY_ES_RESULT['purchasesLastMonth'] = 0
+
+            # chain of responsability to process all the dashboard
         constantsUtil.JSON_ES_QUERY = ElasticsearchUtil.getSearchAll()
         logging.info(constantsUtil.JSON_ES_QUERY[0])
-        logging.info(request_chainResponsability)
         for value in constantsUtil.JSON_ES_QUERY:
             constantsUtil.CURRENT_USER = value
             clientDashboard = Client()
             returnCOR = clientDashboard.delegate(request_chainResponsability)
-        return str(returnCOR)
+
+        return 'empty'
 
 
 ''' END OF INIT FILE '''
