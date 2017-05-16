@@ -3,6 +3,7 @@ import sys
 
 #Path for spark source folder
 os.environ['SPARK_HOME'] = "/home/ronan/Documents/BigData/spark/spark-2.0.2"
+os.environ["PYSPARK_PYTHON"]="/usr/bin/python3"
 
 #Append pyspark to Python Path
 sys.path.append("/home/ronan/Documents/BigData/spark/spark-2.0.2/python")
@@ -16,3 +17,7 @@ try:
 except ImportError as e:
     print("Can not import Spark Modules", e)
     sys.exit(1)
+
+sc = SparkContext('local')
+words = sc.parallelize(["scala","java","hadoop","spark", "akka"])
+print(words.count())
