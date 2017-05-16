@@ -1,13 +1,20 @@
+#!/usr/bin/python
 import os
 import sys
 
+import subprocess
+# subprocess.call([pyspark,--jars /home/ronan/Documents/BigData/elasticSearch/elasticsearch-hadoop-5.4.0/+\
+#     dist/elasticsearch-hadoop-5.4.0.jar"])
+# os.system("/home/ronan/Documents/BigData/spark/spark-2.0.2/bin/pyspark --jars /home/ronan/Documents/BigData/elasticSearch/elasticsearch-hadoop-5.4.0/+\
+#     dist/elasticsearch-hadoop-5.4.0.jar")
+
 #Path for spark source folder
-os.environ['SPARK_HOME'] = "/home/ronan/Documents/BigData/spark/spark-2.0.2"
-os.environ["PYSPARK_PYTHON"]="/usr/bin/python3"
+# os.environ['SPARK_HOME'] = "/home/ronan/Documents/BigData/spark/spark-2.0.2"
+# os.environ["PYSPARK_PYTHON"]="/usr/bin/python3"
 
 #Append pyspark to Python Path
-sys.path.append("/home/ronan/Documents/BigData/spark/spark-2.0.2/python")
-sys.path.append("/home/ronan/Documents/BigData/spark/spark-2.0.2/python/lib/py4j-0.10.3-src")
+# sys.path.append("/home/ronan/Documents/BigData/spark/spark-2.0.2/python")
+# sys.path.append("/home/ronan/Documents/BigData/spark/spark-2.0.2/python/lib/py4j-0.10.3-src")
 try:
     from pyspark import SparkContext
     from pyspark import SparkConf
@@ -19,5 +26,9 @@ except ImportError as e:
     sys.exit(1)
 
 sc = SparkContext('local')
-words = sc.parallelize(["scala","java","hadoop","spark", "akka"])
-print(words.count())
+conf = { "es.resource" : "db_wine_admin/user" }
+es_rdd = sc.newAPIHadoopRDD(inputFormatClass="org.elasticsearch.hadoop.mr.EsInputFormat",
+    keyClass="org.apache.hadoop.io.NullWritable",
+    valueClass="org.elasticsearch.hadoop.mr.LinkedMapWritable",
+    conf=conf)
+print(es_rdd.first())

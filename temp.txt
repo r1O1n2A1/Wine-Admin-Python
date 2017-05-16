@@ -29,3 +29,6 @@ user.inscription": {
           "gte": "1491078676",
           "lte": "1493670676"
       }
+
+      '/home/ronan/Documents/BigData/spark/spark-2.0.2/bin/spark-submit'
+      --jars /home/ronan/Documents/BigData/elasticSearch/elasticsearch-hadoop-5.4.0/dist/elasticsearch-hadoop-5.4.0.jar ~/Project1AL/Wine-Admin-Python/pysparkImportTest.py 
