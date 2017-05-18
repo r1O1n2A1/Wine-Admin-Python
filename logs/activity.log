@@ -3576,3 +3576,24 @@
 2017-05-18 02:13:46,774 :: INFO ::  * Restarting with stat
 2017-05-18 02:13:47,442 :: WARNING ::  * Debugger is active!
 2017-05-18 02:13:47,443 :: INFO ::  * Debugger PIN: 310-356-289
+2017-05-18 10:10:12,831 :: INFO ::  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2017-05-18 10:10:12,879 :: INFO ::  * Restarting with stat
+2017-05-18 10:10:13,268 :: WARNING ::  * Debugger is active!
+2017-05-18 10:10:13,383 :: INFO ::  * Debugger PIN: 335-866-364
+2017-05-18 10:10:25,484 :: INFO ::  * Detected change in '/home/ronan/Project1AL/Wine-Admin-Python/backend/__init__.py', reloading
+2017-05-18 10:10:25,828 :: INFO ::  * Restarting with stat
+2017-05-18 10:10:26,262 :: WARNING ::  * Debugger is active!
+2017-05-18 10:10:26,263 :: INFO ::  * Debugger PIN: 335-866-364
+2017-05-18 10:11:41,625 :: INFO :: 127.0.0.1 - - [18/May/2017 10:11:41] "GET /wine/admin/ronan.lachater@gmail.com/admin HTTP/1.1" 200 -
+2017-05-18 10:11:41,629 :: INFO :: 127.0.0.1 - - [18/May/2017 10:11:41] "GET /wine/admin/ronan.lachater@gmail.com/admin HTTP/1.1" 200 -
+2017-05-18 10:13:25,065 :: INFO :: GET http://localhost:9200/db_wine_admin/_search?size=0 [status:200 request:0.704s]
+2017-05-18 10:13:25,553 :: INFO :: GET http://localhost:9200/db_wine_admin/_search?size=0 [status:200 request:0.487s]
+2017-05-18 10:13:25,554 :: INFO :: 127.0.0.1 - - [18/May/2017 10:13:25] "GET /wine/admin/dashboard/init HTTP/1.1" 200 -
+2017-05-18 10:13:25,589 :: INFO :: 127.0.0.1 - - [18/May/2017 10:13:25] "GET /favicon.ico HTTP/1.1" 404 -
+2017-05-18 12:31:30,281 :: INFO :: GET http://localhost:9200/db_wine_admin/_search?size=0 [status:200 request:0.341s]
+2017-05-18 12:31:30,798 :: INFO :: GET http://localhost:9200/db_wine_admin/_search?size=0 [status:200 request:0.453s]
+2017-05-18 12:31:30,837 :: INFO :: 127.0.0.1 - - [18/May/2017 12:31:30] "GET /wine/admin/dashboard/init HTTP/1.1" 200 -
+2017-05-18 12:31:30,935 :: INFO :: 127.0.0.1 - - [18/May/2017 12:31:30] "GET /favicon.ico HTTP/1.1" 404 -
+2017-05-18 12:31:45,035 :: INFO :: 127.0.0.1 - - [18/May/2017 12:31:45] "GET /wine/admin/ronan.lachater@gmail.com/admin HTTP/1.1" 200 -
+2017-05-18 14:09:57,226 :: INFO :: 127.0.0.1 - - [18/May/2017 14:09:57] "GET /wine/admin/ronan.lachater@gmail.com/admin HTTP/1.1" 200 -
+2017-05-18 14:11:45,119 :: INFO :: 127.0.0.1 - - [18/May/2017 14:11:45] "GET /wine/admin/ronan.lachater@gmail.com/admin HTTP/1.1" 200 -

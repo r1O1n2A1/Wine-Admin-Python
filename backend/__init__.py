@@ -83,9 +83,7 @@ class AdminSearch:
             # login last month
         constantsUtil.JSON_ES_QUERY = ElasticsearchUtil.getLoginLastMonth()
         constantsUtil.ARRAY_ES_RESULT['loginLastMonth'] = constantsUtil.JSON_ES_QUERY['hits']['total']
-            # price/quantity range
-        constantsUtil.JSON_ES_QUERY = ElasticsearchUtil.getPriceQuantityRange()
-        print(constantsUtil.JSON_ES_QUERY)
+        
             # purchases last month
         # constantsUtil.ARRAY_ES_RESULT['purchasesLastMonth'] = 0
         #
