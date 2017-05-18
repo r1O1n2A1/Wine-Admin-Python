@@ -60,6 +60,63 @@ queryLoginLastMonth = {
   }
 }
 
+queryPriceQuantityRange = {
+  "query": {
+    "query_string": {
+      "query": "*",
+      "analyze_wildcard": True
+    }
+  },
+  "size": 0,
+  "aggs": {
+    "2": {
+      "range": {
+        "field": "user.order.product.product_price",
+        "ranges": [
+          {
+            "from": 0,
+            "to": 50
+          },
+          {
+            "from": 50,
+            "to": 100
+          },
+          {
+            "from": 100,
+            "to": 150
+          },
+          {
+            "from": 150,
+            "to": 10000
+          }
+        ],
+        "keyed": True
+      },
+      "aggs": {
+        "3": {
+          "range": {
+            "field": "user.order.product.quantity",
+            "ranges": [
+              {
+                "from": 1,
+                "to": 5
+              },
+              {
+                "from": 5,
+                "to": 10
+              },
+              {
+                "from": 10,
+                "to": 100
+              }
+            ],
+            "keyed": True
+          }
+        }
+      }
+    }
+  }
+}
 
 # date to parse
 LAST_MONTH_DATE = "01/05/2017"

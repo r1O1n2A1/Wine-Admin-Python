@@ -83,17 +83,20 @@ class AdminSearch:
             # login last month
         constantsUtil.JSON_ES_QUERY = ElasticsearchUtil.getLoginLastMonth()
         constantsUtil.ARRAY_ES_RESULT['loginLastMonth'] = constantsUtil.JSON_ES_QUERY['hits']['total']
+            # price/quantity range
+        constantsUtil.JSON_ES_QUERY = ElasticsearchUtil.getPriceQuantityRange()
+        print(constantsUtil.JSON_ES_QUERY)
             # purchases last month
-        constantsUtil.ARRAY_ES_RESULT['purchasesLastMonth'] = 0
-
-            # chain of responsability to process all the dashboard
-        constantsUtil.JSON_ES_QUERY = ElasticsearchUtil.getSearchAll()
-        logging.info(constantsUtil.JSON_ES_QUERY[0])
-        for value in constantsUtil.JSON_ES_QUERY:
-            constantsUtil.CURRENT_USER = value
-            clientDashboard = Client()
-            returnCOR = clientDashboard.delegate(request_chainResponsability)
-        logging.info(constantsUtil.ARRAY_ES_RESULT['purchasesLastMonth'])
+        # constantsUtil.ARRAY_ES_RESULT['purchasesLastMonth'] = 0
+        #
+        #     # chain of responsability to process all the dashboard
+        # constantsUtil.JSON_ES_QUERY = ElasticsearchUtil.getSearchAll()
+        # logging.info(constantsUtil.JSON_ES_QUERY[0])
+        # for value in constantsUtil.JSON_ES_QUERY:
+        #     constantsUtil.CURRENT_USER = value
+        #     clientDashboard = Client()
+        #     returnCOR = clientDashboard.delegate(request_chainResponsability)
+        # logging.info(constantsUtil.ARRAY_ES_RESULT['purchasesLastMonth'])
         return json.dumps(constantsUtil.ARRAY_ES_RESULT, default=json_util.default)
 
 

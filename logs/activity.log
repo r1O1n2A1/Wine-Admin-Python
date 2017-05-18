@@ -3537,3 +3537,42 @@
 2017-05-16 08:40:36,050 :: INFO :: 127.0.0.1 - - [16/May/2017 08:40:36] "GET /wine/admin/dashboard/init HTTP/1.1" 200 -
 2017-05-16 08:40:36,087 :: INFO :: 127.0.0.1 - - [16/May/2017 08:40:36] "GET /favicon.ico HTTP/1.1" 404 -
 2017-05-16 08:47:49,949 :: INFO :: 127.0.0.1 - - [16/May/2017 08:47:49] "GET /wine/admin/ronan.lachater@gmail.com/admin HTTP/1.1" 200 -
+2017-05-17 22:58:38,699 :: INFO ::  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2017-05-17 22:58:38,724 :: INFO ::  * Restarting with stat
+2017-05-17 22:58:39,200 :: WARNING ::  * Debugger is active!
+2017-05-17 22:58:39,246 :: INFO ::  * Debugger PIN: 310-356-289
+2017-05-17 22:58:58,392 :: INFO ::  * Detected change in '/home/ronan/Project1AL/Wine-Admin-Python/runbackend.py', reloading
+2017-05-17 22:58:58,750 :: INFO ::  * Restarting with stat
+2017-05-17 22:58:59,195 :: WARNING ::  * Debugger is active!
+2017-05-17 22:58:59,195 :: INFO ::  * Debugger PIN: 310-356-289
+2017-05-17 22:59:05,063 :: INFO :: 127.0.0.1 - - [17/May/2017 22:59:05] "GET /wine/admin/ronan.lachater@gmail.com/admin HTTP/1.1" 200 -
+2017-05-17 23:11:23,675 :: INFO :: 127.0.0.1 - - [17/May/2017 23:11:23] "GET /wine/admin/ronan.lachater@gmail.com/admin HTTP/1.1" 200 -
+2017-05-17 23:48:25,753 :: INFO ::  * Detected change in '/home/ronan/Project1AL/Wine-Admin-Python/backend/utils/constantsUtil.py', reloading
+2017-05-17 23:48:26,121 :: INFO ::  * Restarting with stat
+2017-05-17 23:49:13,808 :: INFO ::  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2017-05-17 23:49:13,810 :: INFO ::  * Restarting with stat
+2017-05-17 23:49:14,200 :: WARNING ::  * Debugger is active!
+2017-05-17 23:49:14,201 :: INFO ::  * Debugger PIN: 310-356-289
+2017-05-17 23:57:19,464 :: INFO ::  * Detected change in '/home/ronan/Project1AL/Wine-Admin-Python/backend/utils/elasticsearch/elasticsearchUtil.py', reloading
+2017-05-17 23:57:19,821 :: INFO ::  * Restarting with stat
+2017-05-17 23:57:20,238 :: WARNING ::  * Debugger is active!
+2017-05-17 23:57:20,238 :: INFO ::  * Debugger PIN: 310-356-289
+2017-05-17 23:57:48,450 :: INFO ::  * Detected change in '/home/ronan/Project1AL/Wine-Admin-Python/backend/__init__.py', reloading
+2017-05-17 23:57:48,832 :: INFO ::  * Restarting with stat
+2017-05-17 23:57:49,343 :: WARNING ::  * Debugger is active!
+2017-05-17 23:57:49,344 :: INFO ::  * Debugger PIN: 310-356-289
+2017-05-17 23:58:29,713 :: INFO ::  * Detected change in '/home/ronan/Project1AL/Wine-Admin-Python/backend/__init__.py', reloading
+2017-05-17 23:58:29,955 :: INFO ::  * Restarting with stat
+2017-05-18 00:04:34,423 :: INFO ::  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2017-05-18 00:04:34,427 :: INFO ::  * Restarting with stat
+2017-05-18 00:04:35,030 :: WARNING ::  * Debugger is active!
+2017-05-18 00:04:35,031 :: INFO ::  * Debugger PIN: 310-356-289
+2017-05-18 00:04:48,780 :: INFO :: GET http://localhost:9200/db_wine_admin/_search?size=0 [status:200 request:0.282s]
+2017-05-18 00:04:48,889 :: INFO :: GET http://localhost:9200/db_wine_admin/_search?size=0 [status:200 request:0.109s]
+2017-05-18 00:04:48,954 :: INFO :: GET http://localhost:9200/db_wine_admin/_search?size=0 [status:200 request:0.064s]
+2017-05-18 00:04:48,954 :: INFO :: 127.0.0.1 - - [18/May/2017 00:04:48] "GET /wine/admin/dashboard/init HTTP/1.1" 200 -
+2017-05-18 00:04:48,982 :: INFO :: 127.0.0.1 - - [18/May/2017 00:04:48] "GET /favicon.ico HTTP/1.1" 404 -
+2017-05-18 02:13:46,360 :: INFO ::  * Detected change in '/home/ronan/Project1AL/Wine-Admin-Python/backend/__init__.py', reloading
+2017-05-18 02:13:46,774 :: INFO ::  * Restarting with stat
+2017-05-18 02:13:47,442 :: WARNING ::  * Debugger is active!
+2017-05-18 02:13:47,443 :: INFO ::  * Debugger PIN: 310-356-289

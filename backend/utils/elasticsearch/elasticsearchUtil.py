@@ -68,3 +68,12 @@ class ElasticsearchUtil:
             size=0
         )
         return lastMonthRegisteredUsers
+
+    def getPriceQuantityRange():
+            logging.debug('ES-Module: Call REST to get price/quantity piecharts')
+            priceQuantityRange = es.search(
+                config.es_base_url['index'],
+                body=constantsUtil.queryPriceQuantityRange,
+                size=0
+            )
+            return priceQuantityRange
