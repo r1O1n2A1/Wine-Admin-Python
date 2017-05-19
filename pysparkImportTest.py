@@ -69,12 +69,18 @@ print(datetime.datetime.now())
 # print(mappedCities.take(5))
 # es_rdd.foreach(lambda user: print(user[1]['user'][order][0]))
 
-# sparkSessionMono = SparkSession \
-#     .builder \
-#     .appName("PysparkMongoDB") \
-#     .config("spark.mongodb.input.uri", "mongodb://127.0.0.1/db_wine_admin.user") \
-#     .config("spark.mongodb.output.uri", "mongodb://127.0.0.1/db_wine_admin.user") \
-#     .getOrCreate()
-# df = sparkSessionMono.read.format("com.mongodb.spark.sql.DefaultSource").load()
-# print(df)
+sparkSessionMono = SparkSession \
+    .builder \
+    .appName("PysparkMongoDB") \
+    .config("spark.mongodb.input.uri", "mongodb://127.0.0.1/db_wine_admin.user") \
+    .config("spark.mongodb.output.uri", "mongodb://127.0.0.1/db_wine_admin.user") \
+    .getOrCreate()
+df = sparkSessionMono.read.format("com.mongodb.spark.sql.DefaultSource").load()
+
+print(df)
 print("process ending...")
+
+
+ Documents/BigData/spark/spark-2.0.2/bin/pyspark --conf "spark.mongodb.input.uri=mongodb://127.0.0.1/db_wine_admin.user?readPreference=primaryPreferred" \
+              --conf "spark.mongodb.output.uri=mongodb://127.0.0.1/db_wine_admin.user" \
+              --packages org.mongodb.spark:mongo-spark-connector_2.11:2.0.0

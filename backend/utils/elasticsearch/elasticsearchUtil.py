@@ -77,3 +77,21 @@ class ElasticsearchUtil:
                 size=0
             )
             return priceQuantityRange
+
+    def getWineDistribution():
+        logging.debug('ES-Module: Call REST to get wine distribution')
+        wineDistribution = es.search(
+            config.es_base_url['index'],
+            body=constantsUtil.queryWineDistribution,
+            size=0
+        )
+        return wineDistribution
+
+    def getCountryDistribution():
+        logging.debug('ES-Module: Call REST to get country distribution (users)')
+        countryDistribution = es.search(
+            config.es_base_url['index'],
+            body=constantsUtil.queryCountryDistribution,
+            size=0
+        )
+        return countryDistribution

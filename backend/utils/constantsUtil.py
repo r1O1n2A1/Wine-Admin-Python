@@ -118,6 +118,48 @@ queryPriceQuantityRange = {
   }
 }
 
+queryWineDistribution = {
+  "size": 0,
+  "query": {
+    "query_string": {
+      "analyze_wildcard": True,
+      "query": "Vins Blancs"
+    }
+  },
+  "aggs": {
+    "2": {
+      "terms": {
+        "field": "user.order.product.product_type",
+        "size": 5,
+        "order": {
+          "_count": "desc"
+        }
+      }
+    }
+  }
+}
+
+queryCountryDistribution = {
+  "size": 0,
+  "query": {
+    "query_string": {
+      "analyze_wildcard": True,
+      "query": "Vins Blancs"
+    }
+  },
+  "aggs": {
+    "2": {
+      "terms": {
+        "field": "user.country",
+        "size": 54,
+        "order": {
+          "_count": "desc"
+        }
+      }
+    }
+  }
+}
+
 # date to parse
 LAST_MONTH_DATE = "01/05/2017"
 dateLastMonth = time.strptime(LAST_MONTH_DATE, "%d/%m/%Y")

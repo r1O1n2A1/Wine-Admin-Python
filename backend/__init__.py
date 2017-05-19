@@ -83,7 +83,20 @@ class AdminSearch:
             # login last month
         constantsUtil.JSON_ES_QUERY = ElasticsearchUtil.getLoginLastMonth()
         constantsUtil.ARRAY_ES_RESULT['loginLastMonth'] = constantsUtil.JSON_ES_QUERY['hits']['total']
-        
+            # wine distribution
+        constantsUtil.JSON_ES_QUERY = ElasticsearchUtil.getWineDistribution()
+        CatalogParsingQueries('dashboard_wine_distribution').main_parsing()
+            # country distribution
+        constantsUtil.JSON_ES_QUERY = ElasticsearchUtil.getCountryDistribution()
+        CatalogParsingQueries('dashboard_country_distribution').main_parsing()
+        logging.info(constantsUtil.ARRAY_ES_RESULT)
+        # temporaryWines = []
+        # lengthTypes = len(constantsUtil.JSON_ES_QUERY['aggregations']['2']['buckets'])
+        #
+        # for key, val in constantsUtil.JSON_ES_QUERY['aggregations']['2']['buckets'][lengthTypes-1].items():
+        #     temporaryWines.append(str(key) +':'+str(val))
+        # logging.info(temporaryWines)
+        # constantsUtil.ARRAY_ES_RESULT['whiteWine'] =
             # purchases last month
         # constantsUtil.ARRAY_ES_RESULT['purchasesLastMonth'] = 0
         #

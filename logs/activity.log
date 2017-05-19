@@ -3597,3 +3597,1497 @@
 2017-05-18 12:31:45,035 :: INFO :: 127.0.0.1 - - [18/May/2017 12:31:45] "GET /wine/admin/ronan.lachater@gmail.com/admin HTTP/1.1" 200 -
 2017-05-18 14:09:57,226 :: INFO :: 127.0.0.1 - - [18/May/2017 14:09:57] "GET /wine/admin/ronan.lachater@gmail.com/admin HTTP/1.1" 200 -
 2017-05-18 14:11:45,119 :: INFO :: 127.0.0.1 - - [18/May/2017 14:11:45] "GET /wine/admin/ronan.lachater@gmail.com/admin HTTP/1.1" 200 -
+2017-05-19 11:55:03,996 :: INFO ::  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2017-05-19 11:55:04,090 :: INFO ::  * Restarting with stat
+2017-05-19 11:55:04,540 :: WARNING ::  * Debugger is active!
+2017-05-19 11:55:04,588 :: INFO ::  * Debugger PIN: 335-866-364
+2017-05-19 12:06:19,652 :: INFO :: GET http://localhost:9200/db_wine_admin/_search?size=0 [status:200 request:0.310s]
+2017-05-19 12:06:19,967 :: INFO :: GET http://localhost:9200/db_wine_admin/_search?size=0 [status:200 request:0.314s]
+2017-05-19 12:06:19,968 :: INFO :: 127.0.0.1 - - [19/May/2017 12:06:19] "GET /wine/admin/dashboard/init HTTP/1.1" 200 -
+2017-05-19 12:06:20,015 :: INFO :: 127.0.0.1 - - [19/May/2017 12:06:20] "GET /favicon.ico HTTP/1.1" 404 -
+2017-05-19 12:08:18,524 :: INFO :: 127.0.0.1 - - [19/May/2017 12:08:18] "GET /wine/admin/ronan.lachater@gmail.com/admin HTTP/1.1" 200 -
+2017-05-19 12:08:18,528 :: INFO :: 127.0.0.1 - - [19/May/2017 12:08:18] "GET /wine/admin/ronan.lachater@gmail.com/admin HTTP/1.1" 200 -
+2017-05-19 12:26:36,123 :: INFO ::  * Detected change in '/home/ronan/Project1AL/Wine-Admin-Python/backend/__init__.py', reloading
+2017-05-19 12:26:36,300 :: INFO ::  * Restarting with stat
+2017-05-19 12:26:36,747 :: WARNING ::  * Debugger is active!
+2017-05-19 12:26:36,748 :: INFO ::  * Debugger PIN: 335-866-364
+2017-05-19 12:28:14,606 :: INFO ::  * Detected change in '/home/ronan/Project1AL/Wine-Admin-Python/backend/__init__.py', reloading
+2017-05-19 12:28:14,914 :: INFO ::  * Restarting with stat
+2017-05-19 12:28:15,311 :: WARNING ::  * Debugger is active!
+2017-05-19 12:28:15,312 :: INFO ::  * Debugger PIN: 335-866-364
+2017-05-19 12:29:46,068 :: INFO ::  * Detected change in '/home/ronan/Project1AL/Wine-Admin-Python/backend/utils/constantsUtil.py', reloading
+2017-05-19 12:29:46,473 :: INFO ::  * Restarting with stat
+2017-05-19 13:07:26,548 :: INFO ::  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2017-05-19 13:07:26,550 :: INFO ::  * Restarting with stat
+2017-05-19 13:07:26,964 :: WARNING ::  * Debugger is active!
+2017-05-19 13:07:26,964 :: INFO ::  * Debugger PIN: 335-866-364
+2017-05-19 13:10:42,686 :: INFO ::  * Detected change in '/home/ronan/Project1AL/Wine-Admin-Python/backend/__init__.py', reloading
+2017-05-19 13:10:42,746 :: INFO ::  * Restarting with stat
+2017-05-19 13:10:43,138 :: WARNING ::  * Debugger is active!
+2017-05-19 13:10:43,139 :: INFO ::  * Debugger PIN: 335-866-364
+2017-05-19 13:10:48,285 :: INFO :: GET http://localhost:9200/db_wine_admin/_search?size=0 [status:200 request:0.009s]
+2017-05-19 13:10:48,296 :: INFO :: GET http://localhost:9200/db_wine_admin/_search?size=0 [status:200 request:0.010s]
+2017-05-19 13:10:48,314 :: INFO :: GET http://localhost:9200/db_wine_admin/_search?size=0 [status:200 request:0.017s]
+2017-05-19 13:10:48,355 :: INFO :: 127.0.0.1 - - [19/May/2017 13:10:48] "GET /wine/admin/dashboard/init HTTP/1.1" 500 -
+2017-05-19 13:10:48,388 :: INFO :: 127.0.0.1 - - [19/May/2017 13:10:48] "GET /wine/admin/dashboard/init?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2017-05-19 13:10:48,404 :: INFO :: 127.0.0.1 - - [19/May/2017 13:10:48] "GET /wine/admin/dashboard/init?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2017-05-19 13:10:48,426 :: INFO :: 127.0.0.1 - - [19/May/2017 13:10:48] "GET /wine/admin/dashboard/init?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+2017-05-19 13:10:48,665 :: INFO :: 127.0.0.1 - - [19/May/2017 13:10:48] "GET /wine/admin/dashboard/init?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2017-05-19 13:10:48,686 :: INFO :: 127.0.0.1 - - [19/May/2017 13:10:48] "GET /wine/admin/dashboard/init?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2017-05-19 13:10:54,224 :: INFO ::  * Detected change in '/home/ronan/Project1AL/Wine-Admin-Python/backend/__init__.py', reloading
+2017-05-19 13:10:54,715 :: INFO ::  * Restarting with stat
+2017-05-19 13:10:55,130 :: WARNING ::  * Debugger is active!
+2017-05-19 13:10:55,130 :: INFO ::  * Debugger PIN: 335-866-364
+2017-05-19 13:10:55,136 :: INFO :: GET http://localhost:9200/db_wine_admin/_search?size=0 [status:200 request:0.003s]
+2017-05-19 13:10:55,139 :: INFO :: GET http://localhost:9200/db_wine_admin/_search?size=0 [status:200 request:0.003s]
+2017-05-19 13:10:55,152 :: INFO :: GET http://localhost:9200/db_wine_admin/_search?size=0 [status:200 request:0.012s]
+2017-05-19 13:10:55,152 :: INFO :: [{'key': 'vins', 'doc_count': 152721}, {'key': 'blancs', 'doc_count': 132139}, {'key': 'rouges', 'doc_count': 129335}, {'key': 'champagne', 'doc_count': 110044}, {'key': 'rosés', 'doc_count': 75002}]
+2017-05-19 13:10:55,152 :: INFO :: 127.0.0.1 - - [19/May/2017 13:10:55] "GET /wine/admin/dashboard/init HTTP/1.1" 200 -
+2017-05-19 13:11:13,301 :: INFO ::  * Detected change in '/home/ronan/Project1AL/Wine-Admin-Python/backend/__init__.py', reloading
+2017-05-19 13:11:13,712 :: INFO ::  * Restarting with stat
+2017-05-19 13:11:14,147 :: WARNING ::  * Debugger is active!
+2017-05-19 13:11:14,147 :: INFO ::  * Debugger PIN: 335-866-364
+2017-05-19 13:11:29,273 :: INFO ::  * Detected change in '/home/ronan/Project1AL/Wine-Admin-Python/backend/__init__.py', reloading
+2017-05-19 13:11:29,725 :: INFO ::  * Restarting with stat
+2017-05-19 13:11:34,302 :: INFO ::  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2017-05-19 13:11:34,303 :: INFO ::  * Restarting with stat
+2017-05-19 13:11:34,764 :: WARNING ::  * Debugger is active!
+2017-05-19 13:11:34,764 :: INFO ::  * Debugger PIN: 335-866-364
+2017-05-19 13:12:41,010 :: INFO :: GET http://localhost:9200/db_wine_admin/_search?size=0 [status:200 request:0.005s]
+2017-05-19 13:12:41,015 :: INFO :: GET http://localhost:9200/db_wine_admin/_search?size=0 [status:200 request:0.004s]
+2017-05-19 13:12:41,023 :: INFO :: GET http://localhost:9200/db_wine_admin/_search?size=0 [status:200 request:0.008s]
+2017-05-19 13:12:41,023 :: INFO :: <class 'dict'>
+2017-05-19 13:12:41,024 :: INFO :: 127.0.0.1 - - [19/May/2017 13:12:41] "GET /wine/admin/dashboard/init HTTP/1.1" 200 -
+2017-05-19 13:14:11,179 :: INFO ::  * Detected change in '/home/ronan/Project1AL/Wine-Admin-Python/backend/__init__.py', reloading
+2017-05-19 13:14:11,510 :: INFO ::  * Restarting with stat
+2017-05-19 13:15:25,672 :: INFO ::  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2017-05-19 13:15:25,674 :: INFO ::  * Restarting with stat
+2017-05-19 13:15:26,092 :: WARNING ::  * Debugger is active!
+2017-05-19 13:15:26,093 :: INFO ::  * Debugger PIN: 335-866-364
+2017-05-19 13:15:27,531 :: INFO :: GET http://localhost:9200/db_wine_admin/_search?size=0 [status:200 request:0.009s]
+2017-05-19 13:15:27,539 :: INFO :: GET http://localhost:9200/db_wine_admin/_search?size=0 [status:200 request:0.008s]
+2017-05-19 13:15:27,556 :: INFO :: GET http://localhost:9200/db_wine_admin/_search?size=0 [status:200 request:0.016s]
+2017-05-19 13:15:27,573 :: INFO :: 127.0.0.1 - - [19/May/2017 13:15:27] "GET /wine/admin/dashboard/init HTTP/1.1" 500 -
+2017-05-19 13:15:27,587 :: INFO :: 127.0.0.1 - - [19/May/2017 13:15:27] "GET /wine/admin/dashboard/init?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2017-05-19 13:15:27,588 :: INFO :: 127.0.0.1 - - [19/May/2017 13:15:27] "GET /wine/admin/dashboard/init?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+2017-05-19 13:15:27,589 :: INFO :: 127.0.0.1 - - [19/May/2017 13:15:27] "GET /wine/admin/dashboard/init?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2017-05-19 13:15:27,696 :: INFO :: 127.0.0.1 - - [19/May/2017 13:15:27] "GET /wine/admin/dashboard/init?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2017-05-19 13:15:27,714 :: INFO :: 127.0.0.1 - - [19/May/2017 13:15:27] "GET /wine/admin/dashboard/init?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2017-05-19 13:15:38,188 :: INFO ::  * Detected change in '/home/ronan/Project1AL/Wine-Admin-Python/backend/__init__.py', reloading
+2017-05-19 13:15:38,651 :: INFO ::  * Restarting with stat
+2017-05-19 13:15:39,037 :: WARNING ::  * Debugger is active!
+2017-05-19 13:15:39,038 :: INFO ::  * Debugger PIN: 335-866-364
+2017-05-19 13:15:39,045 :: INFO :: GET http://localhost:9200/db_wine_admin/_search?size=0 [status:200 request:0.004s]
+2017-05-19 13:15:39,050 :: INFO :: GET http://localhost:9200/db_wine_admin/_search?size=0 [status:200 request:0.004s]
+2017-05-19 13:15:39,057 :: INFO :: GET http://localhost:9200/db_wine_admin/_search?size=0 [status:200 request:0.007s]
+2017-05-19 13:15:39,064 :: INFO :: 127.0.0.1 - - [19/May/2017 13:15:39] "GET /wine/admin/dashboard/init HTTP/1.1" 500 -
+2017-05-19 13:15:39,076 :: INFO :: 127.0.0.1 - - [19/May/2017 13:15:39] "GET /wine/admin/dashboard/init?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2017-05-19 13:15:39,077 :: INFO :: 127.0.0.1 - - [19/May/2017 13:15:39] "GET /wine/admin/dashboard/init?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+2017-05-19 13:15:39,079 :: INFO :: 127.0.0.1 - - [19/May/2017 13:15:39] "GET /wine/admin/dashboard/init?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2017-05-19 13:15:39,175 :: INFO :: 127.0.0.1 - - [19/May/2017 13:15:39] "GET /wine/admin/dashboard/init?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2017-05-19 13:15:39,190 :: INFO :: 127.0.0.1 - - [19/May/2017 13:15:39] "GET /wine/admin/dashboard/init?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2017-05-19 13:15:54,170 :: INFO ::  * Detected change in '/home/ronan/Project1AL/Wine-Admin-Python/backend/__init__.py', reloading
+2017-05-19 13:15:54,608 :: INFO ::  * Restarting with stat
+2017-05-19 13:15:55,007 :: WARNING ::  * Debugger is active!
+2017-05-19 13:15:55,008 :: INFO ::  * Debugger PIN: 335-866-364
+2017-05-19 13:15:55,117 :: INFO :: GET http://localhost:9200/db_wine_admin/_search?size=0 [status:200 request:0.004s]
+2017-05-19 13:15:55,121 :: INFO :: GET http://localhost:9200/db_wine_admin/_search?size=0 [status:200 request:0.003s]
+2017-05-19 13:15:55,135 :: INFO :: GET http://localhost:9200/db_wine_admin/_search?size=0 [status:200 request:0.014s]
+2017-05-19 13:15:55,136 :: INFO :: 127.0.0.1 - - [19/May/2017 13:15:55] "GET /wine/admin/dashboard/init HTTP/1.1" 200 -
+2017-05-19 13:16:08,121 :: INFO ::  * Detected change in '/home/ronan/Project1AL/Wine-Admin-Python/backend/__init__.py', reloading
+2017-05-19 13:16:08,582 :: INFO ::  * Restarting with stat
+2017-05-19 13:16:09,011 :: WARNING ::  * Debugger is active!
+2017-05-19 13:16:09,011 :: INFO ::  * Debugger PIN: 335-866-364
+2017-05-19 13:16:09,342 :: INFO :: GET http://localhost:9200/db_wine_admin/_search?size=0 [status:200 request:0.004s]
+2017-05-19 13:16:09,346 :: INFO :: GET http://localhost:9200/db_wine_admin/_search?size=0 [status:200 request:0.004s]
+2017-05-19 13:16:09,355 :: INFO :: GET http://localhost:9200/db_wine_admin/_search?size=0 [status:200 request:0.008s]
+2017-05-19 13:16:09,355 :: INFO :: ['key:vins', 'doc_count:152721']
+2017-05-19 13:16:09,355 :: INFO :: 127.0.0.1 - - [19/May/2017 13:16:09] "GET /wine/admin/dashboard/init HTTP/1.1" 200 -
+2017-05-19 13:16:32,218 :: INFO ::  * Detected change in '/home/ronan/Project1AL/Wine-Admin-Python/backend/__init__.py', reloading
+2017-05-19 13:16:32,490 :: INFO :: GET http://localhost:9200/db_wine_admin/_search?size=0 [status:200 request:0.005s]
+2017-05-19 13:16:32,497 :: INFO :: GET http://localhost:9200/db_wine_admin/_search?size=0 [status:200 request:0.006s]
+2017-05-19 13:16:32,511 :: INFO :: GET http://localhost:9200/db_wine_admin/_search?size=0 [status:200 request:0.014s]
+2017-05-19 13:16:32,512 :: INFO :: ['key:vins', 'doc_count:152721']
+2017-05-19 13:16:32,513 :: INFO :: 127.0.0.1 - - [19/May/2017 13:16:32] "GET /wine/admin/dashboard/init HTTP/1.1" 200 -
+2017-05-19 13:16:32,580 :: INFO ::  * Restarting with stat
+2017-05-19 13:16:33,024 :: WARNING ::  * Debugger is active!
+2017-05-19 13:16:33,024 :: INFO ::  * Debugger PIN: 335-866-364
+2017-05-19 13:17:10,340 :: INFO ::  * Detected change in '/home/ronan/Project1AL/Wine-Admin-Python/backend/__init__.py', reloading
+2017-05-19 13:17:10,616 :: INFO ::  * Restarting with stat
+2017-05-19 13:17:11,024 :: WARNING ::  * Debugger is active!
+2017-05-19 13:17:11,024 :: INFO ::  * Debugger PIN: 335-866-364
+2017-05-19 13:17:11,238 :: INFO :: GET http://localhost:9200/db_wine_admin/_search?size=0 [status:200 request:0.004s]
+2017-05-19 13:17:11,242 :: INFO :: GET http://localhost:9200/db_wine_admin/_search?size=0 [status:200 request:0.003s]
+2017-05-19 13:17:11,252 :: INFO :: GET http://localhost:9200/db_wine_admin/_search?size=0 [status:200 request:0.009s]
+2017-05-19 13:17:11,252 :: INFO :: {'buckets': [{'doc_count': 152721, 'key': 'vins'}, {'doc_count': 132139, 'key': 'blancs'}, {'doc_count': 129335, 'key': 'rouges'}, {'doc_count': 110044, 'key': 'champagne'}, {'doc_count': 75002, 'key': 'rosés'}], 'sum_other_doc_count': 8822, 'doc_count_error_upper_bound': 0}
+2017-05-19 13:17:11,252 :: INFO :: ['doc_count:key', 'doc_count:key', 'doc_count:key', 'doc_count:key', 'doc_count:key']
+2017-05-19 13:17:11,253 :: INFO :: 127.0.0.1 - - [19/May/2017 13:17:11] "GET /wine/admin/dashboard/init HTTP/1.1" 200 -
+2017-05-19 13:17:39,276 :: INFO ::  * Detected change in '/home/ronan/Project1AL/Wine-Admin-Python/backend/__init__.py', reloading
+2017-05-19 13:17:39,597 :: INFO ::  * Restarting with stat
+2017-05-19 13:17:40,002 :: WARNING ::  * Debugger is active!
+2017-05-19 13:17:40,003 :: INFO ::  * Debugger PIN: 335-866-364
+2017-05-19 13:17:41,585 :: INFO :: GET http://localhost:9200/db_wine_admin/_search?size=0 [status:200 request:0.005s]
+2017-05-19 13:17:41,591 :: INFO :: GET http://localhost:9200/db_wine_admin/_search?size=0 [status:200 request:0.005s]
+2017-05-19 13:17:41,606 :: INFO :: GET http://localhost:9200/db_wine_admin/_search?size=0 [status:200 request:0.015s]
+2017-05-19 13:17:41,606 :: INFO :: [{'doc_count': 152721, 'key': 'vins'}, {'doc_count': 132139, 'key': 'blancs'}, {'doc_count': 129335, 'key': 'rouges'}, {'doc_count': 110044, 'key': 'champagne'}, {'doc_count': 75002, 'key': 'rosés'}]
+2017-05-19 13:17:41,607 :: INFO :: ['doc_count:key', 'doc_count:key', 'doc_count:key', 'doc_count:key', 'doc_count:key']
+2017-05-19 13:17:41,608 :: INFO :: 127.0.0.1 - - [19/May/2017 13:17:41] "GET /wine/admin/dashboard/init HTTP/1.1" 200 -
+2017-05-19 13:18:05,231 :: INFO ::  * Detected change in '/home/ronan/Project1AL/Wine-Admin-Python/backend/__init__.py', reloading
+2017-05-19 13:18:05,583 :: INFO ::  * Restarting with stat
+2017-05-19 13:18:05,987 :: WARNING ::  * Debugger is active!
+2017-05-19 13:18:05,987 :: INFO ::  * Debugger PIN: 335-866-364
+2017-05-19 13:18:06,502 :: INFO :: GET http://localhost:9200/db_wine_admin/_search?size=0 [status:200 request:0.006s]
+2017-05-19 13:18:06,508 :: INFO :: GET http://localhost:9200/db_wine_admin/_search?size=0 [status:200 request:0.005s]
+2017-05-19 13:18:06,520 :: INFO :: GET http://localhost:9200/db_wine_admin/_search?size=0 [status:200 request:0.011s]
+2017-05-19 13:18:06,521 :: INFO :: {'doc_count': 152721, 'key': 'vins'}
+2017-05-19 13:18:06,521 :: INFO :: ['doc_count:key', 'doc_count:key', 'doc_count:key', 'doc_count:key', 'doc_count:key']
+2017-05-19 13:18:06,522 :: INFO :: 127.0.0.1 - - [19/May/2017 13:18:06] "GET /wine/admin/dashboard/init HTTP/1.1" 200 -
+2017-05-19 13:18:17,052 :: INFO :: GET http://localhost:9200/db_wine_admin/_search?size=0 [status:200 request:0.005s]
+2017-05-19 13:18:17,058 :: INFO :: GET http://localhost:9200/db_wine_admin/_search?size=0 [status:200 request:0.005s]
+2017-05-19 13:18:17,071 :: INFO :: GET http://localhost:9200/db_wine_admin/_search?size=0 [status:200 request:0.012s]
+2017-05-19 13:18:17,072 :: INFO :: {'doc_count': 152721, 'key': 'vins'}
+2017-05-19 13:18:17,072 :: INFO :: ['doc_count:key', 'doc_count:key', 'doc_count:key', 'doc_count:key', 'doc_count:key']
+2017-05-19 13:18:17,073 :: INFO :: 127.0.0.1 - - [19/May/2017 13:18:17] "GET /wine/admin/dashboard/init HTTP/1.1" 200 -
+2017-05-19 13:18:26,172 :: INFO ::  * Detected change in '/home/ronan/Project1AL/Wine-Admin-Python/backend/__init__.py', reloading
+2017-05-19 13:18:26,501 :: INFO :: GET http://localhost:9200/db_wine_admin/_search?size=0 [status:200 request:0.006s]
+2017-05-19 13:18:26,568 :: INFO ::  * Restarting with stat
+2017-05-19 13:18:26,980 :: WARNING ::  * Debugger is active!
+2017-05-19 13:18:26,981 :: INFO ::  * Debugger PIN: 335-866-364
+2017-05-19 13:18:26,987 :: INFO :: GET http://localhost:9200/db_wine_admin/_search?size=0 [status:200 request:0.003s]
+2017-05-19 13:18:26,991 :: INFO :: GET http://localhost:9200/db_wine_admin/_search?size=0 [status:200 request:0.003s]
+2017-05-19 13:18:27,001 :: INFO :: GET http://localhost:9200/db_wine_admin/_search?size=0 [status:200 request:0.010s]
+2017-05-19 13:18:27,001 :: INFO :: [{'key': 'vins', 'doc_count': 152721}, {'key': 'blancs', 'doc_count': 132139}, {'key': 'rouges', 'doc_count': 129335}, {'key': 'champagne', 'doc_count': 110044}, {'key': 'rosés', 'doc_count': 75002}]
+2017-05-19 13:18:27,001 :: INFO :: ['key:doc_count', 'key:doc_count', 'key:doc_count', 'key:doc_count', 'key:doc_count']
+2017-05-19 13:18:27,002 :: INFO :: 127.0.0.1 - - [19/May/2017 13:18:27] "GET /wine/admin/dashboard/init HTTP/1.1" 200 -
+2017-05-19 13:18:37,076 :: INFO ::  * Detected change in '/home/ronan/Project1AL/Wine-Admin-Python/backend/__init__.py', reloading
+2017-05-19 13:18:37,536 :: INFO ::  * Restarting with stat
+2017-05-19 13:18:37,949 :: WARNING ::  * Debugger is active!
+2017-05-19 13:18:37,949 :: INFO ::  * Debugger PIN: 335-866-364
+2017-05-19 13:18:37,975 :: INFO :: GET http://localhost:9200/db_wine_admin/_search?size=0 [status:200 request:0.003s]
+2017-05-19 13:18:37,981 :: INFO :: GET http://localhost:9200/db_wine_admin/_search?size=0 [status:200 request:0.006s]
+2017-05-19 13:18:37,990 :: INFO :: GET http://localhost:9200/db_wine_admin/_search?size=0 [status:200 request:0.009s]
+2017-05-19 13:18:37,991 :: INFO :: [{'key': 'vins', 'doc_count': 152721}, {'key': 'blancs', 'doc_count': 132139}, {'key': 'rouges', 'doc_count': 129335}, {'key': 'champagne', 'doc_count': 110044}, {'key': 'rosés', 'doc_count': 75002}]
+2017-05-19 13:18:37,991 :: INFO :: 127.0.0.1 - - [19/May/2017 13:18:37] "GET /wine/admin/dashboard/init HTTP/1.1" 200 -
+2017-05-19 13:19:28,405 :: INFO ::  * Detected change in '/home/ronan/Project1AL/Wine-Admin-Python/backend/__init__.py', reloading
+2017-05-19 13:19:28,550 :: INFO ::  * Restarting with stat
+2017-05-19 13:19:28,960 :: WARNING ::  * Debugger is active!
+2017-05-19 13:19:28,960 :: INFO ::  * Debugger PIN: 335-866-364
+2017-05-19 13:19:29,020 :: INFO :: GET http://localhost:9200/db_wine_admin/_search?size=0 [status:200 request:0.003s]
+2017-05-19 13:19:29,023 :: INFO :: GET http://localhost:9200/db_wine_admin/_search?size=0 [status:200 request:0.002s]
+2017-05-19 13:19:29,030 :: INFO :: GET http://localhost:9200/db_wine_admin/_search?size=0 [status:200 request:0.007s]
+2017-05-19 13:19:29,031 :: INFO :: blancs
+2017-05-19 13:19:29,031 :: INFO :: 127.0.0.1 - - [19/May/2017 13:19:29] "GET /wine/admin/dashboard/init HTTP/1.1" 200 -
+2017-05-19 13:20:33,550 :: INFO ::  * Detected change in '/home/ronan/Project1AL/Wine-Admin-Python/backend/__init__.py', reloading
+2017-05-19 13:20:34,090 :: INFO ::  * Restarting with stat
+2017-05-19 13:20:34,502 :: WARNING ::  * Debugger is active!
+2017-05-19 13:20:34,503 :: INFO ::  * Debugger PIN: 335-866-364
+2017-05-19 13:20:36,520 :: INFO ::  * Detected change in '/home/ronan/Project1AL/Wine-Admin-Python/backend/__init__.py', reloading
+2017-05-19 13:20:37,076 :: INFO ::  * Restarting with stat
+2017-05-19 13:20:37,526 :: WARNING ::  * Debugger is active!
+2017-05-19 13:20:37,526 :: INFO ::  * Debugger PIN: 335-866-364
+2017-05-19 13:20:37,532 :: INFO :: GET http://localhost:9200/db_wine_admin/_search?size=0 [status:200 request:0.003s]
+2017-05-19 13:20:37,535 :: INFO :: GET http://localhost:9200/db_wine_admin/_search?size=0 [status:200 request:0.002s]
+2017-05-19 13:20:37,545 :: INFO :: GET http://localhost:9200/db_wine_admin/_search?size=0 [status:200 request:0.010s]
+2017-05-19 13:20:37,545 :: INFO :: blancs
+2017-05-19 13:20:37,552 :: INFO :: 127.0.0.1 - - [19/May/2017 13:20:37] "GET /wine/admin/dashboard/init HTTP/1.1" 500 -
+2017-05-19 13:20:37,562 :: INFO :: 127.0.0.1 - - [19/May/2017 13:20:37] "GET /wine/admin/dashboard/init?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2017-05-19 13:20:37,564 :: INFO :: 127.0.0.1 - - [19/May/2017 13:20:37] "GET /wine/admin/dashboard/init?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+2017-05-19 13:20:37,565 :: INFO :: 127.0.0.1 - - [19/May/2017 13:20:37] "GET /wine/admin/dashboard/init?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2017-05-19 13:20:37,670 :: INFO :: 127.0.0.1 - - [19/May/2017 13:20:37] "GET /wine/admin/dashboard/init?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2017-05-19 13:20:37,688 :: INFO :: 127.0.0.1 - - [19/May/2017 13:20:37] "GET /wine/admin/dashboard/init?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2017-05-19 13:20:46,605 :: INFO ::  * Detected change in '/home/ronan/Project1AL/Wine-Admin-Python/backend/__init__.py', reloading
+2017-05-19 13:20:47,090 :: INFO ::  * Restarting with stat
+2017-05-19 13:20:47,489 :: WARNING ::  * Debugger is active!
+2017-05-19 13:20:47,490 :: INFO ::  * Debugger PIN: 335-866-364
+2017-05-19 13:20:48,207 :: INFO :: GET http://localhost:9200/db_wine_admin/_search?size=0 [status:200 request:0.004s]
+2017-05-19 13:20:48,211 :: INFO :: GET http://localhost:9200/db_wine_admin/_search?size=0 [status:200 request:0.004s]
+2017-05-19 13:20:48,221 :: INFO :: GET http://localhost:9200/db_wine_admin/_search?size=0 [status:200 request:0.009s]
+2017-05-19 13:20:48,222 :: INFO :: blancs
+2017-05-19 13:20:48,230 :: INFO :: 127.0.0.1 - - [19/May/2017 13:20:48] "GET /wine/admin/dashboard/init HTTP/1.1" 500 -
+2017-05-19 13:20:48,241 :: INFO :: 127.0.0.1 - - [19/May/2017 13:20:48] "GET /wine/admin/dashboard/init?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2017-05-19 13:20:48,243 :: INFO :: 127.0.0.1 - - [19/May/2017 13:20:48] "GET /wine/admin/dashboard/init?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+2017-05-19 13:20:48,244 :: INFO :: 127.0.0.1 - - [19/May/2017 13:20:48] "GET /wine/admin/dashboard/init?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2017-05-19 13:20:48,341 :: INFO :: 127.0.0.1 - - [19/May/2017 13:20:48] "GET /wine/admin/dashboard/init?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2017-05-19 13:20:48,358 :: INFO :: 127.0.0.1 - - [19/May/2017 13:20:48] "GET /wine/admin/dashboard/init?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2017-05-19 13:20:57,565 :: INFO ::  * Detected change in '/home/ronan/Project1AL/Wine-Admin-Python/backend/__init__.py', reloading
+2017-05-19 13:20:58,051 :: INFO ::  * Restarting with stat
+2017-05-19 13:20:58,471 :: WARNING ::  * Debugger is active!
+2017-05-19 13:20:58,472 :: INFO ::  * Debugger PIN: 335-866-364
+2017-05-19 13:20:58,478 :: INFO :: GET http://localhost:9200/db_wine_admin/_search?size=0 [status:200 request:0.002s]
+2017-05-19 13:20:58,481 :: INFO :: GET http://localhost:9200/db_wine_admin/_search?size=0 [status:200 request:0.003s]
+2017-05-19 13:20:58,489 :: INFO :: GET http://localhost:9200/db_wine_admin/_search?size=0 [status:200 request:0.008s]
+2017-05-19 13:20:58,489 :: INFO :: blancs
+2017-05-19 13:20:58,489 :: INFO :: ['key:rosés', 'doc_count:75002']
+2017-05-19 13:20:58,490 :: INFO :: 127.0.0.1 - - [19/May/2017 13:20:58] "GET /wine/admin/dashboard/init HTTP/1.1" 200 -
+2017-05-19 13:26:03,123 :: INFO ::  * Detected change in '/home/ronan/Project1AL/Wine-Admin-Python/backend/utils/elasticsearch/catalogParsingQueries.py', reloading
+2017-05-19 13:26:03,379 :: INFO ::  * Restarting with stat
+2017-05-19 13:26:03,787 :: WARNING ::  * Debugger is active!
+2017-05-19 13:26:03,788 :: INFO ::  * Debugger PIN: 335-866-364
+2017-05-19 13:26:17,912 :: INFO ::  * Detected change in '/home/ronan/Project1AL/Wine-Admin-Python/backend/utils/elasticsearch/catalogParsingQueries.py', reloading
+2017-05-19 13:26:18,358 :: INFO ::  * Restarting with stat
+2017-05-19 13:26:18,761 :: WARNING ::  * Debugger is active!
+2017-05-19 13:26:18,762 :: INFO ::  * Debugger PIN: 335-866-364
+2017-05-19 13:29:00,167 :: INFO ::  * Detected change in '/home/ronan/Project1AL/Wine-Admin-Python/backend/utils/elasticsearch/catalogParsingQueries.py', reloading
+2017-05-19 13:29:00,500 :: INFO ::  * Restarting with stat
+2017-05-19 13:29:00,899 :: WARNING ::  * Debugger is active!
+2017-05-19 13:29:00,899 :: INFO ::  * Debugger PIN: 335-866-364
+2017-05-19 13:29:23,113 :: INFO ::  * Detected change in '/home/ronan/Project1AL/Wine-Admin-Python/backend/utils/elasticsearch/catalogParsingQueries.py', reloading
+2017-05-19 13:29:23,486 :: INFO ::  * Restarting with stat
+2017-05-19 13:29:23,894 :: WARNING ::  * Debugger is active!
+2017-05-19 13:29:23,895 :: INFO ::  * Debugger PIN: 335-866-364
+2017-05-19 13:29:37,005 :: INFO ::  * Detected change in '/home/ronan/Project1AL/Wine-Admin-Python/backend/__init__.py', reloading
+2017-05-19 13:29:37,458 :: INFO ::  * Restarting with stat
+2017-05-19 13:29:37,864 :: WARNING ::  * Debugger is active!
+2017-05-19 13:29:37,865 :: INFO ::  * Debugger PIN: 335-866-364
+2017-05-19 13:30:51,510 :: INFO ::  * Detected change in '/home/ronan/Project1AL/Wine-Admin-Python/backend/__init__.py', reloading
+2017-05-19 13:30:52,006 :: INFO ::  * Restarting with stat
+2017-05-19 13:30:52,447 :: WARNING ::  * Debugger is active!
+2017-05-19 13:30:52,448 :: INFO ::  * Debugger PIN: 335-866-364
+2017-05-19 13:30:59,192 :: INFO :: GET http://localhost:9200/db_wine_admin/_search?size=0 [status:200 request:0.006s]
+2017-05-19 13:30:59,204 :: INFO :: GET http://localhost:9200/db_wine_admin/_search?size=0 [status:200 request:0.011s]
+2017-05-19 13:30:59,216 :: INFO :: GET http://localhost:9200/db_wine_admin/_search?size=0 [status:200 request:0.010s]
+2017-05-19 13:30:59,226 :: INFO :: 127.0.0.1 - - [19/May/2017 13:30:59] "GET /wine/admin/dashboard/init HTTP/1.1" 500 -
+2017-05-19 13:30:59,242 :: INFO :: 127.0.0.1 - - [19/May/2017 13:30:59] "GET /wine/admin/dashboard/init?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2017-05-19 13:30:59,244 :: INFO :: 127.0.0.1 - - [19/May/2017 13:30:59] "GET /wine/admin/dashboard/init?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+2017-05-19 13:30:59,245 :: INFO :: 127.0.0.1 - - [19/May/2017 13:30:59] "GET /wine/admin/dashboard/init?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2017-05-19 13:30:59,357 :: INFO :: 127.0.0.1 - - [19/May/2017 13:30:59] "GET /wine/admin/dashboard/init?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2017-05-19 13:30:59,375 :: INFO :: 127.0.0.1 - - [19/May/2017 13:30:59] "GET /wine/admin/dashboard/init?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2017-05-19 13:32:01,004 :: INFO ::  * Detected change in '/home/ronan/Project1AL/Wine-Admin-Python/backend/utils/elasticsearch/catalogParsingQueries.py', reloading
+2017-05-19 13:32:01,072 :: INFO ::  * Restarting with stat
+2017-05-19 13:32:01,480 :: WARNING ::  * Debugger is active!
+2017-05-19 13:32:01,480 :: INFO ::  * Debugger PIN: 335-866-364
+2017-05-19 13:32:05,307 :: INFO :: GET http://localhost:9200/db_wine_admin/_search?size=0 [status:200 request:0.007s]
+2017-05-19 13:32:05,315 :: INFO :: GET http://localhost:9200/db_wine_admin/_search?size=0 [status:200 request:0.006s]
+2017-05-19 13:32:05,331 :: INFO :: GET http://localhost:9200/db_wine_admin/_search?size=0 [status:200 request:0.015s]
+2017-05-19 13:32:05,332 :: INFO :: None
+2017-05-19 13:32:05,333 :: INFO :: 127.0.0.1 - - [19/May/2017 13:32:05] "GET /wine/admin/dashboard/init HTTP/1.1" 200 -
+2017-05-19 13:33:00,994 :: INFO ::  * Detected change in '/home/ronan/Project1AL/Wine-Admin-Python/backend/utils/elasticsearch/catalogParsingQueries.py', reloading
+2017-05-19 13:33:01,086 :: INFO ::  * Restarting with stat
+2017-05-19 13:33:01,514 :: WARNING ::  * Debugger is active!
+2017-05-19 13:33:01,514 :: INFO ::  * Debugger PIN: 335-866-364
+2017-05-19 13:33:03,298 :: INFO :: GET http://localhost:9200/db_wine_admin/_search?size=0 [status:200 request:0.006s]
+2017-05-19 13:33:03,304 :: INFO :: GET http://localhost:9200/db_wine_admin/_search?size=0 [status:200 request:0.005s]
+2017-05-19 13:33:03,317 :: INFO :: GET http://localhost:9200/db_wine_admin/_search?size=0 [status:200 request:0.013s]
+2017-05-19 13:33:03,318 :: INFO :: 5
+2017-05-19 13:33:03,318 :: INFO :: None
+2017-05-19 13:33:03,319 :: INFO :: 127.0.0.1 - - [19/May/2017 13:33:03] "GET /wine/admin/dashboard/init HTTP/1.1" 200 -
+2017-05-19 13:33:33,797 :: INFO ::  * Detected change in '/home/ronan/Project1AL/Wine-Admin-Python/backend/utils/elasticsearch/catalogParsingQueries.py', reloading
+2017-05-19 13:33:34,106 :: INFO ::  * Restarting with stat
+2017-05-19 13:33:34,550 :: WARNING ::  * Debugger is active!
+2017-05-19 13:33:34,551 :: INFO ::  * Debugger PIN: 335-866-364
+2017-05-19 13:33:35,976 :: INFO :: GET http://localhost:9200/db_wine_admin/_search?size=0 [status:200 request:0.007s]
+2017-05-19 13:33:35,981 :: INFO :: GET http://localhost:9200/db_wine_admin/_search?size=0 [status:200 request:0.004s]
+2017-05-19 13:33:35,994 :: INFO :: GET http://localhost:9200/db_wine_admin/_search?size=0 [status:200 request:0.013s]
+2017-05-19 13:33:35,995 :: INFO :: 5
+2017-05-19 13:33:35,995 :: INFO :: None
+2017-05-19 13:33:35,995 :: INFO :: None
+2017-05-19 13:33:35,995 :: INFO :: None
+2017-05-19 13:33:35,996 :: INFO :: 127.0.0.1 - - [19/May/2017 13:33:35] "GET /wine/admin/dashboard/init HTTP/1.1" 200 -
+2017-05-19 13:35:02,200 :: INFO ::  * Detected change in '/home/ronan/Project1AL/Wine-Admin-Python/backend/utils/elasticsearch/catalogParsingQueries.py', reloading
+2017-05-19 13:35:02,703 :: INFO ::  * Restarting with stat
+2017-05-19 13:35:03,133 :: WARNING ::  * Debugger is active!
+2017-05-19 13:35:03,133 :: INFO ::  * Debugger PIN: 335-866-364
+2017-05-19 13:35:05,643 :: INFO :: GET http://localhost:9200/db_wine_admin/_search?size=0 [status:200 request:0.007s]
+2017-05-19 13:35:05,651 :: INFO :: GET http://localhost:9200/db_wine_admin/_search?size=0 [status:200 request:0.007s]
+2017-05-19 13:35:05,663 :: INFO :: GET http://localhost:9200/db_wine_admin/_search?size=0 [status:200 request:0.011s]
+2017-05-19 13:35:05,663 :: INFO :: 5
+2017-05-19 13:35:05,674 :: INFO :: 127.0.0.1 - - [19/May/2017 13:35:05] "GET /wine/admin/dashboard/init HTTP/1.1" 500 -
+2017-05-19 13:35:05,687 :: INFO :: 127.0.0.1 - - [19/May/2017 13:35:05] "GET /wine/admin/dashboard/init?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2017-05-19 13:35:05,689 :: INFO :: 127.0.0.1 - - [19/May/2017 13:35:05] "GET /wine/admin/dashboard/init?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+2017-05-19 13:35:05,691 :: INFO :: 127.0.0.1 - - [19/May/2017 13:35:05] "GET /wine/admin/dashboard/init?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2017-05-19 13:35:05,810 :: INFO :: 127.0.0.1 - - [19/May/2017 13:35:05] "GET /wine/admin/dashboard/init?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2017-05-19 13:35:05,827 :: INFO :: 127.0.0.1 - - [19/May/2017 13:35:05] "GET /wine/admin/dashboard/init?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2017-05-19 13:35:15,238 :: INFO ::  * Detected change in '/home/ronan/Project1AL/Wine-Admin-Python/backend/utils/elasticsearch/catalogParsingQueries.py', reloading
+2017-05-19 13:35:15,691 :: INFO ::  * Restarting with stat
+2017-05-19 13:35:16,090 :: WARNING ::  * Debugger is active!
+2017-05-19 13:35:16,090 :: INFO ::  * Debugger PIN: 335-866-364
+2017-05-19 13:35:17,255 :: INFO :: GET http://localhost:9200/db_wine_admin/_search?size=0 [status:200 request:0.005s]
+2017-05-19 13:35:17,260 :: INFO :: GET http://localhost:9200/db_wine_admin/_search?size=0 [status:200 request:0.004s]
+2017-05-19 13:35:17,279 :: INFO :: GET http://localhost:9200/db_wine_admin/_search?size=0 [status:200 request:0.018s]
+2017-05-19 13:35:17,279 :: INFO :: 5
+2017-05-19 13:35:17,289 :: INFO :: 127.0.0.1 - - [19/May/2017 13:35:17] "GET /wine/admin/dashboard/init HTTP/1.1" 500 -
+2017-05-19 13:35:17,302 :: INFO :: 127.0.0.1 - - [19/May/2017 13:35:17] "GET /wine/admin/dashboard/init?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2017-05-19 13:35:17,304 :: INFO :: 127.0.0.1 - - [19/May/2017 13:35:17] "GET /wine/admin/dashboard/init?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+2017-05-19 13:35:17,306 :: INFO :: 127.0.0.1 - - [19/May/2017 13:35:17] "GET /wine/admin/dashboard/init?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2017-05-19 13:35:17,427 :: INFO :: 127.0.0.1 - - [19/May/2017 13:35:17] "GET /wine/admin/dashboard/init?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2017-05-19 13:35:17,444 :: INFO :: 127.0.0.1 - - [19/May/2017 13:35:17] "GET /wine/admin/dashboard/init?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2017-05-19 13:35:26,179 :: INFO ::  * Detected change in '/home/ronan/Project1AL/Wine-Admin-Python/backend/utils/elasticsearch/catalogParsingQueries.py', reloading
+2017-05-19 13:35:26,667 :: INFO ::  * Restarting with stat
+2017-05-19 13:35:27,065 :: WARNING ::  * Debugger is active!
+2017-05-19 13:35:27,065 :: INFO ::  * Debugger PIN: 335-866-364
+2017-05-19 13:35:57,328 :: INFO ::  * Detected change in '/home/ronan/Project1AL/Wine-Admin-Python/backend/utils/elasticsearch/catalogParsingQueries.py', reloading
+2017-05-19 13:35:57,640 :: INFO ::  * Restarting with stat
+2017-05-19 13:35:58,046 :: WARNING ::  * Debugger is active!
+2017-05-19 13:35:58,047 :: INFO ::  * Debugger PIN: 335-866-364
+2017-05-19 13:36:00,026 :: INFO :: GET http://localhost:9200/db_wine_admin/_search?size=0 [status:200 request:0.007s]
+2017-05-19 13:36:00,031 :: INFO :: GET http://localhost:9200/db_wine_admin/_search?size=0 [status:200 request:0.004s]
+2017-05-19 13:36:00,045 :: INFO :: GET http://localhost:9200/db_wine_admin/_search?size=0 [status:200 request:0.013s]
+2017-05-19 13:36:00,045 :: INFO :: 5
+2017-05-19 13:36:00,046 :: INFO :: None
+2017-05-19 13:36:00,046 :: INFO :: None
+2017-05-19 13:36:00,046 :: INFO :: None
+2017-05-19 13:36:00,046 :: INFO :: None
+2017-05-19 13:36:00,047 :: INFO :: None
+2017-05-19 13:36:00,047 :: INFO :: None
+2017-05-19 13:36:00,047 :: INFO :: None
+2017-05-19 13:36:00,047 :: INFO :: None
+2017-05-19 13:36:00,047 :: INFO :: None
+2017-05-19 13:36:00,048 :: INFO :: None
+2017-05-19 13:36:00,048 :: INFO :: None
+2017-05-19 13:36:00,049 :: INFO :: 127.0.0.1 - - [19/May/2017 13:36:00] "GET /wine/admin/dashboard/init HTTP/1.1" 200 -
+2017-05-19 13:36:21,245 :: INFO ::  * Detected change in '/home/ronan/Project1AL/Wine-Admin-Python/backend/utils/elasticsearch/catalogParsingQueries.py', reloading
+2017-05-19 13:36:21,610 :: INFO ::  * Restarting with stat
+2017-05-19 13:36:22,015 :: WARNING ::  * Debugger is active!
+2017-05-19 13:36:22,016 :: INFO ::  * Debugger PIN: 335-866-364
+2017-05-19 13:36:23,052 :: INFO :: GET http://localhost:9200/db_wine_admin/_search?size=0 [status:200 request:0.006s]
+2017-05-19 13:36:23,058 :: INFO :: GET http://localhost:9200/db_wine_admin/_search?size=0 [status:200 request:0.004s]
+2017-05-19 13:36:23,068 :: INFO :: GET http://localhost:9200/db_wine_admin/_search?size=0 [status:200 request:0.010s]
+2017-05-19 13:36:23,069 :: INFO :: 5
+2017-05-19 13:36:23,069 :: INFO :: None
+2017-05-19 13:36:23,069 :: INFO :: None
+2017-05-19 13:36:23,069 :: INFO :: None
+2017-05-19 13:36:23,070 :: INFO :: None
+2017-05-19 13:36:23,070 :: INFO :: None
+2017-05-19 13:36:23,070 :: INFO :: None
+2017-05-19 13:36:23,070 :: INFO :: None
+2017-05-19 13:36:23,070 :: INFO :: None
+2017-05-19 13:36:23,071 :: INFO :: None
+2017-05-19 13:36:23,071 :: INFO :: None
+2017-05-19 13:36:23,071 :: INFO :: None
+2017-05-19 13:36:23,072 :: INFO :: 127.0.0.1 - - [19/May/2017 13:36:23] "GET /wine/admin/dashboard/init HTTP/1.1" 200 -
+2017-05-19 13:36:24,018 :: INFO :: GET http://localhost:9200/db_wine_admin/_search?size=0 [status:200 request:0.004s]
+2017-05-19 13:36:24,024 :: INFO :: GET http://localhost:9200/db_wine_admin/_search?size=0 [status:200 request:0.005s]
+2017-05-19 13:36:24,045 :: INFO :: GET http://localhost:9200/db_wine_admin/_search?size=0 [status:200 request:0.021s]
+2017-05-19 13:36:24,046 :: INFO :: 5
+2017-05-19 13:36:24,046 :: INFO :: None
+2017-05-19 13:36:24,046 :: INFO :: None
+2017-05-19 13:36:24,047 :: INFO :: None
+2017-05-19 13:36:24,047 :: INFO :: None
+2017-05-19 13:36:24,047 :: INFO :: None
+2017-05-19 13:36:24,047 :: INFO :: None
+2017-05-19 13:36:24,047 :: INFO :: None
+2017-05-19 13:36:24,048 :: INFO :: None
+2017-05-19 13:36:24,048 :: INFO :: None
+2017-05-19 13:36:24,048 :: INFO :: None
+2017-05-19 13:36:24,048 :: INFO :: None
+2017-05-19 13:36:24,049 :: INFO :: 127.0.0.1 - - [19/May/2017 13:36:24] "GET /wine/admin/dashboard/init HTTP/1.1" 200 -
+2017-05-19 13:36:24,530 :: INFO :: GET http://localhost:9200/db_wine_admin/_search?size=0 [status:200 request:0.004s]
+2017-05-19 13:36:24,535 :: INFO :: GET http://localhost:9200/db_wine_admin/_search?size=0 [status:200 request:0.004s]
+2017-05-19 13:36:24,549 :: INFO :: GET http://localhost:9200/db_wine_admin/_search?size=0 [status:200 request:0.013s]
+2017-05-19 13:36:24,549 :: INFO :: 5
+2017-05-19 13:36:24,550 :: INFO :: None
+2017-05-19 13:36:24,550 :: INFO :: None
+2017-05-19 13:36:24,550 :: INFO :: None
+2017-05-19 13:36:24,550 :: INFO :: None
+2017-05-19 13:36:24,550 :: INFO :: None
+2017-05-19 13:36:24,551 :: INFO :: None
+2017-05-19 13:36:24,551 :: INFO :: None
+2017-05-19 13:36:24,551 :: INFO :: None
+2017-05-19 13:36:24,551 :: INFO :: None
+2017-05-19 13:36:24,551 :: INFO :: None
+2017-05-19 13:36:24,552 :: INFO :: None
+2017-05-19 13:36:24,552 :: INFO :: 127.0.0.1 - - [19/May/2017 13:36:24] "GET /wine/admin/dashboard/init HTTP/1.1" 200 -
+2017-05-19 13:36:51,265 :: INFO ::  * Detected change in '/home/ronan/Project1AL/Wine-Admin-Python/backend/utils/elasticsearch/catalogParsingQueries.py', reloading
+2017-05-19 13:36:51,605 :: INFO ::  * Restarting with stat
+2017-05-19 13:36:52,005 :: WARNING ::  * Debugger is active!
+2017-05-19 13:36:52,006 :: INFO ::  * Debugger PIN: 335-866-364
+2017-05-19 13:36:53,334 :: INFO :: GET http://localhost:9200/db_wine_admin/_search?size=0 [status:200 request:0.007s]
+2017-05-19 13:36:53,343 :: INFO :: GET http://localhost:9200/db_wine_admin/_search?size=0 [status:200 request:0.008s]
+2017-05-19 13:36:53,359 :: INFO :: GET http://localhost:9200/db_wine_admin/_search?size=0 [status:200 request:0.015s]
+2017-05-19 13:36:53,360 :: INFO :: 5
+2017-05-19 13:36:53,360 :: INFO :: None
+2017-05-19 13:36:53,360 :: INFO :: None
+2017-05-19 13:36:53,360 :: INFO :: None
+2017-05-19 13:36:53,361 :: INFO :: None
+2017-05-19 13:36:53,361 :: INFO :: None
+2017-05-19 13:36:53,361 :: INFO :: None
+2017-05-19 13:36:53,361 :: INFO :: None
+2017-05-19 13:36:53,361 :: INFO :: None
+2017-05-19 13:36:53,361 :: INFO :: None
+2017-05-19 13:36:53,362 :: INFO :: None
+2017-05-19 13:36:53,362 :: INFO :: None
+2017-05-19 13:36:53,362 :: INFO :: None
+2017-05-19 13:36:53,362 :: INFO :: None
+2017-05-19 13:36:53,362 :: INFO :: None
+2017-05-19 13:36:53,363 :: INFO :: None
+2017-05-19 13:36:53,363 :: INFO :: None
+2017-05-19 13:36:53,363 :: INFO :: None
+2017-05-19 13:36:53,363 :: INFO :: None
+2017-05-19 13:36:53,363 :: INFO :: None
+2017-05-19 13:36:53,363 :: INFO :: None
+2017-05-19 13:36:53,363 :: INFO :: None
+2017-05-19 13:36:53,363 :: INFO :: None
+2017-05-19 13:36:53,363 :: INFO :: None
+2017-05-19 13:36:53,364 :: INFO :: None
+2017-05-19 13:36:53,364 :: INFO :: None
+2017-05-19 13:36:53,364 :: INFO :: None
+2017-05-19 13:36:53,364 :: INFO :: 127.0.0.1 - - [19/May/2017 13:36:53] "GET /wine/admin/dashboard/init HTTP/1.1" 200 -
+2017-05-19 13:37:07,726 :: INFO :: GET http://localhost:9200/db_wine_admin/_search?size=0 [status:200 request:0.003s]
+2017-05-19 13:37:07,730 :: INFO :: GET http://localhost:9200/db_wine_admin/_search?size=0 [status:200 request:0.003s]
+2017-05-19 13:37:07,740 :: INFO :: GET http://localhost:9200/db_wine_admin/_search?size=0 [status:200 request:0.009s]
+2017-05-19 13:37:07,741 :: INFO :: 5
+2017-05-19 13:37:07,741 :: INFO :: None
+2017-05-19 13:37:07,741 :: INFO :: None
+2017-05-19 13:37:07,741 :: INFO :: None
+2017-05-19 13:37:07,741 :: INFO :: None
+2017-05-19 13:37:07,741 :: INFO :: None
+2017-05-19 13:37:07,741 :: INFO :: None
+2017-05-19 13:37:07,741 :: INFO :: None
+2017-05-19 13:37:07,742 :: INFO :: None
+2017-05-19 13:37:07,742 :: INFO :: None
+2017-05-19 13:37:07,742 :: INFO :: None
+2017-05-19 13:37:07,742 :: INFO :: None
+2017-05-19 13:37:07,742 :: INFO :: None
+2017-05-19 13:37:07,742 :: INFO :: None
+2017-05-19 13:37:07,742 :: INFO :: None
+2017-05-19 13:37:07,742 :: INFO :: None
+2017-05-19 13:37:07,742 :: INFO :: None
+2017-05-19 13:37:07,743 :: INFO :: None
+2017-05-19 13:37:07,743 :: INFO :: None
+2017-05-19 13:37:07,743 :: INFO :: None
+2017-05-19 13:37:07,743 :: INFO :: None
+2017-05-19 13:37:07,743 :: INFO :: None
+2017-05-19 13:37:07,743 :: INFO :: None
+2017-05-19 13:37:07,743 :: INFO :: None
+2017-05-19 13:37:07,743 :: INFO :: None
+2017-05-19 13:37:07,743 :: INFO :: None
+2017-05-19 13:37:07,744 :: INFO :: None
+2017-05-19 13:37:07,744 :: INFO :: 127.0.0.1 - - [19/May/2017 13:37:07] "GET /wine/admin/dashboard/init HTTP/1.1" 200 -
+2017-05-19 13:37:43,404 :: INFO ::  * Detected change in '/home/ronan/Project1AL/Wine-Admin-Python/backend/utils/elasticsearch/catalogParsingQueries.py', reloading
+2017-05-19 13:37:43,607 :: INFO ::  * Restarting with stat
+2017-05-19 13:37:44,014 :: WARNING ::  * Debugger is active!
+2017-05-19 13:37:44,015 :: INFO ::  * Debugger PIN: 335-866-364
+2017-05-19 13:37:46,291 :: INFO :: GET http://localhost:9200/db_wine_admin/_search?size=0 [status:200 request:0.005s]
+2017-05-19 13:37:46,298 :: INFO :: GET http://localhost:9200/db_wine_admin/_search?size=0 [status:200 request:0.006s]
+2017-05-19 13:37:46,306 :: INFO :: GET http://localhost:9200/db_wine_admin/_search?size=0 [status:200 request:0.008s]
+2017-05-19 13:37:46,306 :: INFO :: {'2': {'sum_other_doc_count': 8822, 'buckets': [{'doc_count': 152721, 'key': 'vins'}, {'doc_count': 132139, 'key': 'blancs'}, {'doc_count': 129335, 'key': 'rouges'}, {'doc_count': 110044, 'key': 'champagne'}, {'doc_count': 75002, 'key': 'rosés'}], 'doc_count_error_upper_bound': 0}}
+2017-05-19 13:37:46,306 :: INFO :: 5
+2017-05-19 13:37:46,306 :: INFO :: None
+2017-05-19 13:37:46,307 :: INFO :: None
+2017-05-19 13:37:46,307 :: INFO :: None
+2017-05-19 13:37:46,307 :: INFO :: None
+2017-05-19 13:37:46,307 :: INFO :: None
+2017-05-19 13:37:46,307 :: INFO :: None
+2017-05-19 13:37:46,307 :: INFO :: None
+2017-05-19 13:37:46,307 :: INFO :: None
+2017-05-19 13:37:46,308 :: INFO :: None
+2017-05-19 13:37:46,308 :: INFO :: None
+2017-05-19 13:37:46,308 :: INFO :: None
+2017-05-19 13:37:46,308 :: INFO :: None
+2017-05-19 13:37:46,308 :: INFO :: None
+2017-05-19 13:37:46,308 :: INFO :: None
+2017-05-19 13:37:46,308 :: INFO :: None
+2017-05-19 13:37:46,309 :: INFO :: None
+2017-05-19 13:37:46,309 :: INFO :: None
+2017-05-19 13:37:46,309 :: INFO :: None
+2017-05-19 13:37:46,309 :: INFO :: None
+2017-05-19 13:37:46,309 :: INFO :: None
+2017-05-19 13:37:46,309 :: INFO :: None
+2017-05-19 13:37:46,309 :: INFO :: None
+2017-05-19 13:37:46,309 :: INFO :: None
+2017-05-19 13:37:46,309 :: INFO :: None
+2017-05-19 13:37:46,310 :: INFO :: None
+2017-05-19 13:37:46,310 :: INFO :: None
+2017-05-19 13:37:46,310 :: INFO :: 127.0.0.1 - - [19/May/2017 13:37:46] "GET /wine/admin/dashboard/init HTTP/1.1" 200 -
+2017-05-19 13:38:31,410 :: INFO ::  * Detected change in '/home/ronan/Project1AL/Wine-Admin-Python/backend/utils/elasticsearch/catalogParsingQueries.py', reloading
+2017-05-19 13:38:31,625 :: INFO ::  * Restarting with stat
+2017-05-19 13:38:32,063 :: WARNING ::  * Debugger is active!
+2017-05-19 13:38:32,063 :: INFO ::  * Debugger PIN: 335-866-364
+2017-05-19 13:38:35,051 :: INFO :: GET http://localhost:9200/db_wine_admin/_search?size=0 [status:200 request:0.004s]
+2017-05-19 13:38:35,057 :: INFO :: GET http://localhost:9200/db_wine_admin/_search?size=0 [status:200 request:0.006s]
+2017-05-19 13:38:35,066 :: INFO :: GET http://localhost:9200/db_wine_admin/_search?size=0 [status:200 request:0.008s]
+2017-05-19 13:38:35,067 :: INFO :: {'2': {'buckets': [{'doc_count': 152721, 'key': 'vins'}, {'doc_count': 132139, 'key': 'blancs'}, {'doc_count': 129335, 'key': 'rouges'}, {'doc_count': 110044, 'key': 'champagne'}, {'doc_count': 75002, 'key': 'rosés'}], 'sum_other_doc_count': 8822, 'doc_count_error_upper_bound': 0}}
+2017-05-19 13:38:35,067 :: INFO :: 5
+2017-05-19 13:38:35,067 :: INFO :: {'doc_count': 132139, 'key': 'blancs'}
+2017-05-19 13:38:35,067 :: INFO :: None
+2017-05-19 13:38:35,068 :: INFO :: 127.0.0.1 - - [19/May/2017 13:38:35] "GET /wine/admin/dashboard/init HTTP/1.1" 200 -
+2017-05-19 13:39:33,563 :: INFO ::  * Detected change in '/home/ronan/Project1AL/Wine-Admin-Python/backend/utils/elasticsearch/catalogParsingQueries.py', reloading
+2017-05-19 13:39:33,676 :: INFO ::  * Restarting with stat
+2017-05-19 13:39:57,668 :: INFO ::  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2017-05-19 13:39:57,670 :: INFO ::  * Restarting with stat
+2017-05-19 13:39:58,086 :: WARNING ::  * Debugger is active!
+2017-05-19 13:39:58,087 :: INFO ::  * Debugger PIN: 335-866-364
+2017-05-19 13:39:59,465 :: INFO :: GET http://localhost:9200/db_wine_admin/_search?size=0 [status:200 request:0.006s]
+2017-05-19 13:39:59,470 :: INFO :: GET http://localhost:9200/db_wine_admin/_search?size=0 [status:200 request:0.005s]
+2017-05-19 13:39:59,484 :: INFO :: GET http://localhost:9200/db_wine_admin/_search?size=0 [status:200 request:0.013s]
+2017-05-19 13:39:59,485 :: INFO :: {'2': {'doc_count_error_upper_bound': 0, 'sum_other_doc_count': 8822, 'buckets': [{'key': 'vins', 'doc_count': 152721}, {'key': 'blancs', 'doc_count': 132139}, {'key': 'rouges', 'doc_count': 129335}, {'key': 'champagne', 'doc_count': 110044}, {'key': 'rosés', 'doc_count': 75002}]}}
+2017-05-19 13:39:59,498 :: INFO :: 127.0.0.1 - - [19/May/2017 13:39:59] "GET /wine/admin/dashboard/init HTTP/1.1" 500 -
+2017-05-19 13:39:59,513 :: INFO :: 127.0.0.1 - - [19/May/2017 13:39:59] "GET /wine/admin/dashboard/init?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2017-05-19 13:39:59,515 :: INFO :: 127.0.0.1 - - [19/May/2017 13:39:59] "GET /wine/admin/dashboard/init?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+2017-05-19 13:39:59,516 :: INFO :: 127.0.0.1 - - [19/May/2017 13:39:59] "GET /wine/admin/dashboard/init?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2017-05-19 13:39:59,640 :: INFO :: 127.0.0.1 - - [19/May/2017 13:39:59] "GET /wine/admin/dashboard/init?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2017-05-19 13:39:59,658 :: INFO :: 127.0.0.1 - - [19/May/2017 13:39:59] "GET /wine/admin/dashboard/init?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2017-05-19 13:40:51,557 :: INFO ::  * Detected change in '/home/ronan/Project1AL/Wine-Admin-Python/backend/utils/elasticsearch/catalogParsingQueries.py', reloading
+2017-05-19 13:40:51,688 :: INFO ::  * Restarting with stat
+2017-05-19 13:40:52,078 :: WARNING ::  * Debugger is active!
+2017-05-19 13:40:52,079 :: INFO ::  * Debugger PIN: 335-866-364
+2017-05-19 13:40:54,005 :: INFO :: GET http://localhost:9200/db_wine_admin/_search?size=0 [status:200 request:0.004s]
+2017-05-19 13:40:54,009 :: INFO :: GET http://localhost:9200/db_wine_admin/_search?size=0 [status:200 request:0.004s]
+2017-05-19 13:40:54,018 :: INFO :: GET http://localhost:9200/db_wine_admin/_search?size=0 [status:200 request:0.008s]
+2017-05-19 13:40:54,018 :: INFO :: <class 'list'>
+2017-05-19 13:40:54,025 :: INFO :: 127.0.0.1 - - [19/May/2017 13:40:54] "GET /wine/admin/dashboard/init HTTP/1.1" 500 -
+2017-05-19 13:40:54,036 :: INFO :: 127.0.0.1 - - [19/May/2017 13:40:54] "GET /wine/admin/dashboard/init?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2017-05-19 13:40:54,038 :: INFO :: 127.0.0.1 - - [19/May/2017 13:40:54] "GET /wine/admin/dashboard/init?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+2017-05-19 13:40:54,039 :: INFO :: 127.0.0.1 - - [19/May/2017 13:40:54] "GET /wine/admin/dashboard/init?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2017-05-19 13:40:54,142 :: INFO :: 127.0.0.1 - - [19/May/2017 13:40:54] "GET /wine/admin/dashboard/init?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2017-05-19 13:40:54,162 :: INFO :: 127.0.0.1 - - [19/May/2017 13:40:54] "GET /wine/admin/dashboard/init?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2017-05-19 13:42:31,979 :: INFO ::  * Detected change in '/home/ronan/Project1AL/Wine-Admin-Python/backend/utils/elasticsearch/catalogParsingQueries.py', reloading
+2017-05-19 13:42:32,246 :: INFO ::  * Restarting with stat
+2017-05-19 13:42:32,641 :: WARNING ::  * Debugger is active!
+2017-05-19 13:42:32,641 :: INFO ::  * Debugger PIN: 335-866-364
+2017-05-19 13:42:39,770 :: INFO :: GET http://localhost:9200/db_wine_admin/_search?size=0 [status:200 request:0.003s]
+2017-05-19 13:42:39,774 :: INFO :: GET http://localhost:9200/db_wine_admin/_search?size=0 [status:200 request:0.004s]
+2017-05-19 13:42:39,782 :: INFO :: GET http://localhost:9200/db_wine_admin/_search?size=0 [status:200 request:0.007s]
+2017-05-19 13:42:39,782 :: INFO :: <class 'list'>
+2017-05-19 13:42:39,783 :: INFO :: vins;152721
+2017-05-19 13:42:39,783 :: INFO :: blancs;132139
+2017-05-19 13:42:39,783 :: INFO :: rouges;129335
+2017-05-19 13:42:39,783 :: INFO :: champagne;110044
+2017-05-19 13:42:39,783 :: INFO :: rosés;75002
+2017-05-19 13:42:39,783 :: INFO :: None
+2017-05-19 13:42:39,784 :: INFO :: 127.0.0.1 - - [19/May/2017 13:42:39] "GET /wine/admin/dashboard/init HTTP/1.1" 200 -
+2017-05-19 13:44:22,566 :: INFO ::  * Detected change in '/home/ronan/Project1AL/Wine-Admin-Python/backend/utils/elasticsearch/catalogParsingQueries.py', reloading
+2017-05-19 13:44:22,827 :: INFO ::  * Restarting with stat
+2017-05-19 13:44:23,254 :: WARNING ::  * Debugger is active!
+2017-05-19 13:44:23,255 :: INFO ::  * Debugger PIN: 335-866-364
+2017-05-19 13:44:34,350 :: INFO ::  * Detected change in '/home/ronan/Project1AL/Wine-Admin-Python/backend/__init__.py', reloading
+2017-05-19 13:44:34,821 :: INFO ::  * Restarting with stat
+2017-05-19 13:44:35,251 :: WARNING ::  * Debugger is active!
+2017-05-19 13:44:35,251 :: INFO ::  * Debugger PIN: 335-866-364
+2017-05-19 13:44:35,822 :: INFO :: GET http://localhost:9200/db_wine_admin/_search?size=0 [status:200 request:0.007s]
+2017-05-19 13:44:35,828 :: INFO :: GET http://localhost:9200/db_wine_admin/_search?size=0 [status:200 request:0.005s]
+2017-05-19 13:44:35,842 :: INFO :: GET http://localhost:9200/db_wine_admin/_search?size=0 [status:200 request:0.013s]
+2017-05-19 13:44:35,842 :: INFO :: <class 'list'>
+2017-05-19 13:44:35,843 :: INFO :: None
+2017-05-19 13:44:35,844 :: INFO :: 127.0.0.1 - - [19/May/2017 13:44:35] "GET /wine/admin/dashboard/init HTTP/1.1" 200 -
+2017-05-19 13:45:37,801 :: INFO ::  * Detected change in '/home/ronan/Project1AL/Wine-Admin-Python/backend/utils/elasticsearch/catalogParsingQueries.py', reloading
+2017-05-19 13:45:37,865 :: INFO ::  * Restarting with stat
+2017-05-19 13:45:38,260 :: WARNING ::  * Debugger is active!
+2017-05-19 13:45:38,261 :: INFO ::  * Debugger PIN: 335-866-364
+2017-05-19 13:45:40,857 :: INFO :: GET http://localhost:9200/db_wine_admin/_search?size=0 [status:200 request:0.005s]
+2017-05-19 13:45:40,862 :: INFO :: GET http://localhost:9200/db_wine_admin/_search?size=0 [status:200 request:0.004s]
+2017-05-19 13:45:40,874 :: INFO :: GET http://localhost:9200/db_wine_admin/_search?size=0 [status:200 request:0.011s]
+2017-05-19 13:45:40,874 :: INFO :: <class 'list'>
+2017-05-19 13:45:40,874 :: INFO :: ['blancs:132139', 'rouges:129335', 'champagne:110044', 'rosés:75002']
+2017-05-19 13:45:40,874 :: INFO :: None
+2017-05-19 13:45:40,875 :: INFO :: 127.0.0.1 - - [19/May/2017 13:45:40] "GET /wine/admin/dashboard/init HTTP/1.1" 200 -
+2017-05-19 13:47:07,035 :: INFO ::  * Detected change in '/home/ronan/Project1AL/Wine-Admin-Python/backend/__init__.py', reloading
+2017-05-19 13:47:07,414 :: INFO ::  * Restarting with stat
+2017-05-19 13:47:07,823 :: WARNING ::  * Debugger is active!
+2017-05-19 13:47:07,824 :: INFO ::  * Debugger PIN: 335-866-364
+2017-05-19 13:47:09,493 :: INFO :: GET http://localhost:9200/db_wine_admin/_search?size=0 [status:200 request:0.005s]
+2017-05-19 13:47:09,498 :: INFO :: GET http://localhost:9200/db_wine_admin/_search?size=0 [status:200 request:0.005s]
+2017-05-19 13:47:09,512 :: INFO :: GET http://localhost:9200/db_wine_admin/_search?size=0 [status:200 request:0.012s]
+2017-05-19 13:47:09,512 :: INFO :: <class 'list'>
+2017-05-19 13:47:09,513 :: INFO :: ['blancs:132139', 'rouges:129335', 'champagne:110044', 'rosés:75002']
+2017-05-19 13:47:09,529 :: INFO :: 127.0.0.1 - - [19/May/2017 13:47:09] "GET /wine/admin/dashboard/init HTTP/1.1" 500 -
+2017-05-19 13:47:09,544 :: INFO :: 127.0.0.1 - - [19/May/2017 13:47:09] "GET /wine/admin/dashboard/init?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2017-05-19 13:47:09,545 :: INFO :: 127.0.0.1 - - [19/May/2017 13:47:09] "GET /wine/admin/dashboard/init?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+2017-05-19 13:47:09,547 :: INFO :: 127.0.0.1 - - [19/May/2017 13:47:09] "GET /wine/admin/dashboard/init?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2017-05-19 13:47:09,665 :: INFO :: 127.0.0.1 - - [19/May/2017 13:47:09] "GET /wine/admin/dashboard/init?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2017-05-19 13:47:09,682 :: INFO :: 127.0.0.1 - - [19/May/2017 13:47:09] "GET /wine/admin/dashboard/init?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2017-05-19 13:49:42,207 :: INFO ::  * Detected change in '/home/ronan/Project1AL/Wine-Admin-Python/backend/utils/elasticsearch/catalogParsingQueries.py', reloading
+2017-05-19 13:49:42,542 :: INFO ::  * Restarting with stat
+2017-05-19 13:49:42,943 :: WARNING ::  * Debugger is active!
+2017-05-19 13:49:42,944 :: INFO ::  * Debugger PIN: 335-866-364
+2017-05-19 13:49:43,782 :: INFO :: GET http://localhost:9200/db_wine_admin/_search?size=0 [status:200 request:0.003s]
+2017-05-19 13:49:43,785 :: INFO :: GET http://localhost:9200/db_wine_admin/_search?size=0 [status:200 request:0.003s]
+2017-05-19 13:49:43,793 :: INFO :: GET http://localhost:9200/db_wine_admin/_search?size=0 [status:200 request:0.007s]
+2017-05-19 13:49:43,793 :: INFO :: <class 'list'>
+2017-05-19 13:49:43,794 :: INFO :: ['blancs:132139', 'rouges:129335', 'champagne:110044', 'rosés:75002']
+2017-05-19 13:49:43,800 :: INFO :: 127.0.0.1 - - [19/May/2017 13:49:43] "GET /wine/admin/dashboard/init HTTP/1.1" 500 -
+2017-05-19 13:49:43,811 :: INFO :: 127.0.0.1 - - [19/May/2017 13:49:43] "GET /wine/admin/dashboard/init?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2017-05-19 13:49:43,813 :: INFO :: 127.0.0.1 - - [19/May/2017 13:49:43] "GET /wine/admin/dashboard/init?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+2017-05-19 13:49:43,814 :: INFO :: 127.0.0.1 - - [19/May/2017 13:49:43] "GET /wine/admin/dashboard/init?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2017-05-19 13:49:43,908 :: INFO :: 127.0.0.1 - - [19/May/2017 13:49:43] "GET /wine/admin/dashboard/init?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2017-05-19 13:49:43,923 :: INFO :: 127.0.0.1 - - [19/May/2017 13:49:43] "GET /wine/admin/dashboard/init?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2017-05-19 13:50:09,139 :: INFO ::  * Detected change in '/home/ronan/Project1AL/Wine-Admin-Python/backend/__init__.py', reloading
+2017-05-19 13:50:09,536 :: INFO ::  * Restarting with stat
+2017-05-19 13:50:25,207 :: INFO ::  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2017-05-19 13:50:25,209 :: INFO ::  * Restarting with stat
+2017-05-19 13:50:25,610 :: WARNING ::  * Debugger is active!
+2017-05-19 13:50:25,610 :: INFO ::  * Debugger PIN: 335-866-364
+2017-05-19 13:50:26,787 :: INFO :: GET http://localhost:9200/db_wine_admin/_search?size=0 [status:200 request:0.006s]
+2017-05-19 13:50:26,792 :: INFO :: GET http://localhost:9200/db_wine_admin/_search?size=0 [status:200 request:0.004s]
+2017-05-19 13:50:26,802 :: INFO :: GET http://localhost:9200/db_wine_admin/_search?size=0 [status:200 request:0.009s]
+2017-05-19 13:50:26,803 :: INFO :: <class 'list'>
+2017-05-19 13:50:26,803 :: INFO :: ['blancs:132139', 'rouges:129335', 'champagne:110044', 'rosés:75002']
+2017-05-19 13:50:26,803 :: INFO :: None
+2017-05-19 13:50:26,804 :: INFO :: 127.0.0.1 - - [19/May/2017 13:50:26] "GET /wine/admin/dashboard/init HTTP/1.1" 200 -
+2017-05-19 13:51:03,945 :: INFO ::  * Detected change in '/home/ronan/Project1AL/Wine-Admin-Python/backend/__init__.py', reloading
+2017-05-19 13:51:04,197 :: INFO ::  * Restarting with stat
+2017-05-19 13:51:04,586 :: WARNING ::  * Debugger is active!
+2017-05-19 13:51:04,587 :: INFO ::  * Debugger PIN: 335-866-364
+2017-05-19 13:53:46,994 :: INFO ::  * Detected change in '/home/ronan/Project1AL/Wine-Admin-Python/backend/utils/elasticsearch/catalogParsingQueries.py', reloading
+2017-05-19 13:53:47,332 :: INFO ::  * Restarting with stat
+2017-05-19 13:53:47,741 :: WARNING ::  * Debugger is active!
+2017-05-19 13:53:47,741 :: INFO ::  * Debugger PIN: 335-866-364
+2017-05-19 13:54:02,878 :: INFO ::  * Detected change in '/home/ronan/Project1AL/Wine-Admin-Python/backend/__init__.py', reloading
+2017-05-19 13:54:03,303 :: INFO ::  * Restarting with stat
+2017-05-19 13:54:03,713 :: WARNING ::  * Debugger is active!
+2017-05-19 13:54:03,714 :: INFO ::  * Debugger PIN: 335-866-364
+2017-05-19 13:54:06,365 :: INFO :: GET http://localhost:9200/db_wine_admin/_search?size=0 [status:200 request:0.005s]
+2017-05-19 13:54:06,371 :: INFO :: GET http://localhost:9200/db_wine_admin/_search?size=0 [status:200 request:0.004s]
+2017-05-19 13:54:06,382 :: INFO :: GET http://localhost:9200/db_wine_admin/_search?size=0 [status:200 request:0.010s]
+2017-05-19 13:54:06,382 :: INFO :: <class 'list'>
+2017-05-19 13:54:06,382 :: INFO :: {'loginLastMonth': 17175, 'wineDistribution': ['blancs:132139', 'rouges:129335', 'champagne:110044', 'rosés:75002'], 'activeUsers': 143212}
+2017-05-19 13:54:06,383 :: INFO :: 127.0.0.1 - - [19/May/2017 13:54:06] "GET /wine/admin/dashboard/init HTTP/1.1" 200 -
+2017-05-19 13:55:33,484 :: INFO ::  * Detected change in '/home/ronan/Project1AL/Wine-Admin-Python/backend/utils/elasticsearch/catalogParsingQueries.py', reloading
+2017-05-19 13:55:33,872 :: INFO ::  * Restarting with stat
+2017-05-19 13:55:34,315 :: WARNING ::  * Debugger is active!
+2017-05-19 13:55:34,316 :: INFO ::  * Debugger PIN: 335-866-364
+2017-05-19 13:55:36,991 :: INFO :: GET http://localhost:9200/db_wine_admin/_search?size=0 [status:200 request:0.006s]
+2017-05-19 13:55:36,996 :: INFO :: GET http://localhost:9200/db_wine_admin/_search?size=0 [status:200 request:0.005s]
+2017-05-19 13:55:37,009 :: INFO :: GET http://localhost:9200/db_wine_admin/_search?size=0 [status:200 request:0.012s]
+2017-05-19 13:55:37,010 :: INFO :: <class 'list'>
+2017-05-19 13:55:37,021 :: INFO :: 127.0.0.1 - - [19/May/2017 13:55:37] "GET /wine/admin/dashboard/init HTTP/1.1" 500 -
+2017-05-19 13:55:37,036 :: INFO :: 127.0.0.1 - - [19/May/2017 13:55:37] "GET /wine/admin/dashboard/init?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2017-05-19 13:55:37,038 :: INFO :: 127.0.0.1 - - [19/May/2017 13:55:37] "GET /wine/admin/dashboard/init?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+2017-05-19 13:55:37,040 :: INFO :: 127.0.0.1 - - [19/May/2017 13:55:37] "GET /wine/admin/dashboard/init?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2017-05-19 13:55:37,171 :: INFO :: 127.0.0.1 - - [19/May/2017 13:55:37] "GET /wine/admin/dashboard/init?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2017-05-19 13:55:37,189 :: INFO :: 127.0.0.1 - - [19/May/2017 13:55:37] "GET /wine/admin/dashboard/init?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2017-05-19 13:55:57,522 :: INFO ::  * Detected change in '/home/ronan/Project1AL/Wine-Admin-Python/backend/utils/elasticsearch/catalogParsingQueries.py', reloading
+2017-05-19 13:55:57,886 :: INFO ::  * Restarting with stat
+2017-05-19 13:57:18,550 :: INFO ::  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2017-05-19 13:57:18,551 :: INFO ::  * Restarting with stat
+2017-05-19 13:57:18,950 :: WARNING ::  * Debugger is active!
+2017-05-19 13:57:18,950 :: INFO ::  * Debugger PIN: 335-866-364
+2017-05-19 13:57:21,669 :: INFO :: GET http://localhost:9200/db_wine_admin/_search?size=0 [status:200 request:0.005s]
+2017-05-19 13:57:21,673 :: INFO :: GET http://localhost:9200/db_wine_admin/_search?size=0 [status:200 request:0.003s]
+2017-05-19 13:57:21,682 :: INFO :: GET http://localhost:9200/db_wine_admin/_search?size=0 [status:200 request:0.009s]
+2017-05-19 13:57:21,683 :: INFO :: <class 'list'>
+2017-05-19 13:57:21,691 :: INFO :: 127.0.0.1 - - [19/May/2017 13:57:21] "GET /wine/admin/dashboard/init HTTP/1.1" 500 -
+2017-05-19 13:57:21,701 :: INFO :: 127.0.0.1 - - [19/May/2017 13:57:21] "GET /wine/admin/dashboard/init?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2017-05-19 13:57:21,702 :: INFO :: 127.0.0.1 - - [19/May/2017 13:57:21] "GET /wine/admin/dashboard/init?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+2017-05-19 13:57:21,704 :: INFO :: 127.0.0.1 - - [19/May/2017 13:57:21] "GET /wine/admin/dashboard/init?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2017-05-19 13:57:21,809 :: INFO :: 127.0.0.1 - - [19/May/2017 13:57:21] "GET /wine/admin/dashboard/init?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2017-05-19 13:57:21,829 :: INFO :: 127.0.0.1 - - [19/May/2017 13:57:21] "GET /wine/admin/dashboard/init?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2017-05-19 13:59:21,990 :: INFO ::  * Detected change in '/home/ronan/Project1AL/Wine-Admin-Python/backend/utils/elasticsearch/catalogParsingQueries.py', reloading
+2017-05-19 13:59:22,143 :: INFO ::  * Restarting with stat
+2017-05-19 13:59:22,552 :: WARNING ::  * Debugger is active!
+2017-05-19 13:59:22,552 :: INFO ::  * Debugger PIN: 335-866-364
+2017-05-19 13:59:25,393 :: INFO :: GET http://localhost:9200/db_wine_admin/_search?size=0 [status:200 request:0.005s]
+2017-05-19 13:59:25,397 :: INFO :: GET http://localhost:9200/db_wine_admin/_search?size=0 [status:200 request:0.003s]
+2017-05-19 13:59:25,405 :: INFO :: GET http://localhost:9200/db_wine_admin/_search?size=0 [status:200 request:0.008s]
+2017-05-19 13:59:25,406 :: INFO :: <class 'list'>
+2017-05-19 13:59:25,413 :: INFO :: 127.0.0.1 - - [19/May/2017 13:59:25] "GET /wine/admin/dashboard/init HTTP/1.1" 500 -
+2017-05-19 13:59:25,425 :: INFO :: 127.0.0.1 - - [19/May/2017 13:59:25] "GET /wine/admin/dashboard/init?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2017-05-19 13:59:25,426 :: INFO :: 127.0.0.1 - - [19/May/2017 13:59:25] "GET /wine/admin/dashboard/init?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+2017-05-19 13:59:25,427 :: INFO :: 127.0.0.1 - - [19/May/2017 13:59:25] "GET /wine/admin/dashboard/init?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2017-05-19 13:59:25,535 :: INFO :: 127.0.0.1 - - [19/May/2017 13:59:25] "GET /wine/admin/dashboard/init?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2017-05-19 13:59:25,553 :: INFO :: 127.0.0.1 - - [19/May/2017 13:59:25] "GET /wine/admin/dashboard/init?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2017-05-19 13:59:29,609 :: INFO ::  * Detected change in '/home/ronan/Project1AL/Wine-Admin-Python/backend/utils/elasticsearch/catalogParsingQueries.py', reloading
+2017-05-19 13:59:30,114 :: INFO ::  * Restarting with stat
+2017-05-19 13:59:30,507 :: WARNING ::  * Debugger is active!
+2017-05-19 13:59:30,507 :: INFO ::  * Debugger PIN: 335-866-364
+2017-05-19 14:00:16,895 :: INFO ::  * Detected change in '/home/ronan/Project1AL/Wine-Admin-Python/backend/utils/elasticsearch/catalogParsingQueries.py', reloading
+2017-05-19 14:00:17,113 :: INFO ::  * Restarting with stat
+2017-05-19 14:00:35,344 :: INFO ::  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2017-05-19 14:00:35,346 :: INFO ::  * Restarting with stat
+2017-05-19 14:00:35,741 :: WARNING ::  * Debugger is active!
+2017-05-19 14:00:35,741 :: INFO ::  * Debugger PIN: 335-866-364
+2017-05-19 14:00:38,923 :: INFO :: GET http://localhost:9200/db_wine_admin/_search?size=0 [status:200 request:0.006s]
+2017-05-19 14:00:38,929 :: INFO :: GET http://localhost:9200/db_wine_admin/_search?size=0 [status:200 request:0.005s]
+2017-05-19 14:00:38,948 :: INFO :: GET http://localhost:9200/db_wine_admin/_search?size=0 [status:200 request:0.019s]
+2017-05-19 14:00:38,949 :: INFO :: <class 'list'>
+2017-05-19 14:00:38,949 :: INFO :: {'wineDistribution': ['blancs:132139', 'rouges:129335', 'champagne:110044', 'rosés:75002'], 'activeUsers': 143212, 'loginLastMonth': 17175}
+2017-05-19 14:00:38,950 :: INFO :: 127.0.0.1 - - [19/May/2017 14:00:38] "GET /wine/admin/dashboard/init HTTP/1.1" 200 -
+2017-05-19 14:03:21,154 :: INFO ::  * Detected change in '/home/ronan/Project1AL/Wine-Admin-Python/backend/utils/elasticsearch/catalogParsingQueries.py', reloading
+2017-05-19 14:03:21,471 :: INFO ::  * Restarting with stat
+2017-05-19 14:03:21,857 :: WARNING ::  * Debugger is active!
+2017-05-19 14:03:21,857 :: INFO ::  * Debugger PIN: 335-866-364
+2017-05-19 14:03:25,725 :: INFO :: GET http://localhost:9200/db_wine_admin/_search?size=0 [status:200 request:0.007s]
+2017-05-19 14:03:25,731 :: INFO :: GET http://localhost:9200/db_wine_admin/_search?size=0 [status:200 request:0.005s]
+2017-05-19 14:03:25,748 :: INFO :: GET http://localhost:9200/db_wine_admin/_search?size=0 [status:200 request:0.016s]
+2017-05-19 14:03:25,749 :: INFO :: <class 'list'>
+2017-05-19 14:03:25,767 :: INFO :: 127.0.0.1 - - [19/May/2017 14:03:25] "GET /wine/admin/dashboard/init HTTP/1.1" 500 -
+2017-05-19 14:03:25,784 :: INFO :: 127.0.0.1 - - [19/May/2017 14:03:25] "GET /wine/admin/dashboard/init?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2017-05-19 14:03:25,786 :: INFO :: 127.0.0.1 - - [19/May/2017 14:03:25] "GET /wine/admin/dashboard/init?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+2017-05-19 14:03:25,788 :: INFO :: 127.0.0.1 - - [19/May/2017 14:03:25] "GET /wine/admin/dashboard/init?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2017-05-19 14:03:25,921 :: INFO :: 127.0.0.1 - - [19/May/2017 14:03:25] "GET /wine/admin/dashboard/init?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2017-05-19 14:03:25,939 :: INFO :: 127.0.0.1 - - [19/May/2017 14:03:25] "GET /wine/admin/dashboard/init?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2017-05-19 14:03:42,035 :: INFO ::  * Detected change in '/home/ronan/Project1AL/Wine-Admin-Python/backend/utils/elasticsearch/catalogParsingQueries.py', reloading
+2017-05-19 14:03:42,438 :: INFO ::  * Restarting with stat
+2017-05-19 14:03:42,877 :: WARNING ::  * Debugger is active!
+2017-05-19 14:03:42,877 :: INFO ::  * Debugger PIN: 335-866-364
+2017-05-19 14:04:13,107 :: INFO ::  * Detected change in '/home/ronan/Project1AL/Wine-Admin-Python/backend/utils/elasticsearch/catalogParsingQueries.py', reloading
+2017-05-19 14:04:13,456 :: INFO ::  * Restarting with stat
+2017-05-19 14:04:13,923 :: WARNING ::  * Debugger is active!
+2017-05-19 14:04:13,923 :: INFO ::  * Debugger PIN: 335-866-364
+2017-05-19 14:04:16,856 :: INFO :: GET http://localhost:9200/db_wine_admin/_search?size=0 [status:200 request:0.006s]
+2017-05-19 14:04:16,861 :: INFO :: GET http://localhost:9200/db_wine_admin/_search?size=0 [status:200 request:0.005s]
+2017-05-19 14:04:16,873 :: INFO :: GET http://localhost:9200/db_wine_admin/_search?size=0 [status:200 request:0.011s]
+2017-05-19 14:04:16,873 :: INFO :: <class 'list'>
+2017-05-19 14:04:16,885 :: INFO :: 127.0.0.1 - - [19/May/2017 14:04:16] "GET /wine/admin/dashboard/init HTTP/1.1" 500 -
+2017-05-19 14:04:16,900 :: INFO :: 127.0.0.1 - - [19/May/2017 14:04:16] "GET /wine/admin/dashboard/init?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2017-05-19 14:04:16,902 :: INFO :: 127.0.0.1 - - [19/May/2017 14:04:16] "GET /wine/admin/dashboard/init?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+2017-05-19 14:04:16,903 :: INFO :: 127.0.0.1 - - [19/May/2017 14:04:16] "GET /wine/admin/dashboard/init?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2017-05-19 14:04:17,020 :: INFO :: 127.0.0.1 - - [19/May/2017 14:04:17] "GET /wine/admin/dashboard/init?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2017-05-19 14:04:17,038 :: INFO :: 127.0.0.1 - - [19/May/2017 14:04:17] "GET /wine/admin/dashboard/init?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2017-05-19 14:10:54,197 :: INFO ::  * Detected change in '/home/ronan/Project1AL/Wine-Admin-Python/backend/utils/elasticsearch/catalogParsingQueries.py', reloading
+2017-05-19 14:10:54,447 :: INFO ::  * Restarting with stat
+2017-05-19 14:10:54,852 :: WARNING ::  * Debugger is active!
+2017-05-19 14:10:54,852 :: INFO ::  * Debugger PIN: 335-866-364
+2017-05-19 14:11:01,896 :: INFO :: GET http://localhost:9200/db_wine_admin/_search?size=0 [status:200 request:0.005s]
+2017-05-19 14:11:01,900 :: INFO :: GET http://localhost:9200/db_wine_admin/_search?size=0 [status:200 request:0.004s]
+2017-05-19 14:11:01,915 :: INFO :: GET http://localhost:9200/db_wine_admin/_search?size=0 [status:200 request:0.014s]
+2017-05-19 14:11:01,915 :: INFO :: <class 'list'>
+2017-05-19 14:11:01,928 :: INFO :: 127.0.0.1 - - [19/May/2017 14:11:01] "GET /wine/admin/dashboard/init HTTP/1.1" 500 -
+2017-05-19 14:11:01,943 :: INFO :: 127.0.0.1 - - [19/May/2017 14:11:01] "GET /wine/admin/dashboard/init?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2017-05-19 14:11:01,945 :: INFO :: 127.0.0.1 - - [19/May/2017 14:11:01] "GET /wine/admin/dashboard/init?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+2017-05-19 14:11:01,946 :: INFO :: 127.0.0.1 - - [19/May/2017 14:11:01] "GET /wine/admin/dashboard/init?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2017-05-19 14:11:02,073 :: INFO :: 127.0.0.1 - - [19/May/2017 14:11:02] "GET /wine/admin/dashboard/init?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2017-05-19 14:11:02,091 :: INFO :: 127.0.0.1 - - [19/May/2017 14:11:02] "GET /wine/admin/dashboard/init?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2017-05-19 14:12:31,586 :: INFO ::  * Detected change in '/home/ronan/Project1AL/Wine-Admin-Python/backend/utils/elasticsearch/catalogParsingQueries.py', reloading
+2017-05-19 14:12:32,006 :: INFO ::  * Restarting with stat
+2017-05-19 14:12:32,603 :: WARNING ::  * Debugger is active!
+2017-05-19 14:12:32,604 :: INFO ::  * Debugger PIN: 335-866-364
+2017-05-19 14:14:49,559 :: INFO ::  * Detected change in '/home/ronan/Project1AL/Wine-Admin-Python/backend/utils/elasticsearch/catalogParsingQueries.py', reloading
+2017-05-19 14:14:49,814 :: INFO ::  * Restarting with stat
+2017-05-19 14:14:50,226 :: WARNING ::  * Debugger is active!
+2017-05-19 14:14:50,227 :: INFO ::  * Debugger PIN: 335-866-364
+2017-05-19 14:14:52,138 :: INFO :: GET http://localhost:9200/db_wine_admin/_search?size=0 [status:200 request:0.004s]
+2017-05-19 14:14:52,141 :: INFO :: GET http://localhost:9200/db_wine_admin/_search?size=0 [status:200 request:0.003s]
+2017-05-19 14:14:52,148 :: INFO :: GET http://localhost:9200/db_wine_admin/_search?size=0 [status:200 request:0.006s]
+2017-05-19 14:14:52,148 :: INFO :: <class 'list'>
+2017-05-19 14:14:52,156 :: INFO :: 127.0.0.1 - - [19/May/2017 14:14:52] "GET /wine/admin/dashboard/init HTTP/1.1" 500 -
+2017-05-19 14:14:52,166 :: INFO :: 127.0.0.1 - - [19/May/2017 14:14:52] "GET /wine/admin/dashboard/init?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2017-05-19 14:14:52,167 :: INFO :: 127.0.0.1 - - [19/May/2017 14:14:52] "GET /wine/admin/dashboard/init?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+2017-05-19 14:14:52,169 :: INFO :: 127.0.0.1 - - [19/May/2017 14:14:52] "GET /wine/admin/dashboard/init?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2017-05-19 14:14:52,272 :: INFO :: 127.0.0.1 - - [19/May/2017 14:14:52] "GET /wine/admin/dashboard/init?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2017-05-19 14:14:52,290 :: INFO :: 127.0.0.1 - - [19/May/2017 14:14:52] "GET /wine/admin/dashboard/init?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2017-05-19 14:15:09,352 :: INFO ::  * Detected change in '/home/ronan/Project1AL/Wine-Admin-Python/backend/utils/elasticsearch/catalogParsingQueries.py', reloading
+2017-05-19 14:15:09,793 :: INFO ::  * Restarting with stat
+2017-05-19 14:15:10,213 :: WARNING ::  * Debugger is active!
+2017-05-19 14:15:10,213 :: INFO ::  * Debugger PIN: 335-866-364
+2017-05-19 14:15:11,028 :: INFO :: GET http://localhost:9200/db_wine_admin/_search?size=0 [status:200 request:0.004s]
+2017-05-19 14:15:11,032 :: INFO :: GET http://localhost:9200/db_wine_admin/_search?size=0 [status:200 request:0.003s]
+2017-05-19 14:15:11,040 :: INFO :: GET http://localhost:9200/db_wine_admin/_search?size=0 [status:200 request:0.008s]
+2017-05-19 14:15:11,041 :: INFO :: <class 'list'>
+2017-05-19 14:15:11,048 :: INFO :: 127.0.0.1 - - [19/May/2017 14:15:11] "GET /wine/admin/dashboard/init HTTP/1.1" 500 -
+2017-05-19 14:15:11,060 :: INFO :: 127.0.0.1 - - [19/May/2017 14:15:11] "GET /wine/admin/dashboard/init?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2017-05-19 14:15:11,061 :: INFO :: 127.0.0.1 - - [19/May/2017 14:15:11] "GET /wine/admin/dashboard/init?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+2017-05-19 14:15:11,062 :: INFO :: 127.0.0.1 - - [19/May/2017 14:15:11] "GET /wine/admin/dashboard/init?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2017-05-19 14:15:11,173 :: INFO :: 127.0.0.1 - - [19/May/2017 14:15:11] "GET /wine/admin/dashboard/init?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2017-05-19 14:15:11,191 :: INFO :: 127.0.0.1 - - [19/May/2017 14:15:11] "GET /wine/admin/dashboard/init?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2017-05-19 14:15:11,894 :: INFO :: GET http://localhost:9200/db_wine_admin/_search?size=0 [status:200 request:0.002s]
+2017-05-19 14:15:11,898 :: INFO :: GET http://localhost:9200/db_wine_admin/_search?size=0 [status:200 request:0.003s]
+2017-05-19 14:15:11,907 :: INFO :: GET http://localhost:9200/db_wine_admin/_search?size=0 [status:200 request:0.008s]
+2017-05-19 14:15:11,907 :: INFO :: <class 'list'>
+2017-05-19 14:15:11,914 :: INFO :: 127.0.0.1 - - [19/May/2017 14:15:11] "GET /wine/admin/dashboard/init HTTP/1.1" 500 -
+2017-05-19 14:15:11,925 :: INFO :: 127.0.0.1 - - [19/May/2017 14:15:11] "GET /wine/admin/dashboard/init?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2017-05-19 14:15:11,926 :: INFO :: 127.0.0.1 - - [19/May/2017 14:15:11] "GET /wine/admin/dashboard/init?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+2017-05-19 14:15:11,927 :: INFO :: 127.0.0.1 - - [19/May/2017 14:15:11] "GET /wine/admin/dashboard/init?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2017-05-19 14:15:12,036 :: INFO :: 127.0.0.1 - - [19/May/2017 14:15:12] "GET /wine/admin/dashboard/init?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2017-05-19 14:15:12,054 :: INFO :: 127.0.0.1 - - [19/May/2017 14:15:12] "GET /wine/admin/dashboard/init?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2017-05-19 14:15:12,920 :: INFO :: GET http://localhost:9200/db_wine_admin/_search?size=0 [status:200 request:0.004s]
+2017-05-19 14:15:12,924 :: INFO :: GET http://localhost:9200/db_wine_admin/_search?size=0 [status:200 request:0.003s]
+2017-05-19 14:15:12,941 :: INFO :: GET http://localhost:9200/db_wine_admin/_search?size=0 [status:200 request:0.015s]
+2017-05-19 14:15:12,941 :: INFO :: <class 'list'>
+2017-05-19 14:15:12,952 :: INFO :: 127.0.0.1 - - [19/May/2017 14:15:12] "GET /wine/admin/dashboard/init HTTP/1.1" 500 -
+2017-05-19 14:15:12,965 :: INFO :: 127.0.0.1 - - [19/May/2017 14:15:12] "GET /wine/admin/dashboard/init?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2017-05-19 14:15:12,966 :: INFO :: 127.0.0.1 - - [19/May/2017 14:15:12] "GET /wine/admin/dashboard/init?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+2017-05-19 14:15:12,968 :: INFO :: 127.0.0.1 - - [19/May/2017 14:15:12] "GET /wine/admin/dashboard/init?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2017-05-19 14:15:13,086 :: INFO :: 127.0.0.1 - - [19/May/2017 14:15:13] "GET /wine/admin/dashboard/init?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2017-05-19 14:15:13,103 :: INFO :: 127.0.0.1 - - [19/May/2017 14:15:13] "GET /wine/admin/dashboard/init?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2017-05-19 14:15:38,446 :: INFO ::  * Detected change in '/home/ronan/Project1AL/Wine-Admin-Python/backend/utils/elasticsearch/catalogParsingQueries.py', reloading
+2017-05-19 14:15:38,789 :: INFO ::  * Restarting with stat
+2017-05-19 14:15:39,205 :: WARNING ::  * Debugger is active!
+2017-05-19 14:15:39,205 :: INFO ::  * Debugger PIN: 335-866-364
+2017-05-19 14:15:39,211 :: INFO :: GET http://localhost:9200/db_wine_admin/_search?size=0 [status:200 request:0.003s]
+2017-05-19 14:15:39,216 :: INFO :: GET http://localhost:9200/db_wine_admin/_search?size=0 [status:200 request:0.003s]
+2017-05-19 14:15:39,225 :: INFO :: GET http://localhost:9200/db_wine_admin/_search?size=0 [status:200 request:0.009s]
+2017-05-19 14:15:39,225 :: INFO :: <class 'list'>
+2017-05-19 14:15:39,225 :: INFO :: {'wineDistribution': ['blancs:132139', 'rouges:129335', 'champagne:110044', 'rosés:75002'], 'loginLastMonth': 17175, 'activeUsers': 143212}
+2017-05-19 14:15:39,226 :: INFO :: 127.0.0.1 - - [19/May/2017 14:15:39] "GET /wine/admin/dashboard/init HTTP/1.1" 200 -
+2017-05-19 14:15:53,314 :: INFO ::  * Detected change in '/home/ronan/Project1AL/Wine-Admin-Python/backend/utils/elasticsearch/catalogParsingQueries.py', reloading
+2017-05-19 14:15:53,773 :: INFO ::  * Restarting with stat
+2017-05-19 14:15:54,184 :: WARNING ::  * Debugger is active!
+2017-05-19 14:15:54,184 :: INFO ::  * Debugger PIN: 335-866-364
+2017-05-19 14:15:55,091 :: INFO :: GET http://localhost:9200/db_wine_admin/_search?size=0 [status:200 request:0.005s]
+2017-05-19 14:15:55,096 :: INFO :: GET http://localhost:9200/db_wine_admin/_search?size=0 [status:200 request:0.004s]
+2017-05-19 14:15:55,106 :: INFO :: GET http://localhost:9200/db_wine_admin/_search?size=0 [status:200 request:0.010s]
+2017-05-19 14:15:55,107 :: INFO :: <class 'list'>
+2017-05-19 14:15:55,118 :: INFO :: 127.0.0.1 - - [19/May/2017 14:15:55] "GET /wine/admin/dashboard/init HTTP/1.1" 500 -
+2017-05-19 14:15:55,132 :: INFO :: 127.0.0.1 - - [19/May/2017 14:15:55] "GET /wine/admin/dashboard/init?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2017-05-19 14:15:55,134 :: INFO :: 127.0.0.1 - - [19/May/2017 14:15:55] "GET /wine/admin/dashboard/init?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+2017-05-19 14:15:55,135 :: INFO :: 127.0.0.1 - - [19/May/2017 14:15:55] "GET /wine/admin/dashboard/init?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2017-05-19 14:15:55,250 :: INFO :: 127.0.0.1 - - [19/May/2017 14:15:55] "GET /wine/admin/dashboard/init?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2017-05-19 14:15:55,268 :: INFO :: 127.0.0.1 - - [19/May/2017 14:15:55] "GET /wine/admin/dashboard/init?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2017-05-19 14:16:04,256 :: INFO ::  * Detected change in '/home/ronan/Project1AL/Wine-Admin-Python/backend/utils/elasticsearch/catalogParsingQueries.py', reloading
+2017-05-19 14:16:04,731 :: INFO ::  * Restarting with stat
+2017-05-19 14:16:05,295 :: WARNING ::  * Debugger is active!
+2017-05-19 14:16:05,296 :: INFO ::  * Debugger PIN: 335-866-364
+2017-05-19 14:16:06,999 :: INFO :: GET http://localhost:9200/db_wine_admin/_search?size=0 [status:200 request:0.004s]
+2017-05-19 14:16:07,007 :: INFO :: GET http://localhost:9200/db_wine_admin/_search?size=0 [status:200 request:0.007s]
+2017-05-19 14:16:07,030 :: INFO :: GET http://localhost:9200/db_wine_admin/_search?size=0 [status:200 request:0.022s]
+2017-05-19 14:16:07,030 :: INFO :: <class 'list'>
+2017-05-19 14:16:07,043 :: INFO :: 127.0.0.1 - - [19/May/2017 14:16:07] "GET /wine/admin/dashboard/init HTTP/1.1" 500 -
+2017-05-19 14:16:07,064 :: INFO :: 127.0.0.1 - - [19/May/2017 14:16:07] "GET /wine/admin/dashboard/init?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2017-05-19 14:16:07,066 :: INFO :: 127.0.0.1 - - [19/May/2017 14:16:07] "GET /wine/admin/dashboard/init?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+2017-05-19 14:16:07,069 :: INFO :: 127.0.0.1 - - [19/May/2017 14:16:07] "GET /wine/admin/dashboard/init?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2017-05-19 14:16:07,306 :: INFO :: 127.0.0.1 - - [19/May/2017 14:16:07] "GET /wine/admin/dashboard/init?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2017-05-19 14:16:07,345 :: INFO :: 127.0.0.1 - - [19/May/2017 14:16:07] "GET /wine/admin/dashboard/init?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2017-05-19 14:18:36,404 :: INFO ::  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2017-05-19 14:18:36,405 :: INFO ::  * Restarting with stat
+2017-05-19 14:18:36,802 :: WARNING ::  * Debugger is active!
+2017-05-19 14:18:36,802 :: INFO ::  * Debugger PIN: 335-866-364
+2017-05-19 14:19:14,096 :: INFO ::  * Detected change in '/home/ronan/Project1AL/Wine-Admin-Python/backend/utils/elasticsearch/catalogParsingQueries.py', reloading
+2017-05-19 14:19:14,411 :: INFO ::  * Restarting with stat
+2017-05-19 14:19:14,912 :: WARNING ::  * Debugger is active!
+2017-05-19 14:19:14,913 :: INFO ::  * Debugger PIN: 335-866-364
+2017-05-19 14:19:16,045 :: INFO :: GET http://localhost:9200/db_wine_admin/_search?size=0 [status:200 request:0.003s]
+2017-05-19 14:19:16,048 :: INFO :: GET http://localhost:9200/db_wine_admin/_search?size=0 [status:200 request:0.003s]
+2017-05-19 14:19:16,056 :: INFO :: GET http://localhost:9200/db_wine_admin/_search?size=0 [status:200 request:0.007s]
+2017-05-19 14:19:16,056 :: INFO :: <class 'list'>
+2017-05-19 14:19:16,056 :: INFO :: {'loginLastMonth': 17175, 'activeUsers': 143212, 'wineDistribution': ['blancs:132139', 'rouges:129335', 'champagne:110044', 'rosés:75002']}
+2017-05-19 14:19:16,057 :: INFO :: 127.0.0.1 - - [19/May/2017 14:19:16] "GET /wine/admin/dashboard/init HTTP/1.1" 200 -
+2017-05-19 14:19:32,062 :: INFO ::  * Detected change in '/home/ronan/Project1AL/Wine-Admin-Python/backend/utils/elasticsearch/catalogParsingQueries.py', reloading
+2017-05-19 14:19:32,489 :: INFO ::  * Restarting with stat
+2017-05-19 14:19:32,886 :: WARNING ::  * Debugger is active!
+2017-05-19 14:19:32,887 :: INFO ::  * Debugger PIN: 335-866-364
+2017-05-19 14:19:34,037 :: INFO :: GET http://localhost:9200/db_wine_admin/_search?size=0 [status:200 request:0.004s]
+2017-05-19 14:19:34,041 :: INFO :: GET http://localhost:9200/db_wine_admin/_search?size=0 [status:200 request:0.003s]
+2017-05-19 14:19:34,051 :: INFO :: GET http://localhost:9200/db_wine_admin/_search?size=0 [status:200 request:0.009s]
+2017-05-19 14:19:34,051 :: INFO :: <class 'list'>
+2017-05-19 14:19:34,051 :: INFO :: {'loginLastMonth': 17175, 'activeUsers': 143212, 'wineDistribution': ['blancs', 'rouges', 'champagne', 'rosés']}
+2017-05-19 14:19:34,052 :: INFO :: 127.0.0.1 - - [19/May/2017 14:19:34] "GET /wine/admin/dashboard/init HTTP/1.1" 200 -
+2017-05-19 14:19:37,938 :: INFO ::  * Detected change in '/home/ronan/Project1AL/Wine-Admin-Python/backend/utils/elasticsearch/catalogParsingQueries.py', reloading
+2017-05-19 14:19:38,432 :: INFO ::  * Restarting with stat
+2017-05-19 14:19:38,824 :: WARNING ::  * Debugger is active!
+2017-05-19 14:19:38,824 :: INFO ::  * Debugger PIN: 335-866-364
+2017-05-19 14:20:48,438 :: INFO ::  * Detected change in '/home/ronan/Project1AL/Wine-Admin-Python/backend/utils/elasticsearch/catalogParsingQueries.py', reloading
+2017-05-19 14:20:48,969 :: INFO ::  * Restarting with stat
+2017-05-19 14:20:49,399 :: WARNING ::  * Debugger is active!
+2017-05-19 14:20:49,400 :: INFO ::  * Debugger PIN: 335-866-364
+2017-05-19 14:20:51,351 :: INFO :: GET http://localhost:9200/db_wine_admin/_search?size=0 [status:200 request:0.003s]
+2017-05-19 14:20:51,354 :: INFO :: GET http://localhost:9200/db_wine_admin/_search?size=0 [status:200 request:0.003s]
+2017-05-19 14:20:51,362 :: INFO :: GET http://localhost:9200/db_wine_admin/_search?size=0 [status:200 request:0.007s]
+2017-05-19 14:20:51,362 :: INFO :: <class 'list'>
+2017-05-19 14:20:51,362 :: INFO :: {'loginLastMonth': 17175, 'activeUsers': 143212, 'wineDistribution': ['blancs:132139', 'rouges:129335', 'champagne:110044', 'rosés:75002']}
+2017-05-19 14:20:51,363 :: INFO :: 127.0.0.1 - - [19/May/2017 14:20:51] "GET /wine/admin/dashboard/init HTTP/1.1" 200 -
+2017-05-19 14:20:54,539 :: INFO :: GET http://localhost:9200/db_wine_admin/_search?size=0 [status:200 request:0.006s]
+2017-05-19 14:20:54,543 :: INFO :: GET http://localhost:9200/db_wine_admin/_search?size=0 [status:200 request:0.003s]
+2017-05-19 14:20:54,555 :: INFO :: GET http://localhost:9200/db_wine_admin/_search?size=0 [status:200 request:0.011s]
+2017-05-19 14:20:54,555 :: INFO :: <class 'list'>
+2017-05-19 14:20:54,555 :: INFO :: {'loginLastMonth': 17175, 'activeUsers': 143212, 'wineDistribution': ['blancs:132139', 'rouges:129335', 'champagne:110044', 'rosés:75002']}
+2017-05-19 14:20:54,556 :: INFO :: 127.0.0.1 - - [19/May/2017 14:20:54] "GET /wine/admin/dashboard/init HTTP/1.1" 200 -
+2017-05-19 14:20:54,968 :: INFO :: GET http://localhost:9200/db_wine_admin/_search?size=0 [status:200 request:0.004s]
+2017-05-19 14:20:54,972 :: INFO :: GET http://localhost:9200/db_wine_admin/_search?size=0 [status:200 request:0.003s]
+2017-05-19 14:20:54,984 :: INFO :: GET http://localhost:9200/db_wine_admin/_search?size=0 [status:200 request:0.011s]
+2017-05-19 14:20:54,984 :: INFO :: <class 'list'>
+2017-05-19 14:20:54,985 :: INFO :: {'loginLastMonth': 17175, 'activeUsers': 143212, 'wineDistribution': ['blancs:132139', 'rouges:129335', 'champagne:110044', 'rosés:75002']}
+2017-05-19 14:20:54,985 :: INFO :: 127.0.0.1 - - [19/May/2017 14:20:54] "GET /wine/admin/dashboard/init HTTP/1.1" 200 -
+2017-05-19 14:20:55,471 :: INFO :: GET http://localhost:9200/db_wine_admin/_search?size=0 [status:200 request:0.004s]
+2017-05-19 14:20:55,476 :: INFO :: GET http://localhost:9200/db_wine_admin/_search?size=0 [status:200 request:0.004s]
+2017-05-19 14:20:55,487 :: INFO :: GET http://localhost:9200/db_wine_admin/_search?size=0 [status:200 request:0.010s]
+2017-05-19 14:20:55,487 :: INFO :: <class 'list'>
+2017-05-19 14:20:55,487 :: INFO :: {'loginLastMonth': 17175, 'activeUsers': 143212, 'wineDistribution': ['blancs:132139', 'rouges:129335', 'champagne:110044', 'rosés:75002']}
+2017-05-19 14:20:55,488 :: INFO :: 127.0.0.1 - - [19/May/2017 14:20:55] "GET /wine/admin/dashboard/init HTTP/1.1" 200 -
+2017-05-19 14:20:55,688 :: INFO :: GET http://localhost:9200/db_wine_admin/_search?size=0 [status:200 request:0.003s]
+2017-05-19 14:20:55,691 :: INFO :: GET http://localhost:9200/db_wine_admin/_search?size=0 [status:200 request:0.003s]
+2017-05-19 14:20:55,703 :: INFO :: GET http://localhost:9200/db_wine_admin/_search?size=0 [status:200 request:0.011s]
+2017-05-19 14:20:55,703 :: INFO :: <class 'list'>
+2017-05-19 14:20:55,703 :: INFO :: {'loginLastMonth': 17175, 'activeUsers': 143212, 'wineDistribution': ['blancs:132139', 'rouges:129335', 'champagne:110044', 'rosés:75002']}
+2017-05-19 14:20:55,704 :: INFO :: 127.0.0.1 - - [19/May/2017 14:20:55] "GET /wine/admin/dashboard/init HTTP/1.1" 200 -
+2017-05-19 14:20:55,905 :: INFO :: GET http://localhost:9200/db_wine_admin/_search?size=0 [status:200 request:0.004s]
+2017-05-19 14:20:55,913 :: INFO :: GET http://localhost:9200/db_wine_admin/_search?size=0 [status:200 request:0.007s]
+2017-05-19 14:20:55,922 :: INFO :: GET http://localhost:9200/db_wine_admin/_search?size=0 [status:200 request:0.008s]
+2017-05-19 14:20:55,922 :: INFO :: <class 'list'>
+2017-05-19 14:20:55,922 :: INFO :: {'loginLastMonth': 17175, 'activeUsers': 143212, 'wineDistribution': ['blancs:132139', 'rouges:129335', 'champagne:110044', 'rosés:75002']}
+2017-05-19 14:20:55,922 :: INFO :: 127.0.0.1 - - [19/May/2017 14:20:55] "GET /wine/admin/dashboard/init HTTP/1.1" 200 -
+2017-05-19 14:20:56,093 :: INFO :: GET http://localhost:9200/db_wine_admin/_search?size=0 [status:200 request:0.002s]
+2017-05-19 14:20:56,097 :: INFO :: GET http://localhost:9200/db_wine_admin/_search?size=0 [status:200 request:0.003s]
+2017-05-19 14:20:56,104 :: INFO :: GET http://localhost:9200/db_wine_admin/_search?size=0 [status:200 request:0.007s]
+2017-05-19 14:20:56,104 :: INFO :: <class 'list'>
+2017-05-19 14:20:56,104 :: INFO :: {'loginLastMonth': 17175, 'activeUsers': 143212, 'wineDistribution': ['blancs:132139', 'rouges:129335', 'champagne:110044', 'rosés:75002']}
+2017-05-19 14:20:56,105 :: INFO :: 127.0.0.1 - - [19/May/2017 14:20:56] "GET /wine/admin/dashboard/init HTTP/1.1" 200 -
+2017-05-19 14:20:56,269 :: INFO :: GET http://localhost:9200/db_wine_admin/_search?size=0 [status:200 request:0.002s]
+2017-05-19 14:20:56,273 :: INFO :: GET http://localhost:9200/db_wine_admin/_search?size=0 [status:200 request:0.003s]
+2017-05-19 14:20:56,280 :: INFO :: GET http://localhost:9200/db_wine_admin/_search?size=0 [status:200 request:0.007s]
+2017-05-19 14:20:56,281 :: INFO :: <class 'list'>
+2017-05-19 14:20:56,281 :: INFO :: {'loginLastMonth': 17175, 'activeUsers': 143212, 'wineDistribution': ['blancs:132139', 'rouges:129335', 'champagne:110044', 'rosés:75002']}
+2017-05-19 14:20:56,281 :: INFO :: 127.0.0.1 - - [19/May/2017 14:20:56] "GET /wine/admin/dashboard/init HTTP/1.1" 200 -
+2017-05-19 14:20:56,476 :: INFO :: GET http://localhost:9200/db_wine_admin/_search?size=0 [status:200 request:0.003s]
+2017-05-19 14:20:56,479 :: INFO :: GET http://localhost:9200/db_wine_admin/_search?size=0 [status:200 request:0.002s]
+2017-05-19 14:20:56,487 :: INFO :: GET http://localhost:9200/db_wine_admin/_search?size=0 [status:200 request:0.008s]
+2017-05-19 14:20:56,488 :: INFO :: <class 'list'>
+2017-05-19 14:20:56,488 :: INFO :: {'loginLastMonth': 17175, 'activeUsers': 143212, 'wineDistribution': ['blancs:132139', 'rouges:129335', 'champagne:110044', 'rosés:75002']}
+2017-05-19 14:20:56,489 :: INFO :: 127.0.0.1 - - [19/May/2017 14:20:56] "GET /wine/admin/dashboard/init HTTP/1.1" 200 -
+2017-05-19 14:20:56,652 :: INFO :: GET http://localhost:9200/db_wine_admin/_search?size=0 [status:200 request:0.003s]
+2017-05-19 14:20:56,657 :: INFO :: GET http://localhost:9200/db_wine_admin/_search?size=0 [status:200 request:0.003s]
+2017-05-19 14:20:56,665 :: INFO :: GET http://localhost:9200/db_wine_admin/_search?size=0 [status:200 request:0.008s]
+2017-05-19 14:20:56,665 :: INFO :: <class 'list'>
+2017-05-19 14:20:56,665 :: INFO :: {'loginLastMonth': 17175, 'activeUsers': 143212, 'wineDistribution': ['blancs:132139', 'rouges:129335', 'champagne:110044', 'rosés:75002']}
+2017-05-19 14:20:56,666 :: INFO :: 127.0.0.1 - - [19/May/2017 14:20:56] "GET /wine/admin/dashboard/init HTTP/1.1" 200 -
+2017-05-19 14:20:56,833 :: INFO :: GET http://localhost:9200/db_wine_admin/_search?size=0 [status:200 request:0.002s]
+2017-05-19 14:20:56,837 :: INFO :: GET http://localhost:9200/db_wine_admin/_search?size=0 [status:200 request:0.003s]
+2017-05-19 14:20:56,846 :: INFO :: GET http://localhost:9200/db_wine_admin/_search?size=0 [status:200 request:0.008s]
+2017-05-19 14:20:56,846 :: INFO :: <class 'list'>
+2017-05-19 14:20:56,846 :: INFO :: {'loginLastMonth': 17175, 'activeUsers': 143212, 'wineDistribution': ['blancs:132139', 'rouges:129335', 'champagne:110044', 'rosés:75002']}
+2017-05-19 14:20:56,847 :: INFO :: 127.0.0.1 - - [19/May/2017 14:20:56] "GET /wine/admin/dashboard/init HTTP/1.1" 200 -
+2017-05-19 14:20:57,002 :: INFO :: GET http://localhost:9200/db_wine_admin/_search?size=0 [status:200 request:0.002s]
+2017-05-19 14:20:57,005 :: INFO :: GET http://localhost:9200/db_wine_admin/_search?size=0 [status:200 request:0.002s]
+2017-05-19 14:20:57,012 :: INFO :: GET http://localhost:9200/db_wine_admin/_search?size=0 [status:200 request:0.007s]
+2017-05-19 14:20:57,013 :: INFO :: <class 'list'>
+2017-05-19 14:20:57,013 :: INFO :: {'loginLastMonth': 17175, 'activeUsers': 143212, 'wineDistribution': ['blancs:132139', 'rouges:129335', 'champagne:110044', 'rosés:75002']}
+2017-05-19 14:20:57,013 :: INFO :: 127.0.0.1 - - [19/May/2017 14:20:57] "GET /wine/admin/dashboard/init HTTP/1.1" 200 -
+2017-05-19 14:20:57,190 :: INFO :: GET http://localhost:9200/db_wine_admin/_search?size=0 [status:200 request:0.003s]
+2017-05-19 14:20:57,195 :: INFO :: GET http://localhost:9200/db_wine_admin/_search?size=0 [status:200 request:0.004s]
+2017-05-19 14:20:57,205 :: INFO :: GET http://localhost:9200/db_wine_admin/_search?size=0 [status:200 request:0.009s]
+2017-05-19 14:20:57,205 :: INFO :: <class 'list'>
+2017-05-19 14:20:57,205 :: INFO :: {'loginLastMonth': 17175, 'activeUsers': 143212, 'wineDistribution': ['blancs:132139', 'rouges:129335', 'champagne:110044', 'rosés:75002']}
+2017-05-19 14:20:57,206 :: INFO :: 127.0.0.1 - - [19/May/2017 14:20:57] "GET /wine/admin/dashboard/init HTTP/1.1" 200 -
+2017-05-19 14:20:57,415 :: INFO :: GET http://localhost:9200/db_wine_admin/_search?size=0 [status:200 request:0.002s]
+2017-05-19 14:20:57,417 :: INFO :: GET http://localhost:9200/db_wine_admin/_search?size=0 [status:200 request:0.002s]
+2017-05-19 14:20:57,425 :: INFO :: GET http://localhost:9200/db_wine_admin/_search?size=0 [status:200 request:0.007s]
+2017-05-19 14:20:57,426 :: INFO :: <class 'list'>
+2017-05-19 14:20:57,426 :: INFO :: {'loginLastMonth': 17175, 'activeUsers': 143212, 'wineDistribution': ['blancs:132139', 'rouges:129335', 'champagne:110044', 'rosés:75002']}
+2017-05-19 14:20:57,426 :: INFO :: 127.0.0.1 - - [19/May/2017 14:20:57] "GET /wine/admin/dashboard/init HTTP/1.1" 200 -
+2017-05-19 14:20:57,615 :: INFO :: GET http://localhost:9200/db_wine_admin/_search?size=0 [status:200 request:0.003s]
+2017-05-19 14:20:57,618 :: INFO :: GET http://localhost:9200/db_wine_admin/_search?size=0 [status:200 request:0.002s]
+2017-05-19 14:20:57,626 :: INFO :: GET http://localhost:9200/db_wine_admin/_search?size=0 [status:200 request:0.008s]
+2017-05-19 14:20:57,626 :: INFO :: <class 'list'>
+2017-05-19 14:20:57,627 :: INFO :: {'loginLastMonth': 17175, 'activeUsers': 143212, 'wineDistribution': ['blancs:132139', 'rouges:129335', 'champagne:110044', 'rosés:75002']}
+2017-05-19 14:20:57,627 :: INFO :: 127.0.0.1 - - [19/May/2017 14:20:57] "GET /wine/admin/dashboard/init HTTP/1.1" 200 -
+2017-05-19 14:20:57,808 :: INFO :: GET http://localhost:9200/db_wine_admin/_search?size=0 [status:200 request:0.002s]
+2017-05-19 14:20:57,811 :: INFO :: GET http://localhost:9200/db_wine_admin/_search?size=0 [status:200 request:0.002s]
+2017-05-19 14:20:57,822 :: INFO :: GET http://localhost:9200/db_wine_admin/_search?size=0 [status:200 request:0.011s]
+2017-05-19 14:20:57,823 :: INFO :: <class 'list'>
+2017-05-19 14:20:57,823 :: INFO :: {'loginLastMonth': 17175, 'activeUsers': 143212, 'wineDistribution': ['blancs:132139', 'rouges:129335', 'champagne:110044', 'rosés:75002']}
+2017-05-19 14:20:57,823 :: INFO :: 127.0.0.1 - - [19/May/2017 14:20:57] "GET /wine/admin/dashboard/init HTTP/1.1" 200 -
+2017-05-19 14:20:57,996 :: INFO :: GET http://localhost:9200/db_wine_admin/_search?size=0 [status:200 request:0.003s]
+2017-05-19 14:20:58,000 :: INFO :: GET http://localhost:9200/db_wine_admin/_search?size=0 [status:200 request:0.003s]
+2017-05-19 14:20:58,008 :: INFO :: GET http://localhost:9200/db_wine_admin/_search?size=0 [status:200 request:0.007s]
+2017-05-19 14:20:58,008 :: INFO :: <class 'list'>
+2017-05-19 14:20:58,009 :: INFO :: {'loginLastMonth': 17175, 'activeUsers': 143212, 'wineDistribution': ['blancs:132139', 'rouges:129335', 'champagne:110044', 'rosés:75002']}
+2017-05-19 14:20:58,009 :: INFO :: 127.0.0.1 - - [19/May/2017 14:20:58] "GET /wine/admin/dashboard/init HTTP/1.1" 200 -
+2017-05-19 14:20:58,197 :: INFO :: GET http://localhost:9200/db_wine_admin/_search?size=0 [status:200 request:0.002s]
+2017-05-19 14:20:58,200 :: INFO :: GET http://localhost:9200/db_wine_admin/_search?size=0 [status:200 request:0.002s]
+2017-05-19 14:20:58,211 :: INFO :: GET http://localhost:9200/db_wine_admin/_search?size=0 [status:200 request:0.010s]
+2017-05-19 14:20:58,211 :: INFO :: <class 'list'>
+2017-05-19 14:20:58,211 :: INFO :: {'loginLastMonth': 17175, 'activeUsers': 143212, 'wineDistribution': ['blancs:132139', 'rouges:129335', 'champagne:110044', 'rosés:75002']}
+2017-05-19 14:20:58,212 :: INFO :: 127.0.0.1 - - [19/May/2017 14:20:58] "GET /wine/admin/dashboard/init HTTP/1.1" 200 -
+2017-05-19 14:20:58,435 :: INFO :: GET http://localhost:9200/db_wine_admin/_search?size=0 [status:200 request:0.002s]
+2017-05-19 14:20:58,437 :: INFO :: GET http://localhost:9200/db_wine_admin/_search?size=0 [status:200 request:0.002s]
+2017-05-19 14:20:58,445 :: INFO :: GET http://localhost:9200/db_wine_admin/_search?size=0 [status:200 request:0.007s]
+2017-05-19 14:20:58,445 :: INFO :: <class 'list'>
+2017-05-19 14:20:58,445 :: INFO :: {'loginLastMonth': 17175, 'activeUsers': 143212, 'wineDistribution': ['blancs:132139', 'rouges:129335', 'champagne:110044', 'rosés:75002']}
+2017-05-19 14:20:58,446 :: INFO :: 127.0.0.1 - - [19/May/2017 14:20:58] "GET /wine/admin/dashboard/init HTTP/1.1" 200 -
+2017-05-19 14:20:58,625 :: INFO :: GET http://localhost:9200/db_wine_admin/_search?size=0 [status:200 request:0.003s]
+2017-05-19 14:20:58,629 :: INFO :: GET http://localhost:9200/db_wine_admin/_search?size=0 [status:200 request:0.003s]
+2017-05-19 14:20:58,636 :: INFO :: GET http://localhost:9200/db_wine_admin/_search?size=0 [status:200 request:0.007s]
+2017-05-19 14:20:58,636 :: INFO :: <class 'list'>
+2017-05-19 14:20:58,637 :: INFO :: {'loginLastMonth': 17175, 'activeUsers': 143212, 'wineDistribution': ['blancs:132139', 'rouges:129335', 'champagne:110044', 'rosés:75002']}
+2017-05-19 14:20:58,637 :: INFO :: 127.0.0.1 - - [19/May/2017 14:20:58] "GET /wine/admin/dashboard/init HTTP/1.1" 200 -
+2017-05-19 14:21:44,918 :: INFO ::  * Detected change in '/home/ronan/Project1AL/Wine-Admin-Python/backend/utils/elasticsearch/catalogParsingQueries.py', reloading
+2017-05-19 14:21:45,011 :: INFO ::  * Restarting with stat
+2017-05-19 14:21:45,419 :: WARNING ::  * Debugger is active!
+2017-05-19 14:21:45,420 :: INFO ::  * Debugger PIN: 335-866-364
+2017-05-19 14:23:30,324 :: INFO ::  * Detected change in '/home/ronan/Project1AL/Wine-Admin-Python/backend/utils/elasticsearch/catalogParsingQueries.py', reloading
+2017-05-19 14:23:30,593 :: INFO ::  * Restarting with stat
+2017-05-19 14:23:44,322 :: INFO ::  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2017-05-19 14:23:44,324 :: INFO ::  * Restarting with stat
+2017-05-19 14:23:44,726 :: WARNING ::  * Debugger is active!
+2017-05-19 14:23:44,726 :: INFO ::  * Debugger PIN: 335-866-364
+2017-05-19 14:23:45,803 :: INFO :: GET http://localhost:9200/db_wine_admin/_search?size=0 [status:200 request:0.005s]
+2017-05-19 14:23:45,808 :: INFO :: GET http://localhost:9200/db_wine_admin/_search?size=0 [status:200 request:0.004s]
+2017-05-19 14:23:45,819 :: INFO :: GET http://localhost:9200/db_wine_admin/_search?size=0 [status:200 request:0.010s]
+2017-05-19 14:23:45,819 :: INFO :: <class 'list'>
+2017-05-19 14:23:45,819 :: INFO :: {'loginLastMonth': 17175, 'activeUsers': 143212, 'wineDistribution': ['blancs:132139', 'rouges:129335', 'champagne:110044', 'rosé:75002']}
+2017-05-19 14:23:45,820 :: INFO :: 127.0.0.1 - - [19/May/2017 14:23:45] "GET /wine/admin/dashboard/init HTTP/1.1" 200 -
+2017-05-19 14:24:22,585 :: INFO :: GET http://localhost:9200/db_wine_admin/_search?size=0 [status:200 request:0.004s]
+2017-05-19 14:24:22,589 :: INFO :: GET http://localhost:9200/db_wine_admin/_search?size=0 [status:200 request:0.004s]
+2017-05-19 14:24:22,603 :: INFO :: GET http://localhost:9200/db_wine_admin/_search?size=0 [status:200 request:0.013s]
+2017-05-19 14:24:22,604 :: INFO :: <class 'list'>
+2017-05-19 14:24:22,604 :: INFO :: {'loginLastMonth': 17175, 'activeUsers': 143212, 'wineDistribution': ['blancs:132139', 'rouges:129335', 'champagne:110044', 'rosé:75002']}
+2017-05-19 14:24:22,605 :: INFO :: 127.0.0.1 - - [19/May/2017 14:24:22] "GET /wine/admin/dashboard/init HTTP/1.1" 200 -
+2017-05-19 14:24:22,839 :: INFO :: GET http://localhost:9200/db_wine_admin/_search?size=0 [status:200 request:0.005s]
+2017-05-19 14:24:22,843 :: INFO :: GET http://localhost:9200/db_wine_admin/_search?size=0 [status:200 request:0.003s]
+2017-05-19 14:24:22,854 :: INFO :: GET http://localhost:9200/db_wine_admin/_search?size=0 [status:200 request:0.010s]
+2017-05-19 14:24:22,854 :: INFO :: <class 'list'>
+2017-05-19 14:24:22,854 :: INFO :: {'loginLastMonth': 17175, 'activeUsers': 143212, 'wineDistribution': ['blancs:132139', 'rouges:129335', 'champagne:110044', 'rosé:75002']}
+2017-05-19 14:24:22,855 :: INFO :: 127.0.0.1 - - [19/May/2017 14:24:22] "GET /wine/admin/dashboard/init HTTP/1.1" 200 -
+2017-05-19 14:24:23,014 :: INFO :: GET http://localhost:9200/db_wine_admin/_search?size=0 [status:200 request:0.003s]
+2017-05-19 14:24:23,017 :: INFO :: GET http://localhost:9200/db_wine_admin/_search?size=0 [status:200 request:0.003s]
+2017-05-19 14:24:23,026 :: INFO :: GET http://localhost:9200/db_wine_admin/_search?size=0 [status:200 request:0.009s]
+2017-05-19 14:24:23,027 :: INFO :: <class 'list'>
+2017-05-19 14:24:23,027 :: INFO :: {'loginLastMonth': 17175, 'activeUsers': 143212, 'wineDistribution': ['blancs:132139', 'rouges:129335', 'champagne:110044', 'rosé:75002']}
+2017-05-19 14:24:23,028 :: INFO :: 127.0.0.1 - - [19/May/2017 14:24:23] "GET /wine/admin/dashboard/init HTTP/1.1" 200 -
+2017-05-19 14:24:23,167 :: INFO :: GET http://localhost:9200/db_wine_admin/_search?size=0 [status:200 request:0.003s]
+2017-05-19 14:24:23,171 :: INFO :: GET http://localhost:9200/db_wine_admin/_search?size=0 [status:200 request:0.003s]
+2017-05-19 14:24:23,184 :: INFO :: GET http://localhost:9200/db_wine_admin/_search?size=0 [status:200 request:0.012s]
+2017-05-19 14:24:23,184 :: INFO :: <class 'list'>
+2017-05-19 14:24:23,184 :: INFO :: {'loginLastMonth': 17175, 'activeUsers': 143212, 'wineDistribution': ['blancs:132139', 'rouges:129335', 'champagne:110044', 'rosé:75002']}
+2017-05-19 14:24:23,185 :: INFO :: 127.0.0.1 - - [19/May/2017 14:24:23] "GET /wine/admin/dashboard/init HTTP/1.1" 200 -
+2017-05-19 14:24:23,340 :: INFO :: GET http://localhost:9200/db_wine_admin/_search?size=0 [status:200 request:0.004s]
+2017-05-19 14:24:23,344 :: INFO :: GET http://localhost:9200/db_wine_admin/_search?size=0 [status:200 request:0.003s]
+2017-05-19 14:24:23,353 :: INFO :: GET http://localhost:9200/db_wine_admin/_search?size=0 [status:200 request:0.009s]
+2017-05-19 14:24:23,354 :: INFO :: <class 'list'>
+2017-05-19 14:24:23,354 :: INFO :: {'loginLastMonth': 17175, 'activeUsers': 143212, 'wineDistribution': ['blancs:132139', 'rouges:129335', 'champagne:110044', 'rosé:75002']}
+2017-05-19 14:24:23,355 :: INFO :: 127.0.0.1 - - [19/May/2017 14:24:23] "GET /wine/admin/dashboard/init HTTP/1.1" 200 -
+2017-05-19 14:26:29,120 :: INFO ::  * Detected change in '/home/ronan/Project1AL/Wine-Admin-Python/backend/utils/elasticsearch/catalogParsingQueries.py', reloading
+2017-05-19 14:26:29,469 :: INFO ::  * Restarting with stat
+2017-05-19 14:26:29,893 :: WARNING ::  * Debugger is active!
+2017-05-19 14:26:29,894 :: INFO ::  * Debugger PIN: 335-866-364
+2017-05-19 14:26:32,134 :: INFO :: GET http://localhost:9200/db_wine_admin/_search?size=0 [status:200 request:0.006s]
+2017-05-19 14:26:32,139 :: INFO :: GET http://localhost:9200/db_wine_admin/_search?size=0 [status:200 request:0.004s]
+2017-05-19 14:26:32,150 :: INFO :: GET http://localhost:9200/db_wine_admin/_search?size=0 [status:200 request:0.011s]
+2017-05-19 14:26:32,151 :: INFO :: <class 'list'>
+2017-05-19 14:26:32,151 :: INFO :: {'activeUsers': 143212, 'loginLastMonth': 17175, 'wineDistribution': ['blancs:132139', 'rouges:129335', 'champagne:110044', 'rosé:75002']}
+2017-05-19 14:26:32,152 :: INFO :: 127.0.0.1 - - [19/May/2017 14:26:32] "GET /wine/admin/dashboard/init HTTP/1.1" 200 -
+2017-05-19 14:26:33,442 :: INFO :: GET http://localhost:9200/db_wine_admin/_search?size=0 [status:200 request:0.004s]
+2017-05-19 14:26:33,447 :: INFO :: GET http://localhost:9200/db_wine_admin/_search?size=0 [status:200 request:0.004s]
+2017-05-19 14:26:33,457 :: INFO :: GET http://localhost:9200/db_wine_admin/_search?size=0 [status:200 request:0.009s]
+2017-05-19 14:26:33,457 :: INFO :: <class 'list'>
+2017-05-19 14:26:33,457 :: INFO :: {'activeUsers': 143212, 'loginLastMonth': 17175, 'wineDistribution': ['blancs:132139', 'rouges:129335', 'champagne:110044', 'rosé:75002']}
+2017-05-19 14:26:33,458 :: INFO :: 127.0.0.1 - - [19/May/2017 14:26:33] "GET /wine/admin/dashboard/init HTTP/1.1" 200 -
+2017-05-19 14:26:34,039 :: INFO :: GET http://localhost:9200/db_wine_admin/_search?size=0 [status:200 request:0.002s]
+2017-05-19 14:26:34,042 :: INFO :: GET http://localhost:9200/db_wine_admin/_search?size=0 [status:200 request:0.002s]
+2017-05-19 14:26:34,050 :: INFO :: GET http://localhost:9200/db_wine_admin/_search?size=0 [status:200 request:0.008s]
+2017-05-19 14:26:34,051 :: INFO :: <class 'list'>
+2017-05-19 14:26:34,051 :: INFO :: {'activeUsers': 143212, 'loginLastMonth': 17175, 'wineDistribution': ['blancs:132139', 'rouges:129335', 'champagne:110044', 'rosé:75002']}
+2017-05-19 14:26:34,052 :: INFO :: 127.0.0.1 - - [19/May/2017 14:26:34] "GET /wine/admin/dashboard/init HTTP/1.1" 200 -
+2017-05-19 14:26:38,968 :: INFO ::  * Detected change in '/home/ronan/Project1AL/Wine-Admin-Python/backend/utils/elasticsearch/catalogParsingQueries.py', reloading
+2017-05-19 14:26:39,459 :: INFO ::  * Restarting with stat
+2017-05-19 14:26:39,874 :: WARNING ::  * Debugger is active!
+2017-05-19 14:26:39,874 :: INFO ::  * Debugger PIN: 335-866-364
+2017-05-19 14:26:40,867 :: INFO :: GET http://localhost:9200/db_wine_admin/_search?size=0 [status:200 request:0.006s]
+2017-05-19 14:26:40,872 :: INFO :: GET http://localhost:9200/db_wine_admin/_search?size=0 [status:200 request:0.004s]
+2017-05-19 14:26:40,884 :: INFO :: GET http://localhost:9200/db_wine_admin/_search?size=0 [status:200 request:0.012s]
+2017-05-19 14:26:40,885 :: INFO :: <class 'list'>
+2017-05-19 14:26:40,885 :: INFO :: {'activeUsers': 143212, 'loginLastMonth': 17175, 'wineDistribution': ['blancs:132139', 'rouges:129335', 'champagne:110044', 'rosés:75002']}
+2017-05-19 14:26:40,886 :: INFO :: 127.0.0.1 - - [19/May/2017 14:26:40] "GET /wine/admin/dashboard/init HTTP/1.1" 200 -
+2017-05-19 14:26:42,059 :: INFO :: GET http://localhost:9200/db_wine_admin/_search?size=0 [status:200 request:0.004s]
+2017-05-19 14:26:42,062 :: INFO :: GET http://localhost:9200/db_wine_admin/_search?size=0 [status:200 request:0.003s]
+2017-05-19 14:26:42,071 :: INFO :: GET http://localhost:9200/db_wine_admin/_search?size=0 [status:200 request:0.008s]
+2017-05-19 14:26:42,071 :: INFO :: <class 'list'>
+2017-05-19 14:26:42,072 :: INFO :: {'activeUsers': 143212, 'loginLastMonth': 17175, 'wineDistribution': ['blancs:132139', 'rouges:129335', 'champagne:110044', 'rosés:75002']}
+2017-05-19 14:26:42,072 :: INFO :: 127.0.0.1 - - [19/May/2017 14:26:42] "GET /wine/admin/dashboard/init HTTP/1.1" 200 -
+2017-05-19 14:26:42,507 :: INFO :: GET http://localhost:9200/db_wine_admin/_search?size=0 [status:200 request:0.002s]
+2017-05-19 14:26:42,510 :: INFO :: GET http://localhost:9200/db_wine_admin/_search?size=0 [status:200 request:0.003s]
+2017-05-19 14:26:42,518 :: INFO :: GET http://localhost:9200/db_wine_admin/_search?size=0 [status:200 request:0.007s]
+2017-05-19 14:26:42,519 :: INFO :: <class 'list'>
+2017-05-19 14:26:42,519 :: INFO :: {'activeUsers': 143212, 'loginLastMonth': 17175, 'wineDistribution': ['blancs:132139', 'rouges:129335', 'champagne:110044', 'rosés:75002']}
+2017-05-19 14:26:42,519 :: INFO :: 127.0.0.1 - - [19/May/2017 14:26:42] "GET /wine/admin/dashboard/init HTTP/1.1" 200 -
+2017-05-19 14:26:42,767 :: INFO :: GET http://localhost:9200/db_wine_admin/_search?size=0 [status:200 request:0.002s]
+2017-05-19 14:26:42,770 :: INFO :: GET http://localhost:9200/db_wine_admin/_search?size=0 [status:200 request:0.002s]
+2017-05-19 14:26:42,778 :: INFO :: GET http://localhost:9200/db_wine_admin/_search?size=0 [status:200 request:0.008s]
+2017-05-19 14:26:42,779 :: INFO :: <class 'list'>
+2017-05-19 14:26:42,779 :: INFO :: {'activeUsers': 143212, 'loginLastMonth': 17175, 'wineDistribution': ['blancs:132139', 'rouges:129335', 'champagne:110044', 'rosés:75002']}
+2017-05-19 14:26:42,780 :: INFO :: 127.0.0.1 - - [19/May/2017 14:26:42] "GET /wine/admin/dashboard/init HTTP/1.1" 200 -
+2017-05-19 14:26:46,943 :: INFO ::  * Detected change in '/home/ronan/Project1AL/Wine-Admin-Python/backend/utils/elasticsearch/catalogParsingQueries.py', reloading
+2017-05-19 14:26:47,435 :: INFO ::  * Restarting with stat
+2017-05-19 14:26:47,832 :: WARNING ::  * Debugger is active!
+2017-05-19 14:26:47,833 :: INFO ::  * Debugger PIN: 335-866-364
+2017-05-19 14:26:49,677 :: INFO :: GET http://localhost:9200/db_wine_admin/_search?size=0 [status:200 request:0.006s]
+2017-05-19 14:26:49,688 :: INFO :: GET http://localhost:9200/db_wine_admin/_search?size=0 [status:200 request:0.011s]
+2017-05-19 14:26:49,699 :: INFO :: GET http://localhost:9200/db_wine_admin/_search?size=0 [status:200 request:0.010s]
+2017-05-19 14:26:49,700 :: INFO :: <class 'list'>
+2017-05-19 14:26:49,700 :: INFO :: {'loginLastMonth': 17175, 'wineDistribution': ['blancs:132139', 'rouges:129335', 'champagne:110044', 'rosés:75002'], 'activeUsers': 143212}
+2017-05-19 14:26:49,701 :: INFO :: 127.0.0.1 - - [19/May/2017 14:26:49] "GET /wine/admin/dashboard/init HTTP/1.1" 200 -
+2017-05-19 14:26:51,405 :: INFO :: GET http://localhost:9200/db_wine_admin/_search?size=0 [status:200 request:0.004s]
+2017-05-19 14:26:51,410 :: INFO :: GET http://localhost:9200/db_wine_admin/_search?size=0 [status:200 request:0.003s]
+2017-05-19 14:26:51,423 :: INFO :: GET http://localhost:9200/db_wine_admin/_search?size=0 [status:200 request:0.013s]
+2017-05-19 14:26:51,424 :: INFO :: <class 'list'>
+2017-05-19 14:26:51,424 :: INFO :: {'loginLastMonth': 17175, 'wineDistribution': ['blancs:132139', 'rouges:129335', 'champagne:110044', 'rosés:75002'], 'activeUsers': 143212}
+2017-05-19 14:26:51,424 :: INFO :: 127.0.0.1 - - [19/May/2017 14:26:51] "GET /wine/admin/dashboard/init HTTP/1.1" 200 -
+2017-05-19 14:26:51,789 :: INFO :: GET http://localhost:9200/db_wine_admin/_search?size=0 [status:200 request:0.002s]
+2017-05-19 14:26:51,792 :: INFO :: GET http://localhost:9200/db_wine_admin/_search?size=0 [status:200 request:0.002s]
+2017-05-19 14:26:51,800 :: INFO :: GET http://localhost:9200/db_wine_admin/_search?size=0 [status:200 request:0.007s]
+2017-05-19 14:26:51,800 :: INFO :: <class 'list'>
+2017-05-19 14:26:51,800 :: INFO :: {'loginLastMonth': 17175, 'wineDistribution': ['blancs:132139', 'rouges:129335', 'champagne:110044', 'rosés:75002'], 'activeUsers': 143212}
+2017-05-19 14:26:51,801 :: INFO :: 127.0.0.1 - - [19/May/2017 14:26:51] "GET /wine/admin/dashboard/init HTTP/1.1" 200 -
+2017-05-19 14:26:52,042 :: INFO :: GET http://localhost:9200/db_wine_admin/_search?size=0 [status:200 request:0.003s]
+2017-05-19 14:26:52,046 :: INFO :: GET http://localhost:9200/db_wine_admin/_search?size=0 [status:200 request:0.003s]
+2017-05-19 14:26:52,057 :: INFO :: GET http://localhost:9200/db_wine_admin/_search?size=0 [status:200 request:0.010s]
+2017-05-19 14:26:52,057 :: INFO :: <class 'list'>
+2017-05-19 14:26:52,057 :: INFO :: {'loginLastMonth': 17175, 'wineDistribution': ['blancs:132139', 'rouges:129335', 'champagne:110044', 'rosés:75002'], 'activeUsers': 143212}
+2017-05-19 14:26:52,058 :: INFO :: 127.0.0.1 - - [19/May/2017 14:26:52] "GET /wine/admin/dashboard/init HTTP/1.1" 200 -
+2017-05-19 14:26:52,293 :: INFO :: GET http://localhost:9200/db_wine_admin/_search?size=0 [status:200 request:0.004s]
+2017-05-19 14:26:52,297 :: INFO :: GET http://localhost:9200/db_wine_admin/_search?size=0 [status:200 request:0.003s]
+2017-05-19 14:26:52,306 :: INFO :: GET http://localhost:9200/db_wine_admin/_search?size=0 [status:200 request:0.008s]
+2017-05-19 14:26:52,306 :: INFO :: <class 'list'>
+2017-05-19 14:26:52,307 :: INFO :: {'loginLastMonth': 17175, 'wineDistribution': ['blancs:132139', 'rouges:129335', 'champagne:110044', 'rosés:75002'], 'activeUsers': 143212}
+2017-05-19 14:26:52,307 :: INFO :: 127.0.0.1 - - [19/May/2017 14:26:52] "GET /wine/admin/dashboard/init HTTP/1.1" 200 -
+2017-05-19 14:26:52,537 :: INFO :: GET http://localhost:9200/db_wine_admin/_search?size=0 [status:200 request:0.003s]
+2017-05-19 14:26:52,541 :: INFO :: GET http://localhost:9200/db_wine_admin/_search?size=0 [status:200 request:0.004s]
+2017-05-19 14:26:52,552 :: INFO :: GET http://localhost:9200/db_wine_admin/_search?size=0 [status:200 request:0.010s]
+2017-05-19 14:26:52,553 :: INFO :: <class 'list'>
+2017-05-19 14:26:52,553 :: INFO :: {'loginLastMonth': 17175, 'wineDistribution': ['blancs:132139', 'rouges:129335', 'champagne:110044', 'rosés:75002'], 'activeUsers': 143212}
+2017-05-19 14:26:52,554 :: INFO :: 127.0.0.1 - - [19/May/2017 14:26:52] "GET /wine/admin/dashboard/init HTTP/1.1" 200 -
+2017-05-19 14:26:52,758 :: INFO :: GET http://localhost:9200/db_wine_admin/_search?size=0 [status:200 request:0.003s]
+2017-05-19 14:26:52,761 :: INFO :: GET http://localhost:9200/db_wine_admin/_search?size=0 [status:200 request:0.002s]
+2017-05-19 14:26:52,768 :: INFO :: GET http://localhost:9200/db_wine_admin/_search?size=0 [status:200 request:0.007s]
+2017-05-19 14:26:52,769 :: INFO :: <class 'list'>
+2017-05-19 14:26:52,769 :: INFO :: {'loginLastMonth': 17175, 'wineDistribution': ['blancs:132139', 'rouges:129335', 'champagne:110044', 'rosés:75002'], 'activeUsers': 143212}
+2017-05-19 14:26:52,769 :: INFO :: 127.0.0.1 - - [19/May/2017 14:26:52] "GET /wine/admin/dashboard/init HTTP/1.1" 200 -
+2017-05-19 14:26:52,984 :: INFO :: GET http://localhost:9200/db_wine_admin/_search?size=0 [status:200 request:0.003s]
+2017-05-19 14:26:52,990 :: INFO :: GET http://localhost:9200/db_wine_admin/_search?size=0 [status:200 request:0.005s]
+2017-05-19 14:26:52,999 :: INFO :: GET http://localhost:9200/db_wine_admin/_search?size=0 [status:200 request:0.009s]
+2017-05-19 14:26:52,999 :: INFO :: <class 'list'>
+2017-05-19 14:26:52,999 :: INFO :: {'loginLastMonth': 17175, 'wineDistribution': ['blancs:132139', 'rouges:129335', 'champagne:110044', 'rosés:75002'], 'activeUsers': 143212}
+2017-05-19 14:26:53,000 :: INFO :: 127.0.0.1 - - [19/May/2017 14:26:53] "GET /wine/admin/dashboard/init HTTP/1.1" 200 -
+2017-05-19 14:26:53,204 :: INFO :: GET http://localhost:9200/db_wine_admin/_search?size=0 [status:200 request:0.004s]
+2017-05-19 14:26:53,208 :: INFO :: GET http://localhost:9200/db_wine_admin/_search?size=0 [status:200 request:0.003s]
+2017-05-19 14:26:53,216 :: INFO :: GET http://localhost:9200/db_wine_admin/_search?size=0 [status:200 request:0.007s]
+2017-05-19 14:26:53,216 :: INFO :: <class 'list'>
+2017-05-19 14:26:53,216 :: INFO :: {'loginLastMonth': 17175, 'wineDistribution': ['blancs:132139', 'rouges:129335', 'champagne:110044', 'rosés:75002'], 'activeUsers': 143212}
+2017-05-19 14:26:53,217 :: INFO :: 127.0.0.1 - - [19/May/2017 14:26:53] "GET /wine/admin/dashboard/init HTTP/1.1" 200 -
+2017-05-19 14:27:04,986 :: INFO ::  * Detected change in '/home/ronan/Project1AL/Wine-Admin-Python/backend/utils/elasticsearch/catalogParsingQueries.py', reloading
+2017-05-19 14:27:05,403 :: INFO ::  * Restarting with stat
+2017-05-19 14:27:05,829 :: WARNING ::  * Debugger is active!
+2017-05-19 14:27:05,830 :: INFO ::  * Debugger PIN: 335-866-364
+2017-05-19 14:27:53,232 :: INFO ::  * Detected change in '/home/ronan/Project1AL/Wine-Admin-Python/backend/utils/elasticsearch/catalogParsingQueries.py', reloading
+2017-05-19 14:27:53,435 :: INFO ::  * Restarting with stat
+2017-05-19 14:27:53,859 :: WARNING ::  * Debugger is active!
+2017-05-19 14:27:53,859 :: INFO ::  * Debugger PIN: 335-866-364
+2017-05-19 14:30:10,066 :: INFO ::  * Detected change in '/home/ronan/Project1AL/Wine-Admin-Python/backend/utils/elasticsearch/catalogParsingQueries.py', reloading
+2017-05-19 14:30:10,557 :: INFO ::  * Restarting with stat
+2017-05-19 14:30:10,949 :: WARNING ::  * Debugger is active!
+2017-05-19 14:30:10,949 :: INFO ::  * Debugger PIN: 335-866-364
+2017-05-19 14:30:49,282 :: INFO ::  * Detected change in '/home/ronan/Project1AL/Wine-Admin-Python/backend/utils/elasticsearch/catalogParsingQueries.py', reloading
+2017-05-19 14:30:49,546 :: INFO ::  * Restarting with stat
+2017-05-19 14:30:49,966 :: WARNING ::  * Debugger is active!
+2017-05-19 14:30:49,966 :: INFO ::  * Debugger PIN: 335-866-364
+2017-05-19 14:30:52,189 :: INFO :: GET http://localhost:9200/db_wine_admin/_search?size=0 [status:200 request:0.005s]
+2017-05-19 14:30:52,194 :: INFO :: GET http://localhost:9200/db_wine_admin/_search?size=0 [status:200 request:0.004s]
+2017-05-19 14:30:52,205 :: INFO :: GET http://localhost:9200/db_wine_admin/_search?size=0 [status:200 request:0.010s]
+2017-05-19 14:30:52,206 :: INFO :: <class 'list'>
+2017-05-19 14:30:52,217 :: INFO :: 127.0.0.1 - - [19/May/2017 14:30:52] "GET /wine/admin/dashboard/init HTTP/1.1" 500 -
+2017-05-19 14:30:52,231 :: INFO :: 127.0.0.1 - - [19/May/2017 14:30:52] "GET /wine/admin/dashboard/init?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2017-05-19 14:30:52,232 :: INFO :: 127.0.0.1 - - [19/May/2017 14:30:52] "GET /wine/admin/dashboard/init?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+2017-05-19 14:30:52,234 :: INFO :: 127.0.0.1 - - [19/May/2017 14:30:52] "GET /wine/admin/dashboard/init?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2017-05-19 14:30:52,350 :: INFO :: 127.0.0.1 - - [19/May/2017 14:30:52] "GET /wine/admin/dashboard/init?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2017-05-19 14:30:52,367 :: INFO :: 127.0.0.1 - - [19/May/2017 14:30:52] "GET /wine/admin/dashboard/init?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2017-05-19 14:31:19,217 :: INFO ::  * Detected change in '/home/ronan/Project1AL/Wine-Admin-Python/backend/utils/elasticsearch/catalogParsingQueries.py', reloading
+2017-05-19 14:31:19,560 :: INFO ::  * Restarting with stat
+2017-05-19 14:31:19,997 :: WARNING ::  * Debugger is active!
+2017-05-19 14:31:19,997 :: INFO ::  * Debugger PIN: 335-866-364
+2017-05-19 14:31:23,780 :: INFO :: GET http://localhost:9200/db_wine_admin/_search?size=0 [status:200 request:0.006s]
+2017-05-19 14:31:23,785 :: INFO :: GET http://localhost:9200/db_wine_admin/_search?size=0 [status:200 request:0.004s]
+2017-05-19 14:31:23,796 :: INFO :: GET http://localhost:9200/db_wine_admin/_search?size=0 [status:200 request:0.011s]
+2017-05-19 14:31:23,797 :: INFO :: <class 'list'>
+2017-05-19 14:31:23,807 :: INFO :: 127.0.0.1 - - [19/May/2017 14:31:23] "GET /wine/admin/dashboard/init HTTP/1.1" 500 -
+2017-05-19 14:31:23,821 :: INFO :: 127.0.0.1 - - [19/May/2017 14:31:23] "GET /wine/admin/dashboard/init?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2017-05-19 14:31:23,822 :: INFO :: 127.0.0.1 - - [19/May/2017 14:31:23] "GET /wine/admin/dashboard/init?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+2017-05-19 14:31:23,824 :: INFO :: 127.0.0.1 - - [19/May/2017 14:31:23] "GET /wine/admin/dashboard/init?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2017-05-19 14:31:23,946 :: INFO :: 127.0.0.1 - - [19/May/2017 14:31:23] "GET /wine/admin/dashboard/init?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2017-05-19 14:31:23,963 :: INFO :: 127.0.0.1 - - [19/May/2017 14:31:23] "GET /wine/admin/dashboard/init?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2017-05-19 14:31:48,242 :: INFO ::  * Detected change in '/home/ronan/Project1AL/Wine-Admin-Python/backend/utils/elasticsearch/catalogParsingQueries.py', reloading
+2017-05-19 14:31:48,565 :: INFO ::  * Restarting with stat
+2017-05-19 14:31:48,971 :: WARNING ::  * Debugger is active!
+2017-05-19 14:31:48,972 :: INFO ::  * Debugger PIN: 335-866-364
+2017-05-19 14:31:50,399 :: INFO :: GET http://localhost:9200/db_wine_admin/_search?size=0 [status:200 request:0.008s]
+2017-05-19 14:31:50,403 :: INFO :: GET http://localhost:9200/db_wine_admin/_search?size=0 [status:200 request:0.003s]
+2017-05-19 14:31:50,414 :: INFO :: GET http://localhost:9200/db_wine_admin/_search?size=0 [status:200 request:0.010s]
+2017-05-19 14:31:50,414 :: INFO :: <class 'list'>
+2017-05-19 14:31:50,425 :: INFO :: 127.0.0.1 - - [19/May/2017 14:31:50] "GET /wine/admin/dashboard/init HTTP/1.1" 500 -
+2017-05-19 14:31:50,439 :: INFO :: 127.0.0.1 - - [19/May/2017 14:31:50] "GET /wine/admin/dashboard/init?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2017-05-19 14:31:50,441 :: INFO :: 127.0.0.1 - - [19/May/2017 14:31:50] "GET /wine/admin/dashboard/init?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+2017-05-19 14:31:50,442 :: INFO :: 127.0.0.1 - - [19/May/2017 14:31:50] "GET /wine/admin/dashboard/init?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2017-05-19 14:31:50,562 :: INFO :: 127.0.0.1 - - [19/May/2017 14:31:50] "GET /wine/admin/dashboard/init?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2017-05-19 14:31:50,580 :: INFO :: 127.0.0.1 - - [19/May/2017 14:31:50] "GET /wine/admin/dashboard/init?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2017-05-19 14:33:00,574 :: INFO ::  * Detected change in '/home/ronan/Project1AL/Wine-Admin-Python/backend/utils/elasticsearch/catalogParsingQueries.py', reloading
+2017-05-19 14:33:01,107 :: INFO ::  * Restarting with stat
+2017-05-19 14:33:01,560 :: WARNING ::  * Debugger is active!
+2017-05-19 14:33:01,561 :: INFO ::  * Debugger PIN: 335-866-364
+2017-05-19 14:33:03,841 :: INFO :: GET http://localhost:9200/db_wine_admin/_search?size=0 [status:200 request:0.006s]
+2017-05-19 14:33:03,845 :: INFO :: GET http://localhost:9200/db_wine_admin/_search?size=0 [status:200 request:0.003s]
+2017-05-19 14:33:03,861 :: INFO :: GET http://localhost:9200/db_wine_admin/_search?size=0 [status:200 request:0.016s]
+2017-05-19 14:33:03,861 :: INFO :: <class 'list'>
+2017-05-19 14:33:03,862 :: INFO :: {'activeUsers': 143212, 'wineDistribution': ['blancs:132139', 'rouges:129335', 'champagne:110044', 'rosés:75002'], 'loginLastMonth': 17175}
+2017-05-19 14:33:03,862 :: INFO :: 127.0.0.1 - - [19/May/2017 14:33:03] "GET /wine/admin/dashboard/init HTTP/1.1" 200 -
+2017-05-19 14:35:57,144 :: INFO ::  * Detected change in '/home/ronan/Project1AL/Wine-Admin-Python/backend/utils/elasticsearch/catalogParsingQueries.py', reloading
+2017-05-19 14:35:57,322 :: INFO ::  * Restarting with stat
+2017-05-19 14:35:57,748 :: WARNING ::  * Debugger is active!
+2017-05-19 14:35:57,748 :: INFO ::  * Debugger PIN: 335-866-364
+2017-05-19 14:38:43,237 :: INFO ::  * Detected change in '/home/ronan/Project1AL/Wine-Admin-Python/backend/utils/elasticsearch/catalogParsingQueries.py', reloading
+2017-05-19 14:38:43,500 :: INFO ::  * Restarting with stat
+2017-05-19 14:38:43,947 :: WARNING ::  * Debugger is active!
+2017-05-19 14:38:43,948 :: INFO ::  * Debugger PIN: 335-866-364
+2017-05-19 14:38:51,012 :: INFO ::  * Detected change in '/home/ronan/Project1AL/Wine-Admin-Python/backend/utils/elasticsearch/catalogParsingQueries.py', reloading
+2017-05-19 14:38:51,504 :: INFO ::  * Restarting with stat
+2017-05-19 14:38:51,900 :: WARNING ::  * Debugger is active!
+2017-05-19 14:38:51,901 :: INFO ::  * Debugger PIN: 335-866-364
+2017-05-19 14:42:58,234 :: INFO ::  * Detected change in '/home/ronan/Project1AL/Wine-Admin-Python/backend/utils/elasticsearch/catalogParsingQueries.py', reloading
+2017-05-19 14:42:58,758 :: INFO ::  * Restarting with stat
+2017-05-19 14:42:59,150 :: WARNING ::  * Debugger is active!
+2017-05-19 14:42:59,150 :: INFO ::  * Debugger PIN: 335-866-364
+2017-05-19 14:44:30,922 :: INFO ::  * Detected change in '/home/ronan/Project1AL/Wine-Admin-Python/backend/utils/elasticsearch/catalogParsingQueries.py', reloading
+2017-05-19 14:44:31,316 :: INFO ::  * Restarting with stat
+2017-05-19 14:44:31,702 :: WARNING ::  * Debugger is active!
+2017-05-19 14:44:31,703 :: INFO ::  * Debugger PIN: 335-866-364
+2017-05-19 14:44:48,853 :: INFO ::  * Detected change in '/home/ronan/Project1AL/Wine-Admin-Python/backend/utils/elasticsearch/elasticsearchUtil.py', reloading
+2017-05-19 14:44:49,276 :: INFO ::  * Restarting with stat
+2017-05-19 14:44:49,665 :: WARNING ::  * Debugger is active!
+2017-05-19 14:44:49,666 :: INFO ::  * Debugger PIN: 335-866-364
+2017-05-19 15:05:16,756 :: INFO ::  * Detected change in '/home/ronan/Project1AL/Wine-Admin-Python/backend/utils/elasticsearch/elasticsearchUtil.py', reloading
+2017-05-19 15:05:17,166 :: INFO ::  * Restarting with stat
+2017-05-19 15:05:17,619 :: WARNING ::  * Debugger is active!
+2017-05-19 15:05:17,620 :: INFO ::  * Debugger PIN: 335-866-364
+2017-05-19 15:05:25,698 :: INFO ::  * Detected change in '/home/ronan/Project1AL/Wine-Admin-Python/backend/utils/elasticsearch/elasticsearchUtil.py', reloading
+2017-05-19 15:05:26,173 :: INFO ::  * Restarting with stat
+2017-05-19 15:05:26,562 :: WARNING ::  * Debugger is active!
+2017-05-19 15:05:26,563 :: INFO ::  * Debugger PIN: 335-866-364
+2017-05-19 15:05:52,764 :: INFO ::  * Detected change in '/home/ronan/Project1AL/Wine-Admin-Python/backend/__init__.py', reloading
+2017-05-19 15:05:53,153 :: INFO ::  * Restarting with stat
+2017-05-19 15:05:53,594 :: WARNING ::  * Debugger is active!
+2017-05-19 15:05:53,595 :: INFO ::  * Debugger PIN: 335-866-364
+2017-05-19 15:07:27,504 :: INFO ::  * Detected change in '/home/ronan/Project1AL/Wine-Admin-Python/backend/__init__.py', reloading
+2017-05-19 15:07:27,763 :: INFO ::  * Restarting with stat
+2017-05-19 15:07:28,197 :: WARNING ::  * Debugger is active!
+2017-05-19 15:07:28,198 :: INFO ::  * Debugger PIN: 335-866-364
+2017-05-19 15:08:06,515 :: INFO ::  * Detected change in '/home/ronan/Project1AL/Wine-Admin-Python/backend/__init__.py', reloading
+2017-05-19 15:08:06,784 :: INFO ::  * Restarting with stat
+2017-05-19 15:08:07,172 :: WARNING ::  * Debugger is active!
+2017-05-19 15:08:07,172 :: INFO ::  * Debugger PIN: 335-866-364
+2017-05-19 15:08:11,980 :: INFO :: GET http://localhost:9200/db_wine_admin/_search?size=0 [status:200 request:0.003s]
+2017-05-19 15:08:11,982 :: INFO :: GET http://localhost:9200/db_wine_admin/_search?size=0 [status:200 request:0.002s]
+2017-05-19 15:08:11,989 :: INFO :: GET http://localhost:9200/db_wine_admin/_search?size=0 [status:200 request:0.007s]
+2017-05-19 15:08:11,995 :: INFO :: GET http://localhost:9200/db_wine_admin/_search?size=0 [status:200 request:0.006s]
+2017-05-19 15:08:11,995 :: INFO :: <class 'list'>
+2017-05-19 15:08:11,995 :: INFO :: {'wineDistribution': ['blancs:132139', 'rouges:129335', 'champagne:110044', 'rosés:75002'], 'activeUsers': 143212, 'loginLastMonth': 17175, 'wineCountries': ['poland:17015', 'portugal:16560', 'france:15015', 'sweden:13111', 'ukraine:8478', 'czech:8324', 'republic:8324', 'greece:6458', 'finland:2827', 'serbia:2776', 'croatia:2642', 'norway:2283', 'albania:2154', 'ireland:2078', 'armenia:1952', 'belarus:1868', 'slovenia:1751', 'bulgaria:1720', 'germany:1499', 'and:1466', 'bosnia:1466', 'herzegovina:1466', 'macedonia:1436', 'azerbaijan:1420', 'spain:1250', 'kingdom:947', 'united:947', 'luxembourg:901', 'latvia:890', 'lithuania:882', 'georgia:626', 'denmark:622', 'italy:622', 'estonia:615', 'hungary:604', 'moldova:565', 'cyprus:512', 'kosovo:487', 'malta:459', 'montenegro:261', 'switzerland:247', 'austria:230', 'iceland:179', 'belgium:169', 'turkey:79', 'liechtenstein:66', 'andorra:58', 'monaco:55', 'marino:52', 'san:52', 'slovakia:40', 'romania:10']}
+2017-05-19 15:08:11,996 :: INFO :: 127.0.0.1 - - [19/May/2017 15:08:11] "GET /wine/admin/dashboard/init HTTP/1.1" 200 -
+2017-05-19 15:50:02,916 :: INFO :: 127.0.0.1 - - [19/May/2017 15:50:02] "GET /wine/admin/ronan.lachater@gmail.com/admn HTTP/1.1" 404 -
+2017-05-19 15:50:08,082 :: INFO :: 127.0.0.1 - - [19/May/2017 15:50:08] "GET /wine/admin/ronan.lachater@gmail.com/admin HTTP/1.1" 200 -
+2017-05-19 15:51:16,560 :: INFO :: 127.0.0.1 - - [19/May/2017 15:51:16] "GET /wine/admin/ronan.lachater@gmail.com/admin HTTP/1.1" 200 -
+2017-05-19 15:53:19,527 :: INFO :: 127.0.0.1 - - [19/May/2017 15:53:19] "GET /wine/admin/ronan.lachater@gmail.com/admin HTTP/1.1" 200 -
+2017-05-19 16:18:04,323 :: INFO :: GET http://localhost:9200/db_wine_admin/_search?size=0 [status:200 request:0.038s]
+2017-05-19 16:18:04,337 :: INFO :: GET http://localhost:9200/db_wine_admin/_search?size=0 [status:200 request:0.012s]
+2017-05-19 16:18:04,427 :: INFO :: GET http://localhost:9200/db_wine_admin/_search?size=0 [status:200 request:0.088s]
+2017-05-19 16:18:04,482 :: INFO :: GET http://localhost:9200/db_wine_admin/_search?size=0 [status:200 request:0.054s]
+2017-05-19 16:18:04,483 :: INFO :: <class 'list'>
+2017-05-19 16:18:04,484 :: INFO :: {'wineDistribution': ['blancs:132139', 'rouges:129335', 'champagne:110044', 'rosés:75002'], 'activeUsers': 143212, 'loginLastMonth': 17175, 'wineCountries': ['poland:17015', 'portugal:16560', 'france:15015', 'sweden:13111', 'ukraine:8478', 'czech:8324', 'republic:8324', 'greece:6458', 'finland:2827', 'serbia:2776', 'croatia:2642', 'norway:2283', 'albania:2154', 'ireland:2078', 'armenia:1952', 'belarus:1868', 'slovenia:1751', 'bulgaria:1720', 'germany:1499', 'and:1466', 'bosnia:1466', 'herzegovina:1466', 'macedonia:1436', 'azerbaijan:1420', 'spain:1250', 'kingdom:947', 'united:947', 'luxembourg:901', 'latvia:890', 'lithuania:882', 'georgia:626', 'denmark:622', 'italy:622', 'estonia:615', 'hungary:604', 'moldova:565', 'cyprus:512', 'kosovo:487', 'malta:459', 'montenegro:261', 'switzerland:247', 'austria:230', 'iceland:179', 'belgium:169', 'turkey:79', 'liechtenstein:66', 'andorra:58', 'monaco:55', 'marino:52', 'san:52', 'slovakia:40', 'romania:10']}
+2017-05-19 16:18:04,511 :: INFO :: 127.0.0.1 - - [19/May/2017 16:18:04] "GET /wine/admin/dashboard/init HTTP/1.1" 200 -
+2017-05-19 18:12:38,187 :: INFO ::  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2017-05-19 18:12:38,280 :: INFO ::  * Restarting with stat
+2017-05-19 18:12:38,731 :: WARNING ::  * Debugger is active!
+2017-05-19 18:12:38,891 :: INFO ::  * Debugger PIN: 335-866-364
+2017-05-19 18:17:32,371 :: INFO :: GET http://localhost:9200/db_wine_admin/_search?size=0 [status:200 request:0.421s]
+2017-05-19 18:17:32,726 :: INFO :: GET http://localhost:9200/db_wine_admin/_search?size=0 [status:200 request:0.354s]
+2017-05-19 18:17:33,982 :: INFO :: GET http://localhost:9200/db_wine_admin/_search?size=0 [status:200 request:1.255s]
+2017-05-19 18:17:34,319 :: INFO :: GET http://localhost:9200/db_wine_admin/_search?size=0 [status:200 request:0.335s]
+2017-05-19 18:17:34,320 :: INFO :: <class 'list'>
+2017-05-19 18:17:34,321 :: INFO :: {'wineDistribution': ['blancs:132139', 'rouges:129335', 'champagne:110044', 'rosés:75002'], 'wineCountries': ['poland:17015', 'portugal:16560', 'france:15015', 'sweden:13111', 'ukraine:8478', 'czech:8324', 'republic:8324', 'greece:6458', 'finland:2827', 'serbia:2776', 'croatia:2642', 'norway:2283', 'albania:2154', 'ireland:2078', 'armenia:1952', 'belarus:1868', 'slovenia:1751', 'bulgaria:1720', 'germany:1499', 'and:1466', 'bosnia:1466', 'herzegovina:1466', 'macedonia:1436', 'azerbaijan:1420', 'spain:1250', 'kingdom:947', 'united:947', 'luxembourg:901', 'latvia:890', 'lithuania:882', 'georgia:626', 'denmark:622', 'italy:622', 'estonia:615', 'hungary:604', 'moldova:565', 'cyprus:512', 'kosovo:487', 'malta:459', 'montenegro:261', 'switzerland:247', 'austria:230', 'iceland:179', 'belgium:169', 'turkey:79', 'liechtenstein:66', 'andorra:58', 'monaco:55', 'marino:52', 'san:52', 'slovakia:40', 'romania:10'], 'loginLastMonth': 17175, 'activeUsers': 143212}
+2017-05-19 18:17:34,324 :: INFO :: 127.0.0.1 - - [19/May/2017 18:17:34] "GET /wine/admin/dashboard/init HTTP/1.1" 200 -
+2017-05-19 18:17:34,354 :: INFO :: GET http://localhost:9200/db_wine_admin/_search?size=0 [status:200 request:0.020s]
+2017-05-19 18:17:34,487 :: INFO :: GET http://localhost:9200/db_wine_admin/_search?size=0 [status:200 request:0.114s]
+2017-05-19 18:17:34,578 :: INFO :: GET http://localhost:9200/db_wine_admin/_search?size=0 [status:200 request:0.090s]
+2017-05-19 18:17:34,666 :: INFO :: GET http://localhost:9200/db_wine_admin/_search?size=0 [status:200 request:0.086s]
+2017-05-19 18:17:34,668 :: INFO :: <class 'list'>
+2017-05-19 18:17:34,669 :: INFO :: {'wineDistribution': ['blancs:132139', 'rouges:129335', 'champagne:110044', 'rosés:75002'], 'wineCountries': ['poland:17015', 'portugal:16560', 'france:15015', 'sweden:13111', 'ukraine:8478', 'czech:8324', 'republic:8324', 'greece:6458', 'finland:2827', 'serbia:2776', 'croatia:2642', 'norway:2283', 'albania:2154', 'ireland:2078', 'armenia:1952', 'belarus:1868', 'slovenia:1751', 'bulgaria:1720', 'germany:1499', 'and:1466', 'bosnia:1466', 'herzegovina:1466', 'macedonia:1436', 'azerbaijan:1420', 'spain:1250', 'kingdom:947', 'united:947', 'luxembourg:901', 'latvia:890', 'lithuania:882', 'georgia:626', 'denmark:622', 'italy:622', 'estonia:615', 'hungary:604', 'moldova:565', 'cyprus:512', 'kosovo:487', 'malta:459', 'montenegro:261', 'switzerland:247', 'austria:230', 'iceland:179', 'belgium:169', 'turkey:79', 'liechtenstein:66', 'andorra:58', 'monaco:55', 'marino:52', 'san:52', 'slovakia:40', 'romania:10'], 'loginLastMonth': 17175, 'activeUsers': 143212}
+2017-05-19 18:17:34,671 :: INFO :: 127.0.0.1 - - [19/May/2017 18:17:34] "GET /wine/admin/dashboard/init HTTP/1.1" 200 -
+2017-05-19 18:17:34,864 :: INFO :: 127.0.0.1 - - [19/May/2017 18:17:34] "GET /favicon.ico HTTP/1.1" 404 -
+2017-05-19 18:17:44,426 :: INFO :: 127.0.0.1 - - [19/May/2017 18:17:44] "GET /wine/admin/ronan.lachater@gmail.com/admin HTTP/1.1" 200 -
+2017-05-19 18:17:46,293 :: INFO :: GET http://localhost:9200/db_wine_admin/_search?size=0 [status:200 request:0.012s]
+2017-05-19 18:17:46,315 :: INFO :: GET http://localhost:9200/db_wine_admin/_search?size=0 [status:200 request:0.020s]
+2017-05-19 18:17:46,439 :: INFO :: GET http://localhost:9200/db_wine_admin/_search?size=0 [status:200 request:0.123s]
+2017-05-19 18:17:46,505 :: INFO :: GET http://localhost:9200/db_wine_admin/_search?size=0 [status:200 request:0.064s]
+2017-05-19 18:17:46,506 :: INFO :: <class 'list'>
+2017-05-19 18:17:46,507 :: INFO :: {'wineDistribution': ['blancs:132139', 'rouges:129335', 'champagne:110044', 'rosés:75002'], 'wineCountries': ['poland:17015', 'portugal:16560', 'france:15015', 'sweden:13111', 'ukraine:8478', 'czech:8324', 'republic:8324', 'greece:6458', 'finland:2827', 'serbia:2776', 'croatia:2642', 'norway:2283', 'albania:2154', 'ireland:2078', 'armenia:1952', 'belarus:1868', 'slovenia:1751', 'bulgaria:1720', 'germany:1499', 'and:1466', 'bosnia:1466', 'herzegovina:1466', 'macedonia:1436', 'azerbaijan:1420', 'spain:1250', 'kingdom:947', 'united:947', 'luxembourg:901', 'latvia:890', 'lithuania:882', 'georgia:626', 'denmark:622', 'italy:622', 'estonia:615', 'hungary:604', 'moldova:565', 'cyprus:512', 'kosovo:487', 'malta:459', 'montenegro:261', 'switzerland:247', 'austria:230', 'iceland:179', 'belgium:169', 'turkey:79', 'liechtenstein:66', 'andorra:58', 'monaco:55', 'marino:52', 'san:52', 'slovakia:40', 'romania:10'], 'loginLastMonth': 17175, 'activeUsers': 143212}
+2017-05-19 18:17:46,510 :: INFO :: 127.0.0.1 - - [19/May/2017 18:17:46] "GET /wine/admin/dashboard/init HTTP/1.1" 200 -
+2017-05-19 18:19:52,518 :: INFO :: GET http://localhost:9200/db_wine_admin/_search?size=0 [status:200 request:0.020s]
+2017-05-19 18:19:52,539 :: INFO :: GET http://localhost:9200/db_wine_admin/_search?size=0 [status:200 request:0.020s]
+2017-05-19 18:19:52,623 :: INFO :: GET http://localhost:9200/db_wine_admin/_search?size=0 [status:200 request:0.082s]
+2017-05-19 18:19:52,665 :: INFO :: GET http://localhost:9200/db_wine_admin/_search?size=0 [status:200 request:0.040s]
+2017-05-19 18:19:52,666 :: INFO :: <class 'list'>
+2017-05-19 18:19:52,667 :: INFO :: {'wineDistribution': ['blancs:132139', 'rouges:129335', 'champagne:110044', 'rosés:75002'], 'wineCountries': ['poland:17015', 'portugal:16560', 'france:15015', 'sweden:13111', 'ukraine:8478', 'czech:8324', 'republic:8324', 'greece:6458', 'finland:2827', 'serbia:2776', 'croatia:2642', 'norway:2283', 'albania:2154', 'ireland:2078', 'armenia:1952', 'belarus:1868', 'slovenia:1751', 'bulgaria:1720', 'germany:1499', 'and:1466', 'bosnia:1466', 'herzegovina:1466', 'macedonia:1436', 'azerbaijan:1420', 'spain:1250', 'kingdom:947', 'united:947', 'luxembourg:901', 'latvia:890', 'lithuania:882', 'georgia:626', 'denmark:622', 'italy:622', 'estonia:615', 'hungary:604', 'moldova:565', 'cyprus:512', 'kosovo:487', 'malta:459', 'montenegro:261', 'switzerland:247', 'austria:230', 'iceland:179', 'belgium:169', 'turkey:79', 'liechtenstein:66', 'andorra:58', 'monaco:55', 'marino:52', 'san:52', 'slovakia:40', 'romania:10'], 'loginLastMonth': 17175, 'activeUsers': 143212}
+2017-05-19 18:19:52,669 :: INFO :: 127.0.0.1 - - [19/May/2017 18:19:52] "GET /wine/admin/dashboard/init HTTP/1.1" 200 -
+2017-05-19 18:20:47,939 :: INFO :: GET http://localhost:9200/db_wine_admin/_search?size=0 [status:200 request:0.080s]
+2017-05-19 18:20:47,968 :: INFO :: GET http://localhost:9200/db_wine_admin/_search?size=0 [status:200 request:0.028s]
+2017-05-19 18:20:48,097 :: INFO :: GET http://localhost:9200/db_wine_admin/_search?size=0 [status:200 request:0.128s]
+2017-05-19 18:20:48,258 :: INFO :: GET http://localhost:9200/db_wine_admin/_search?size=0 [status:200 request:0.159s]
+2017-05-19 18:20:48,259 :: INFO :: <class 'list'>
+2017-05-19 18:20:48,260 :: INFO :: {'wineDistribution': ['blancs:132139', 'rouges:129335', 'champagne:110044', 'rosés:75002'], 'wineCountries': ['poland:17015', 'portugal:16560', 'france:15015', 'sweden:13111', 'ukraine:8478', 'czech:8324', 'republic:8324', 'greece:6458', 'finland:2827', 'serbia:2776', 'croatia:2642', 'norway:2283', 'albania:2154', 'ireland:2078', 'armenia:1952', 'belarus:1868', 'slovenia:1751', 'bulgaria:1720', 'germany:1499', 'and:1466', 'bosnia:1466', 'herzegovina:1466', 'macedonia:1436', 'azerbaijan:1420', 'spain:1250', 'kingdom:947', 'united:947', 'luxembourg:901', 'latvia:890', 'lithuania:882', 'georgia:626', 'denmark:622', 'italy:622', 'estonia:615', 'hungary:604', 'moldova:565', 'cyprus:512', 'kosovo:487', 'malta:459', 'montenegro:261', 'switzerland:247', 'austria:230', 'iceland:179', 'belgium:169', 'turkey:79', 'liechtenstein:66', 'andorra:58', 'monaco:55', 'marino:52', 'san:52', 'slovakia:40', 'romania:10'], 'loginLastMonth': 17175, 'activeUsers': 143212}
+2017-05-19 18:20:48,262 :: INFO :: 127.0.0.1 - - [19/May/2017 18:20:48] "GET /wine/admin/dashboard/init HTTP/1.1" 200 -
+2017-05-19 18:26:37,879 :: INFO :: GET http://localhost:9200/db_wine_admin/_search?size=0 [status:200 request:0.011s]
+2017-05-19 18:26:37,899 :: INFO :: GET http://localhost:9200/db_wine_admin/_search?size=0 [status:200 request:0.019s]
+2017-05-19 18:26:37,944 :: INFO :: GET http://localhost:9200/db_wine_admin/_search?size=0 [status:200 request:0.043s]
+2017-05-19 18:26:37,985 :: INFO :: GET http://localhost:9200/db_wine_admin/_search?size=0 [status:200 request:0.040s]
+2017-05-19 18:26:37,990 :: INFO :: <class 'list'>
+2017-05-19 18:26:37,991 :: INFO :: {'wineDistribution': ['blancs:132139', 'rouges:129335', 'champagne:110044', 'rosés:75002'], 'wineCountries': ['poland:17015', 'portugal:16560', 'france:15015', 'sweden:13111', 'ukraine:8478', 'czech:8324', 'republic:8324', 'greece:6458', 'finland:2827', 'serbia:2776', 'croatia:2642', 'norway:2283', 'albania:2154', 'ireland:2078', 'armenia:1952', 'belarus:1868', 'slovenia:1751', 'bulgaria:1720', 'germany:1499', 'and:1466', 'bosnia:1466', 'herzegovina:1466', 'macedonia:1436', 'azerbaijan:1420', 'spain:1250', 'kingdom:947', 'united:947', 'luxembourg:901', 'latvia:890', 'lithuania:882', 'georgia:626', 'denmark:622', 'italy:622', 'estonia:615', 'hungary:604', 'moldova:565', 'cyprus:512', 'kosovo:487', 'malta:459', 'montenegro:261', 'switzerland:247', 'austria:230', 'iceland:179', 'belgium:169', 'turkey:79', 'liechtenstein:66', 'andorra:58', 'monaco:55', 'marino:52', 'san:52', 'slovakia:40', 'romania:10'], 'loginLastMonth': 17175, 'activeUsers': 143212}
+2017-05-19 18:26:37,993 :: INFO :: 127.0.0.1 - - [19/May/2017 18:26:37] "GET /wine/admin/dashboard/init HTTP/1.1" 200 -
+2017-05-19 18:27:03,846 :: INFO :: GET http://localhost:9200/db_wine_admin/_search?size=0 [status:200 request:0.023s]
+2017-05-19 18:27:03,885 :: INFO :: GET http://localhost:9200/db_wine_admin/_search?size=0 [status:200 request:0.037s]
+2017-05-19 18:27:03,959 :: INFO :: GET http://localhost:9200/db_wine_admin/_search?size=0 [status:200 request:0.074s]
+2017-05-19 18:27:04,067 :: INFO :: GET http://localhost:9200/db_wine_admin/_search?size=0 [status:200 request:0.106s]
+2017-05-19 18:27:04,074 :: INFO :: <class 'list'>
+2017-05-19 18:27:04,075 :: INFO :: {'wineDistribution': ['blancs:132139', 'rouges:129335', 'champagne:110044', 'rosés:75002'], 'wineCountries': ['poland:17015', 'portugal:16560', 'france:15015', 'sweden:13111', 'ukraine:8478', 'czech:8324', 'republic:8324', 'greece:6458', 'finland:2827', 'serbia:2776', 'croatia:2642', 'norway:2283', 'albania:2154', 'ireland:2078', 'armenia:1952', 'belarus:1868', 'slovenia:1751', 'bulgaria:1720', 'germany:1499', 'and:1466', 'bosnia:1466', 'herzegovina:1466', 'macedonia:1436', 'azerbaijan:1420', 'spain:1250', 'kingdom:947', 'united:947', 'luxembourg:901', 'latvia:890', 'lithuania:882', 'georgia:626', 'denmark:622', 'italy:622', 'estonia:615', 'hungary:604', 'moldova:565', 'cyprus:512', 'kosovo:487', 'malta:459', 'montenegro:261', 'switzerland:247', 'austria:230', 'iceland:179', 'belgium:169', 'turkey:79', 'liechtenstein:66', 'andorra:58', 'monaco:55', 'marino:52', 'san:52', 'slovakia:40', 'romania:10'], 'loginLastMonth': 17175, 'activeUsers': 143212}
+2017-05-19 18:27:04,077 :: INFO :: 127.0.0.1 - - [19/May/2017 18:27:04] "GET /wine/admin/dashboard/init HTTP/1.1" 200 -
+2017-05-19 18:29:49,742 :: INFO :: GET http://localhost:9200/db_wine_admin/_search?size=0 [status:200 request:0.009s]
+2017-05-19 18:29:49,760 :: INFO :: GET http://localhost:9200/db_wine_admin/_search?size=0 [status:200 request:0.016s]
+2017-05-19 18:29:49,795 :: INFO :: GET http://localhost:9200/db_wine_admin/_search?size=0 [status:200 request:0.034s]
+2017-05-19 18:29:49,843 :: INFO :: GET http://localhost:9200/db_wine_admin/_search?size=0 [status:200 request:0.041s]
+2017-05-19 18:29:49,845 :: INFO :: <class 'list'>
+2017-05-19 18:29:49,846 :: INFO :: {'wineDistribution': ['blancs:132139', 'rouges:129335', 'champagne:110044', 'rosés:75002'], 'wineCountries': ['poland:17015', 'portugal:16560', 'france:15015', 'sweden:13111', 'ukraine:8478', 'czech:8324', 'republic:8324', 'greece:6458', 'finland:2827', 'serbia:2776', 'croatia:2642', 'norway:2283', 'albania:2154', 'ireland:2078', 'armenia:1952', 'belarus:1868', 'slovenia:1751', 'bulgaria:1720', 'germany:1499', 'and:1466', 'bosnia:1466', 'herzegovina:1466', 'macedonia:1436', 'azerbaijan:1420', 'spain:1250', 'kingdom:947', 'united:947', 'luxembourg:901', 'latvia:890', 'lithuania:882', 'georgia:626', 'denmark:622', 'italy:622', 'estonia:615', 'hungary:604', 'moldova:565', 'cyprus:512', 'kosovo:487', 'malta:459', 'montenegro:261', 'switzerland:247', 'austria:230', 'iceland:179', 'belgium:169', 'turkey:79', 'liechtenstein:66', 'andorra:58', 'monaco:55', 'marino:52', 'san:52', 'slovakia:40', 'romania:10'], 'loginLastMonth': 17175, 'activeUsers': 143212}
+2017-05-19 18:29:49,849 :: INFO :: 127.0.0.1 - - [19/May/2017 18:29:49] "GET /wine/admin/dashboard/init HTTP/1.1" 200 -
+2017-05-19 19:06:45,818 :: INFO :: GET http://localhost:9200/db_wine_admin/_search?size=0 [status:200 request:0.003s]
+2017-05-19 19:06:45,823 :: INFO :: GET http://localhost:9200/db_wine_admin/_search?size=0 [status:200 request:0.005s]
+2017-05-19 19:06:45,834 :: INFO :: GET http://localhost:9200/db_wine_admin/_search?size=0 [status:200 request:0.011s]
+2017-05-19 19:06:45,846 :: INFO :: GET http://localhost:9200/db_wine_admin/_search?size=0 [status:200 request:0.011s]
+2017-05-19 19:06:45,846 :: INFO :: <class 'list'>
+2017-05-19 19:06:45,847 :: INFO :: {'wineDistribution': ['blancs:132139', 'rouges:129335', 'champagne:110044', 'rosés:75002'], 'wineCountries': ['poland:17015', 'portugal:16560', 'france:15015', 'sweden:13111', 'ukraine:8478', 'czech:8324', 'republic:8324', 'greece:6458', 'finland:2827', 'serbia:2776', 'croatia:2642', 'norway:2283', 'albania:2154', 'ireland:2078', 'armenia:1952', 'belarus:1868', 'slovenia:1751', 'bulgaria:1720', 'germany:1499', 'and:1466', 'bosnia:1466', 'herzegovina:1466', 'macedonia:1436', 'azerbaijan:1420', 'spain:1250', 'kingdom:947', 'united:947', 'luxembourg:901', 'latvia:890', 'lithuania:882', 'georgia:626', 'denmark:622', 'italy:622', 'estonia:615', 'hungary:604', 'moldova:565', 'cyprus:512', 'kosovo:487', 'malta:459', 'montenegro:261', 'switzerland:247', 'austria:230', 'iceland:179', 'belgium:169', 'turkey:79', 'liechtenstein:66', 'andorra:58', 'monaco:55', 'marino:52', 'san:52', 'slovakia:40', 'romania:10'], 'loginLastMonth': 17175, 'activeUsers': 143212}
+2017-05-19 19:06:45,847 :: INFO :: 127.0.0.1 - - [19/May/2017 19:06:45] "GET /wine/admin/dashboard/init HTTP/1.1" 200 -
+2017-05-19 19:08:25,612 :: INFO :: GET http://localhost:9200/db_wine_admin/_search?size=0 [status:200 request:0.009s]
+2017-05-19 19:08:25,658 :: INFO :: GET http://localhost:9200/db_wine_admin/_search?size=0 [status:200 request:0.044s]
+2017-05-19 19:08:25,741 :: INFO :: GET http://localhost:9200/db_wine_admin/_search?size=0 [status:200 request:0.082s]
+2017-05-19 19:08:25,903 :: INFO :: GET http://localhost:9200/db_wine_admin/_search?size=0 [status:200 request:0.160s]
+2017-05-19 19:08:25,903 :: INFO :: <class 'list'>
+2017-05-19 19:08:25,904 :: INFO :: {'wineDistribution': ['blancs:132139', 'rouges:129335', 'champagne:110044', 'rosés:75002'], 'wineCountries': ['poland:17015', 'portugal:16560', 'france:15015', 'sweden:13111', 'ukraine:8478', 'czech:8324', 'republic:8324', 'greece:6458', 'finland:2827', 'serbia:2776', 'croatia:2642', 'norway:2283', 'albania:2154', 'ireland:2078', 'armenia:1952', 'belarus:1868', 'slovenia:1751', 'bulgaria:1720', 'germany:1499', 'and:1466', 'bosnia:1466', 'herzegovina:1466', 'macedonia:1436', 'azerbaijan:1420', 'spain:1250', 'kingdom:947', 'united:947', 'luxembourg:901', 'latvia:890', 'lithuania:882', 'georgia:626', 'denmark:622', 'italy:622', 'estonia:615', 'hungary:604', 'moldova:565', 'cyprus:512', 'kosovo:487', 'malta:459', 'montenegro:261', 'switzerland:247', 'austria:230', 'iceland:179', 'belgium:169', 'turkey:79', 'liechtenstein:66', 'andorra:58', 'monaco:55', 'marino:52', 'san:52', 'slovakia:40', 'romania:10'], 'loginLastMonth': 17175, 'activeUsers': 143212}
+2017-05-19 19:08:25,933 :: INFO :: 127.0.0.1 - - [19/May/2017 19:08:25] "GET /wine/admin/dashboard/init HTTP/1.1" 200 -
+2017-05-19 19:12:24,784 :: INFO :: GET http://localhost:9200/db_wine_admin/_search?size=0 [status:200 request:0.040s]
+2017-05-19 19:12:24,794 :: INFO :: GET http://localhost:9200/db_wine_admin/_search?size=0 [status:200 request:0.009s]
+2017-05-19 19:12:24,848 :: INFO :: GET http://localhost:9200/db_wine_admin/_search?size=0 [status:200 request:0.053s]
+2017-05-19 19:12:24,947 :: INFO :: GET http://localhost:9200/db_wine_admin/_search?size=0 [status:200 request:0.072s]
+2017-05-19 19:12:24,947 :: INFO :: <class 'list'>
+2017-05-19 19:12:24,948 :: INFO :: {'wineDistribution': ['blancs:132139', 'rouges:129335', 'champagne:110044', 'rosés:75002'], 'wineCountries': ['poland:17015', 'portugal:16560', 'france:15015', 'sweden:13111', 'ukraine:8478', 'czech:8324', 'republic:8324', 'greece:6458', 'finland:2827', 'serbia:2776', 'croatia:2642', 'norway:2283', 'albania:2154', 'ireland:2078', 'armenia:1952', 'belarus:1868', 'slovenia:1751', 'bulgaria:1720', 'germany:1499', 'and:1466', 'bosnia:1466', 'herzegovina:1466', 'macedonia:1436', 'azerbaijan:1420', 'spain:1250', 'kingdom:947', 'united:947', 'luxembourg:901', 'latvia:890', 'lithuania:882', 'georgia:626', 'denmark:622', 'italy:622', 'estonia:615', 'hungary:604', 'moldova:565', 'cyprus:512', 'kosovo:487', 'malta:459', 'montenegro:261', 'switzerland:247', 'austria:230', 'iceland:179', 'belgium:169', 'turkey:79', 'liechtenstein:66', 'andorra:58', 'monaco:55', 'marino:52', 'san:52', 'slovakia:40', 'romania:10'], 'loginLastMonth': 17175, 'activeUsers': 143212}
+2017-05-19 19:12:24,949 :: INFO :: 127.0.0.1 - - [19/May/2017 19:12:24] "GET /wine/admin/dashboard/init HTTP/1.1" 200 -
+2017-05-19 19:31:40,415 :: INFO ::  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2017-05-19 19:31:40,431 :: INFO ::  * Restarting with stat
+2017-05-19 19:31:42,270 :: WARNING ::  * Debugger is active!
+2017-05-19 19:31:42,349 :: INFO ::  * Debugger PIN: 335-866-364
+2017-05-19 19:32:50,000 :: INFO :: GET http://localhost:9200/db_wine_admin/_search?size=0 [status:200 request:0.007s]
+2017-05-19 19:32:50,039 :: INFO :: GET http://localhost:9200/db_wine_admin/_search?size=0 [status:200 request:0.038s]
+2017-05-19 19:32:50,122 :: INFO :: GET http://localhost:9200/db_wine_admin/_search?size=0 [status:200 request:0.082s]
+2017-05-19 19:32:50,174 :: INFO :: GET http://localhost:9200/db_wine_admin/_search?size=0 [status:200 request:0.050s]
+2017-05-19 19:32:50,175 :: INFO :: <class 'list'>
+2017-05-19 19:32:50,175 :: INFO :: {'wineCountries': ['poland:17015', 'portugal:16560', 'france:15015', 'sweden:13111', 'ukraine:8478', 'czech:8324', 'republic:8324', 'greece:6458', 'finland:2827', 'serbia:2776', 'croatia:2642', 'norway:2283', 'albania:2154', 'ireland:2078', 'armenia:1952', 'belarus:1868', 'slovenia:1751', 'bulgaria:1720', 'germany:1499', 'and:1466', 'bosnia:1466', 'herzegovina:1466', 'macedonia:1436', 'azerbaijan:1420', 'spain:1250', 'kingdom:947', 'united:947', 'luxembourg:901', 'latvia:890', 'lithuania:882', 'georgia:626', 'denmark:622', 'italy:622', 'estonia:615', 'hungary:604', 'moldova:565', 'cyprus:512', 'kosovo:487', 'malta:459', 'montenegro:261', 'switzerland:247', 'austria:230', 'iceland:179', 'belgium:169', 'turkey:79', 'liechtenstein:66', 'andorra:58', 'monaco:55', 'marino:52', 'san:52', 'slovakia:40', 'romania:10'], 'wineDistribution': ['blancs:132139', 'rouges:129335', 'champagne:110044', 'rosés:75002'], 'activeUsers': 143212, 'loginLastMonth': 17175}
+2017-05-19 19:32:50,177 :: INFO :: 127.0.0.1 - - [19/May/2017 19:32:50] "GET /wine/admin/dashboard/init HTTP/1.1" 200 -
+2017-05-19 21:09:16,028 :: INFO ::  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2017-05-19 21:09:16,032 :: INFO ::  * Restarting with stat
+2017-05-19 21:09:18,396 :: WARNING ::  * Debugger is active!
+2017-05-19 21:09:18,398 :: INFO ::  * Debugger PIN: 335-866-364
+2017-05-19 21:12:43,434 :: INFO :: 127.0.0.1 - - [19/May/2017 21:12:43] "GET /wine/admin/ronan.lachater@gmail.com/admin HTTP/1.1" 200 -
+2017-05-19 21:12:44,703 :: INFO :: GET http://localhost:9200/db_wine_admin/_search?size=0 [status:200 request:0.011s]
+2017-05-19 21:12:44,713 :: INFO :: GET http://localhost:9200/db_wine_admin/_search?size=0 [status:200 request:0.009s]
+2017-05-19 21:12:44,747 :: INFO :: GET http://localhost:9200/db_wine_admin/_search?size=0 [status:200 request:0.032s]
+2017-05-19 21:12:44,764 :: INFO :: GET http://localhost:9200/db_wine_admin/_search?size=0 [status:200 request:0.016s]
+2017-05-19 21:12:44,764 :: INFO :: <class 'list'>
+2017-05-19 21:12:44,765 :: INFO :: {'wineCountries': ['poland:17015', 'portugal:16560', 'france:15015', 'sweden:13111', 'ukraine:8478', 'czech:8324', 'republic:8324', 'greece:6458', 'finland:2827', 'serbia:2776', 'croatia:2642', 'norway:2283', 'albania:2154', 'ireland:2078', 'armenia:1952', 'belarus:1868', 'slovenia:1751', 'bulgaria:1720', 'germany:1499', 'and:1466', 'bosnia:1466', 'herzegovina:1466', 'macedonia:1436', 'azerbaijan:1420', 'spain:1250', 'kingdom:947', 'united:947', 'luxembourg:901', 'latvia:890', 'lithuania:882', 'georgia:626', 'denmark:622', 'italy:622', 'estonia:615', 'hungary:604', 'moldova:565', 'cyprus:512', 'kosovo:487', 'malta:459', 'montenegro:261', 'switzerland:247', 'austria:230', 'iceland:179', 'belgium:169', 'turkey:79', 'liechtenstein:66', 'andorra:58', 'monaco:55', 'marino:52', 'san:52', 'slovakia:40', 'romania:10'], 'loginLastMonth': 17175, 'wineDistribution': ['blancs:132139', 'rouges:129335', 'champagne:110044', 'rosés:75002'], 'activeUsers': 143212}
+2017-05-19 21:12:44,767 :: INFO :: 127.0.0.1 - - [19/May/2017 21:12:44] "GET /wine/admin/dashboard/init HTTP/1.1" 200 -
+2017-05-19 21:13:33,308 :: INFO :: GET http://localhost:9200/db_wine_admin/_search?size=0 [status:200 request:0.007s]
+2017-05-19 21:13:33,320 :: INFO :: GET http://localhost:9200/db_wine_admin/_search?size=0 [status:200 request:0.011s]
+2017-05-19 21:13:33,352 :: INFO :: GET http://localhost:9200/db_wine_admin/_search?size=0 [status:200 request:0.031s]
+2017-05-19 21:13:33,385 :: INFO :: GET http://localhost:9200/db_wine_admin/_search?size=0 [status:200 request:0.031s]
+2017-05-19 21:13:33,386 :: INFO :: <class 'list'>
+2017-05-19 21:13:33,386 :: INFO :: {'wineCountries': ['poland:17015', 'portugal:16560', 'france:15015', 'sweden:13111', 'ukraine:8478', 'czech:8324', 'republic:8324', 'greece:6458', 'finland:2827', 'serbia:2776', 'croatia:2642', 'norway:2283', 'albania:2154', 'ireland:2078', 'armenia:1952', 'belarus:1868', 'slovenia:1751', 'bulgaria:1720', 'germany:1499', 'and:1466', 'bosnia:1466', 'herzegovina:1466', 'macedonia:1436', 'azerbaijan:1420', 'spain:1250', 'kingdom:947', 'united:947', 'luxembourg:901', 'latvia:890', 'lithuania:882', 'georgia:626', 'denmark:622', 'italy:622', 'estonia:615', 'hungary:604', 'moldova:565', 'cyprus:512', 'kosovo:487', 'malta:459', 'montenegro:261', 'switzerland:247', 'austria:230', 'iceland:179', 'belgium:169', 'turkey:79', 'liechtenstein:66', 'andorra:58', 'monaco:55', 'marino:52', 'san:52', 'slovakia:40', 'romania:10'], 'loginLastMonth': 17175, 'wineDistribution': ['blancs:132139', 'rouges:129335', 'champagne:110044', 'rosés:75002'], 'activeUsers': 143212}
+2017-05-19 21:13:33,388 :: INFO :: 127.0.0.1 - - [19/May/2017 21:13:33] "GET /wine/admin/dashboard/init HTTP/1.1" 200 -
+2017-05-19 21:14:20,414 :: INFO :: GET http://localhost:9200/db_wine_admin/_search?size=0 [status:200 request:0.008s]
+2017-05-19 21:14:20,427 :: INFO :: GET http://localhost:9200/db_wine_admin/_search?size=0 [status:200 request:0.011s]
+2017-05-19 21:14:20,481 :: INFO :: GET http://localhost:9200/db_wine_admin/_search?size=0 [status:200 request:0.053s]
+2017-05-19 21:14:20,507 :: INFO :: GET http://localhost:9200/db_wine_admin/_search?size=0 [status:200 request:0.024s]
+2017-05-19 21:14:20,508 :: INFO :: <class 'list'>
+2017-05-19 21:14:20,509 :: INFO :: {'wineCountries': ['poland:17015', 'portugal:16560', 'france:15015', 'sweden:13111', 'ukraine:8478', 'czech:8324', 'republic:8324', 'greece:6458', 'finland:2827', 'serbia:2776', 'croatia:2642', 'norway:2283', 'albania:2154', 'ireland:2078', 'armenia:1952', 'belarus:1868', 'slovenia:1751', 'bulgaria:1720', 'germany:1499', 'and:1466', 'bosnia:1466', 'herzegovina:1466', 'macedonia:1436', 'azerbaijan:1420', 'spain:1250', 'kingdom:947', 'united:947', 'luxembourg:901', 'latvia:890', 'lithuania:882', 'georgia:626', 'denmark:622', 'italy:622', 'estonia:615', 'hungary:604', 'moldova:565', 'cyprus:512', 'kosovo:487', 'malta:459', 'montenegro:261', 'switzerland:247', 'austria:230', 'iceland:179', 'belgium:169', 'turkey:79', 'liechtenstein:66', 'andorra:58', 'monaco:55', 'marino:52', 'san:52', 'slovakia:40', 'romania:10'], 'loginLastMonth': 17175, 'wineDistribution': ['blancs:132139', 'rouges:129335', 'champagne:110044', 'rosés:75002'], 'activeUsers': 143212}
+2017-05-19 21:14:20,511 :: INFO :: 127.0.0.1 - - [19/May/2017 21:14:20] "GET /wine/admin/dashboard/init HTTP/1.1" 200 -
+2017-05-19 21:15:19,698 :: INFO :: GET http://localhost:9200/db_wine_admin/_search?size=0 [status:200 request:0.034s]
+2017-05-19 21:15:19,705 :: INFO :: GET http://localhost:9200/db_wine_admin/_search?size=0 [status:200 request:0.006s]
+2017-05-19 21:15:19,760 :: INFO :: GET http://localhost:9200/db_wine_admin/_search?size=0 [status:200 request:0.053s]
+2017-05-19 21:15:19,838 :: INFO :: GET http://localhost:9200/db_wine_admin/_search?size=0 [status:200 request:0.078s]
+2017-05-19 21:15:19,839 :: INFO :: <class 'list'>
+2017-05-19 21:15:19,840 :: INFO :: {'wineCountries': ['poland:17015', 'portugal:16560', 'france:15015', 'sweden:13111', 'ukraine:8478', 'czech:8324', 'republic:8324', 'greece:6458', 'finland:2827', 'serbia:2776', 'croatia:2642', 'norway:2283', 'albania:2154', 'ireland:2078', 'armenia:1952', 'belarus:1868', 'slovenia:1751', 'bulgaria:1720', 'germany:1499', 'and:1466', 'bosnia:1466', 'herzegovina:1466', 'macedonia:1436', 'azerbaijan:1420', 'spain:1250', 'kingdom:947', 'united:947', 'luxembourg:901', 'latvia:890', 'lithuania:882', 'georgia:626', 'denmark:622', 'italy:622', 'estonia:615', 'hungary:604', 'moldova:565', 'cyprus:512', 'kosovo:487', 'malta:459', 'montenegro:261', 'switzerland:247', 'austria:230', 'iceland:179', 'belgium:169', 'turkey:79', 'liechtenstein:66', 'andorra:58', 'monaco:55', 'marino:52', 'san:52', 'slovakia:40', 'romania:10'], 'loginLastMonth': 17175, 'wineDistribution': ['blancs:132139', 'rouges:129335', 'champagne:110044', 'rosés:75002'], 'activeUsers': 143212}
+2017-05-19 21:15:19,842 :: INFO :: 127.0.0.1 - - [19/May/2017 21:15:19] "GET /wine/admin/dashboard/init HTTP/1.1" 200 -
+2017-05-19 21:16:12,800 :: INFO :: GET http://localhost:9200/db_wine_admin/_search?size=0 [status:200 request:0.031s]
+2017-05-19 21:16:12,818 :: INFO :: GET http://localhost:9200/db_wine_admin/_search?size=0 [status:200 request:0.017s]
+2017-05-19 21:16:12,848 :: INFO :: GET http://localhost:9200/db_wine_admin/_search?size=0 [status:200 request:0.029s]
+2017-05-19 21:16:12,907 :: INFO :: GET http://localhost:9200/db_wine_admin/_search?size=0 [status:200 request:0.026s]
+2017-05-19 21:16:12,908 :: INFO :: <class 'list'>
+2017-05-19 21:16:12,908 :: INFO :: {'wineCountries': ['poland:17015', 'portugal:16560', 'france:15015', 'sweden:13111', 'ukraine:8478', 'czech:8324', 'republic:8324', 'greece:6458', 'finland:2827', 'serbia:2776', 'croatia:2642', 'norway:2283', 'albania:2154', 'ireland:2078', 'armenia:1952', 'belarus:1868', 'slovenia:1751', 'bulgaria:1720', 'germany:1499', 'and:1466', 'bosnia:1466', 'herzegovina:1466', 'macedonia:1436', 'azerbaijan:1420', 'spain:1250', 'kingdom:947', 'united:947', 'luxembourg:901', 'latvia:890', 'lithuania:882', 'georgia:626', 'denmark:622', 'italy:622', 'estonia:615', 'hungary:604', 'moldova:565', 'cyprus:512', 'kosovo:487', 'malta:459', 'montenegro:261', 'switzerland:247', 'austria:230', 'iceland:179', 'belgium:169', 'turkey:79', 'liechtenstein:66', 'andorra:58', 'monaco:55', 'marino:52', 'san:52', 'slovakia:40', 'romania:10'], 'loginLastMonth': 17175, 'wineDistribution': ['blancs:132139', 'rouges:129335', 'champagne:110044', 'rosés:75002'], 'activeUsers': 143212}
+2017-05-19 21:16:12,910 :: INFO :: 127.0.0.1 - - [19/May/2017 21:16:12] "GET /wine/admin/dashboard/init HTTP/1.1" 200 -
+2017-05-19 21:17:45,382 :: INFO :: GET http://localhost:9200/db_wine_admin/_search?size=0 [status:200 request:0.009s]
+2017-05-19 21:17:45,393 :: INFO :: GET http://localhost:9200/db_wine_admin/_search?size=0 [status:200 request:0.010s]
+2017-05-19 21:17:45,447 :: INFO :: GET http://localhost:9200/db_wine_admin/_search?size=0 [status:200 request:0.053s]
+2017-05-19 21:17:45,516 :: INFO :: GET http://localhost:9200/db_wine_admin/_search?size=0 [status:200 request:0.068s]
+2017-05-19 21:17:45,517 :: INFO :: <class 'list'>
+2017-05-19 21:17:45,518 :: INFO :: {'wineCountries': ['poland:17015', 'portugal:16560', 'france:15015', 'sweden:13111', 'ukraine:8478', 'czech:8324', 'republic:8324', 'greece:6458', 'finland:2827', 'serbia:2776', 'croatia:2642', 'norway:2283', 'albania:2154', 'ireland:2078', 'armenia:1952', 'belarus:1868', 'slovenia:1751', 'bulgaria:1720', 'germany:1499', 'and:1466', 'bosnia:1466', 'herzegovina:1466', 'macedonia:1436', 'azerbaijan:1420', 'spain:1250', 'kingdom:947', 'united:947', 'luxembourg:901', 'latvia:890', 'lithuania:882', 'georgia:626', 'denmark:622', 'italy:622', 'estonia:615', 'hungary:604', 'moldova:565', 'cyprus:512', 'kosovo:487', 'malta:459', 'montenegro:261', 'switzerland:247', 'austria:230', 'iceland:179', 'belgium:169', 'turkey:79', 'liechtenstein:66', 'andorra:58', 'monaco:55', 'marino:52', 'san:52', 'slovakia:40', 'romania:10'], 'loginLastMonth': 17175, 'wineDistribution': ['blancs:132139', 'rouges:129335', 'champagne:110044', 'rosés:75002'], 'activeUsers': 143212}
+2017-05-19 21:17:45,521 :: INFO :: 127.0.0.1 - - [19/May/2017 21:17:45] "GET /wine/admin/dashboard/init HTTP/1.1" 200 -
+2017-05-19 21:31:22,665 :: INFO :: GET http://localhost:9200/db_wine_admin/_search?size=0 [status:200 request:0.005s]
+2017-05-19 21:31:22,677 :: INFO :: GET http://localhost:9200/db_wine_admin/_search?size=0 [status:200 request:0.010s]
+2017-05-19 21:31:22,707 :: INFO :: GET http://localhost:9200/db_wine_admin/_search?size=0 [status:200 request:0.029s]
+2017-05-19 21:31:22,725 :: INFO :: GET http://localhost:9200/db_wine_admin/_search?size=0 [status:200 request:0.016s]
+2017-05-19 21:31:22,726 :: INFO :: <class 'list'>
+2017-05-19 21:31:22,726 :: INFO :: {'wineCountries': ['poland:17015', 'portugal:16560', 'france:15015', 'sweden:13111', 'ukraine:8478', 'czech:8324', 'republic:8324', 'greece:6458', 'finland:2827', 'serbia:2776', 'croatia:2642', 'norway:2283', 'albania:2154', 'ireland:2078', 'armenia:1952', 'belarus:1868', 'slovenia:1751', 'bulgaria:1720', 'germany:1499', 'and:1466', 'bosnia:1466', 'herzegovina:1466', 'macedonia:1436', 'azerbaijan:1420', 'spain:1250', 'kingdom:947', 'united:947', 'luxembourg:901', 'latvia:890', 'lithuania:882', 'georgia:626', 'denmark:622', 'italy:622', 'estonia:615', 'hungary:604', 'moldova:565', 'cyprus:512', 'kosovo:487', 'malta:459', 'montenegro:261', 'switzerland:247', 'austria:230', 'iceland:179', 'belgium:169', 'turkey:79', 'liechtenstein:66', 'andorra:58', 'monaco:55', 'marino:52', 'san:52', 'slovakia:40', 'romania:10'], 'loginLastMonth': 17175, 'wineDistribution': ['blancs:132139', 'rouges:129335', 'champagne:110044', 'rosés:75002'], 'activeUsers': 143212}
+2017-05-19 21:31:22,728 :: INFO :: 127.0.0.1 - - [19/May/2017 21:31:22] "GET /wine/admin/dashboard/init HTTP/1.1" 200 -
+2017-05-19 21:44:26,159 :: INFO :: 127.0.0.1 - - [19/May/2017 21:44:26] "GET /wine/admin/ronan.lachater@gmail.com/admin HTTP/1.1" 200 -
+2017-05-19 21:51:25,651 :: INFO :: 127.0.0.1 - - [19/May/2017 21:51:25] "GET /wine/admin/ronan.lachater@gmail.com/admin HTTP/1.1" 200 -
+2017-05-19 22:00:35,866 :: INFO :: 127.0.0.1 - - [19/May/2017 22:00:35] "GET /wine/admin/ronan.lachater@gmail.com/admin HTTP/1.1" 200 -
+2017-05-19 22:03:15,899 :: INFO :: 127.0.0.1 - - [19/May/2017 22:03:15] "GET /wine/admin/ronan.lachater@gmail.com/admin HTTP/1.1" 200 -
+2017-05-19 22:03:16,735 :: INFO :: GET http://localhost:9200/db_wine_admin/_search?size=0 [status:200 request:0.007s]
+2017-05-19 22:03:16,742 :: INFO :: GET http://localhost:9200/db_wine_admin/_search?size=0 [status:200 request:0.005s]
+2017-05-19 22:03:16,767 :: INFO :: GET http://localhost:9200/db_wine_admin/_search?size=0 [status:200 request:0.024s]
+2017-05-19 22:03:16,799 :: INFO :: GET http://localhost:9200/db_wine_admin/_search?size=0 [status:200 request:0.031s]
+2017-05-19 22:03:16,800 :: INFO :: <class 'list'>
+2017-05-19 22:03:16,800 :: INFO :: {'wineCountries': ['poland:17015', 'portugal:16560', 'france:15015', 'sweden:13111', 'ukraine:8478', 'czech:8324', 'republic:8324', 'greece:6458', 'finland:2827', 'serbia:2776', 'croatia:2642', 'norway:2283', 'albania:2154', 'ireland:2078', 'armenia:1952', 'belarus:1868', 'slovenia:1751', 'bulgaria:1720', 'germany:1499', 'and:1466', 'bosnia:1466', 'herzegovina:1466', 'macedonia:1436', 'azerbaijan:1420', 'spain:1250', 'kingdom:947', 'united:947', 'luxembourg:901', 'latvia:890', 'lithuania:882', 'georgia:626', 'denmark:622', 'italy:622', 'estonia:615', 'hungary:604', 'moldova:565', 'cyprus:512', 'kosovo:487', 'malta:459', 'montenegro:261', 'switzerland:247', 'austria:230', 'iceland:179', 'belgium:169', 'turkey:79', 'liechtenstein:66', 'andorra:58', 'monaco:55', 'marino:52', 'san:52', 'slovakia:40', 'romania:10'], 'loginLastMonth': 17175, 'wineDistribution': ['blancs:132139', 'rouges:129335', 'champagne:110044', 'rosés:75002'], 'activeUsers': 143212}
+2017-05-19 22:03:16,802 :: INFO :: 127.0.0.1 - - [19/May/2017 22:03:16] "GET /wine/admin/dashboard/init HTTP/1.1" 200 -
+2017-05-19 22:03:33,288 :: INFO :: GET http://localhost:9200/db_wine_admin/_search?size=0 [status:200 request:0.007s]
+2017-05-19 22:03:33,293 :: INFO :: GET http://localhost:9200/db_wine_admin/_search?size=0 [status:200 request:0.004s]
+2017-05-19 22:03:33,314 :: INFO :: GET http://localhost:9200/db_wine_admin/_search?size=0 [status:200 request:0.020s]
+2017-05-19 22:03:33,329 :: INFO :: GET http://localhost:9200/db_wine_admin/_search?size=0 [status:200 request:0.015s]
+2017-05-19 22:03:33,330 :: INFO :: <class 'list'>
+2017-05-19 22:03:33,331 :: INFO :: {'wineCountries': ['poland:17015', 'portugal:16560', 'france:15015', 'sweden:13111', 'ukraine:8478', 'czech:8324', 'republic:8324', 'greece:6458', 'finland:2827', 'serbia:2776', 'croatia:2642', 'norway:2283', 'albania:2154', 'ireland:2078', 'armenia:1952', 'belarus:1868', 'slovenia:1751', 'bulgaria:1720', 'germany:1499', 'and:1466', 'bosnia:1466', 'herzegovina:1466', 'macedonia:1436', 'azerbaijan:1420', 'spain:1250', 'kingdom:947', 'united:947', 'luxembourg:901', 'latvia:890', 'lithuania:882', 'georgia:626', 'denmark:622', 'italy:622', 'estonia:615', 'hungary:604', 'moldova:565', 'cyprus:512', 'kosovo:487', 'malta:459', 'montenegro:261', 'switzerland:247', 'austria:230', 'iceland:179', 'belgium:169', 'turkey:79', 'liechtenstein:66', 'andorra:58', 'monaco:55', 'marino:52', 'san:52', 'slovakia:40', 'romania:10'], 'loginLastMonth': 17175, 'wineDistribution': ['blancs:132139', 'rouges:129335', 'champagne:110044', 'rosés:75002'], 'activeUsers': 143212}
+2017-05-19 22:03:33,332 :: INFO :: 127.0.0.1 - - [19/May/2017 22:03:33] "GET /wine/admin/dashboard/init HTTP/1.1" 200 -
+2017-05-19 22:06:22,245 :: INFO :: GET http://localhost:9200/db_wine_admin/_search?size=0 [status:200 request:0.007s]
+2017-05-19 22:06:22,253 :: INFO :: GET http://localhost:9200/db_wine_admin/_search?size=0 [status:200 request:0.007s]
+2017-05-19 22:06:22,290 :: INFO :: GET http://localhost:9200/db_wine_admin/_search?size=0 [status:200 request:0.036s]
+2017-05-19 22:06:22,317 :: INFO :: GET http://localhost:9200/db_wine_admin/_search?size=0 [status:200 request:0.025s]
+2017-05-19 22:06:22,318 :: INFO :: <class 'list'>
+2017-05-19 22:06:22,319 :: INFO :: {'wineCountries': ['poland:17015', 'portugal:16560', 'france:15015', 'sweden:13111', 'ukraine:8478', 'czech:8324', 'republic:8324', 'greece:6458', 'finland:2827', 'serbia:2776', 'croatia:2642', 'norway:2283', 'albania:2154', 'ireland:2078', 'armenia:1952', 'belarus:1868', 'slovenia:1751', 'bulgaria:1720', 'germany:1499', 'and:1466', 'bosnia:1466', 'herzegovina:1466', 'macedonia:1436', 'azerbaijan:1420', 'spain:1250', 'kingdom:947', 'united:947', 'luxembourg:901', 'latvia:890', 'lithuania:882', 'georgia:626', 'denmark:622', 'italy:622', 'estonia:615', 'hungary:604', 'moldova:565', 'cyprus:512', 'kosovo:487', 'malta:459', 'montenegro:261', 'switzerland:247', 'austria:230', 'iceland:179', 'belgium:169', 'turkey:79', 'liechtenstein:66', 'andorra:58', 'monaco:55', 'marino:52', 'san:52', 'slovakia:40', 'romania:10'], 'loginLastMonth': 17175, 'wineDistribution': ['blancs:132139', 'rouges:129335', 'champagne:110044', 'rosés:75002'], 'activeUsers': 143212}
+2017-05-19 22:06:22,322 :: INFO :: 127.0.0.1 - - [19/May/2017 22:06:22] "GET /wine/admin/dashboard/init HTTP/1.1" 200 -
+2017-05-19 22:07:13,866 :: INFO :: GET http://localhost:9200/db_wine_admin/_search?size=0 [status:200 request:0.006s]
+2017-05-19 22:07:13,882 :: INFO :: GET http://localhost:9200/db_wine_admin/_search?size=0 [status:200 request:0.014s]
+2017-05-19 22:07:13,912 :: INFO :: GET http://localhost:9200/db_wine_admin/_search?size=0 [status:200 request:0.029s]
+2017-05-19 22:07:13,941 :: INFO :: GET http://localhost:9200/db_wine_admin/_search?size=0 [status:200 request:0.027s]
+2017-05-19 22:07:13,942 :: INFO :: <class 'list'>
+2017-05-19 22:07:13,942 :: INFO :: {'wineCountries': ['poland:17015', 'portugal:16560', 'france:15015', 'sweden:13111', 'ukraine:8478', 'czech:8324', 'republic:8324', 'greece:6458', 'finland:2827', 'serbia:2776', 'croatia:2642', 'norway:2283', 'albania:2154', 'ireland:2078', 'armenia:1952', 'belarus:1868', 'slovenia:1751', 'bulgaria:1720', 'germany:1499', 'and:1466', 'bosnia:1466', 'herzegovina:1466', 'macedonia:1436', 'azerbaijan:1420', 'spain:1250', 'kingdom:947', 'united:947', 'luxembourg:901', 'latvia:890', 'lithuania:882', 'georgia:626', 'denmark:622', 'italy:622', 'estonia:615', 'hungary:604', 'moldova:565', 'cyprus:512', 'kosovo:487', 'malta:459', 'montenegro:261', 'switzerland:247', 'austria:230', 'iceland:179', 'belgium:169', 'turkey:79', 'liechtenstein:66', 'andorra:58', 'monaco:55', 'marino:52', 'san:52', 'slovakia:40', 'romania:10'], 'loginLastMonth': 17175, 'wineDistribution': ['blancs:132139', 'rouges:129335', 'champagne:110044', 'rosés:75002'], 'activeUsers': 143212}
+2017-05-19 22:07:13,944 :: INFO :: 127.0.0.1 - - [19/May/2017 22:07:13] "GET /wine/admin/dashboard/init HTTP/1.1" 200 -
+2017-05-19 22:07:36,834 :: INFO :: GET http://localhost:9200/db_wine_admin/_search?size=0 [status:200 request:0.007s]
+2017-05-19 22:07:36,841 :: INFO :: GET http://localhost:9200/db_wine_admin/_search?size=0 [status:200 request:0.006s]
+2017-05-19 22:07:36,895 :: INFO :: GET http://localhost:9200/db_wine_admin/_search?size=0 [status:200 request:0.053s]
+2017-05-19 22:07:36,937 :: INFO :: GET http://localhost:9200/db_wine_admin/_search?size=0 [status:200 request:0.041s]
+2017-05-19 22:07:36,939 :: INFO :: <class 'list'>
+2017-05-19 22:07:36,939 :: INFO :: {'wineCountries': ['poland:17015', 'portugal:16560', 'france:15015', 'sweden:13111', 'ukraine:8478', 'czech:8324', 'republic:8324', 'greece:6458', 'finland:2827', 'serbia:2776', 'croatia:2642', 'norway:2283', 'albania:2154', 'ireland:2078', 'armenia:1952', 'belarus:1868', 'slovenia:1751', 'bulgaria:1720', 'germany:1499', 'and:1466', 'bosnia:1466', 'herzegovina:1466', 'macedonia:1436', 'azerbaijan:1420', 'spain:1250', 'kingdom:947', 'united:947', 'luxembourg:901', 'latvia:890', 'lithuania:882', 'georgia:626', 'denmark:622', 'italy:622', 'estonia:615', 'hungary:604', 'moldova:565', 'cyprus:512', 'kosovo:487', 'malta:459', 'montenegro:261', 'switzerland:247', 'austria:230', 'iceland:179', 'belgium:169', 'turkey:79', 'liechtenstein:66', 'andorra:58', 'monaco:55', 'marino:52', 'san:52', 'slovakia:40', 'romania:10'], 'loginLastMonth': 17175, 'wineDistribution': ['blancs:132139', 'rouges:129335', 'champagne:110044', 'rosés:75002'], 'activeUsers': 143212}
+2017-05-19 22:07:36,941 :: INFO :: 127.0.0.1 - - [19/May/2017 22:07:36] "GET /wine/admin/dashboard/init HTTP/1.1" 200 -
+2017-05-19 22:15:04,267 :: INFO :: GET http://localhost:9200/db_wine_admin/_search?size=0 [status:200 request:0.007s]
+2017-05-19 22:15:04,273 :: INFO :: GET http://localhost:9200/db_wine_admin/_search?size=0 [status:200 request:0.005s]
+2017-05-19 22:15:04,293 :: INFO :: GET http://localhost:9200/db_wine_admin/_search?size=0 [status:200 request:0.019s]
+2017-05-19 22:15:04,311 :: INFO :: GET http://localhost:9200/db_wine_admin/_search?size=0 [status:200 request:0.017s]
+2017-05-19 22:15:04,312 :: INFO :: <class 'list'>
+2017-05-19 22:15:04,312 :: INFO :: {'wineCountries': ['poland:17015', 'portugal:16560', 'france:15015', 'sweden:13111', 'ukraine:8478', 'czech:8324', 'republic:8324', 'greece:6458', 'finland:2827', 'serbia:2776', 'croatia:2642', 'norway:2283', 'albania:2154', 'ireland:2078', 'armenia:1952', 'belarus:1868', 'slovenia:1751', 'bulgaria:1720', 'germany:1499', 'and:1466', 'bosnia:1466', 'herzegovina:1466', 'macedonia:1436', 'azerbaijan:1420', 'spain:1250', 'kingdom:947', 'united:947', 'luxembourg:901', 'latvia:890', 'lithuania:882', 'georgia:626', 'denmark:622', 'italy:622', 'estonia:615', 'hungary:604', 'moldova:565', 'cyprus:512', 'kosovo:487', 'malta:459', 'montenegro:261', 'switzerland:247', 'austria:230', 'iceland:179', 'belgium:169', 'turkey:79', 'liechtenstein:66', 'andorra:58', 'monaco:55', 'marino:52', 'san:52', 'slovakia:40', 'romania:10'], 'loginLastMonth': 17175, 'wineDistribution': ['blancs:132139', 'rouges:129335', 'champagne:110044', 'rosés:75002'], 'activeUsers': 143212}
+2017-05-19 22:15:04,314 :: INFO :: 127.0.0.1 - - [19/May/2017 22:15:04] "GET /wine/admin/dashboard/init HTTP/1.1" 200 -
+2017-05-19 22:54:42,346 :: INFO :: 127.0.0.1 - - [19/May/2017 22:54:42] "GET /wine/admin/ronan.lachater@gmail.com/admin HTTP/1.1" 200 -
+2017-05-19 22:54:43,974 :: INFO :: GET http://localhost:9200/db_wine_admin/_search?size=0 [status:200 request:0.007s]
+2017-05-19 22:54:43,984 :: INFO :: GET http://localhost:9200/db_wine_admin/_search?size=0 [status:200 request:0.009s]
+2017-05-19 22:54:44,009 :: INFO :: GET http://localhost:9200/db_wine_admin/_search?size=0 [status:200 request:0.023s]
+2017-05-19 22:54:44,029 :: INFO :: GET http://localhost:9200/db_wine_admin/_search?size=0 [status:200 request:0.019s]
+2017-05-19 22:54:44,030 :: INFO :: <class 'list'>
+2017-05-19 22:54:44,030 :: INFO :: {'wineCountries': ['poland:17015', 'portugal:16560', 'france:15015', 'sweden:13111', 'ukraine:8478', 'czech:8324', 'republic:8324', 'greece:6458', 'finland:2827', 'serbia:2776', 'croatia:2642', 'norway:2283', 'albania:2154', 'ireland:2078', 'armenia:1952', 'belarus:1868', 'slovenia:1751', 'bulgaria:1720', 'germany:1499', 'and:1466', 'bosnia:1466', 'herzegovina:1466', 'macedonia:1436', 'azerbaijan:1420', 'spain:1250', 'kingdom:947', 'united:947', 'luxembourg:901', 'latvia:890', 'lithuania:882', 'georgia:626', 'denmark:622', 'italy:622', 'estonia:615', 'hungary:604', 'moldova:565', 'cyprus:512', 'kosovo:487', 'malta:459', 'montenegro:261', 'switzerland:247', 'austria:230', 'iceland:179', 'belgium:169', 'turkey:79', 'liechtenstein:66', 'andorra:58', 'monaco:55', 'marino:52', 'san:52', 'slovakia:40', 'romania:10'], 'loginLastMonth': 17175, 'wineDistribution': ['blancs:132139', 'rouges:129335', 'champagne:110044', 'rosés:75002'], 'activeUsers': 143212}
+2017-05-19 22:54:44,032 :: INFO :: 127.0.0.1 - - [19/May/2017 22:54:44] "GET /wine/admin/dashboard/init HTTP/1.1" 200 -
+2017-05-19 22:54:44,048 :: INFO :: GET http://localhost:9200/db_wine_admin/_search?size=0 [status:200 request:0.007s]
+2017-05-19 22:54:44,082 :: INFO :: GET http://localhost:9200/db_wine_admin/_search?size=0 [status:200 request:0.033s]
+2017-05-19 22:54:44,110 :: INFO :: GET http://localhost:9200/db_wine_admin/_search?size=0 [status:200 request:0.027s]
+2017-05-19 22:54:44,151 :: INFO :: GET http://localhost:9200/db_wine_admin/_search?size=0 [status:200 request:0.040s]
+2017-05-19 22:54:44,157 :: INFO :: <class 'list'>
+2017-05-19 22:54:44,158 :: INFO :: {'wineCountries': ['poland:17015', 'portugal:16560', 'france:15015', 'sweden:13111', 'ukraine:8478', 'czech:8324', 'republic:8324', 'greece:6458', 'finland:2827', 'serbia:2776', 'croatia:2642', 'norway:2283', 'albania:2154', 'ireland:2078', 'armenia:1952', 'belarus:1868', 'slovenia:1751', 'bulgaria:1720', 'germany:1499', 'and:1466', 'bosnia:1466', 'herzegovina:1466', 'macedonia:1436', 'azerbaijan:1420', 'spain:1250', 'kingdom:947', 'united:947', 'luxembourg:901', 'latvia:890', 'lithuania:882', 'georgia:626', 'denmark:622', 'italy:622', 'estonia:615', 'hungary:604', 'moldova:565', 'cyprus:512', 'kosovo:487', 'malta:459', 'montenegro:261', 'switzerland:247', 'austria:230', 'iceland:179', 'belgium:169', 'turkey:79', 'liechtenstein:66', 'andorra:58', 'monaco:55', 'marino:52', 'san:52', 'slovakia:40', 'romania:10'], 'loginLastMonth': 17175, 'wineDistribution': ['blancs:132139', 'rouges:129335', 'champagne:110044', 'rosés:75002'], 'activeUsers': 143212}
+2017-05-19 22:54:44,160 :: INFO :: 127.0.0.1 - - [19/May/2017 22:54:44] "GET /wine/admin/dashboard/init HTTP/1.1" 200 -
+2017-05-19 23:00:43,960 :: INFO :: 127.0.0.1 - - [19/May/2017 23:00:43] "GET /wine/admin/ronan.lachater@gmail.com/admin HTTP/1.1" 200 -
+2017-05-19 23:00:45,652 :: INFO :: GET http://localhost:9200/db_wine_admin/_search?size=0 [status:200 request:0.008s]
+2017-05-19 23:00:45,661 :: INFO :: GET http://localhost:9200/db_wine_admin/_search?size=0 [status:200 request:0.008s]
+2017-05-19 23:00:45,694 :: INFO :: GET http://localhost:9200/db_wine_admin/_search?size=0 [status:200 request:0.032s]
+2017-05-19 23:00:45,716 :: INFO :: GET http://localhost:9200/db_wine_admin/_search?size=0 [status:200 request:0.020s]
+2017-05-19 23:00:45,717 :: INFO :: <class 'list'>
+2017-05-19 23:00:45,717 :: INFO :: {'wineCountries': ['poland:17015', 'portugal:16560', 'france:15015', 'sweden:13111', 'ukraine:8478', 'czech:8324', 'republic:8324', 'greece:6458', 'finland:2827', 'serbia:2776', 'croatia:2642', 'norway:2283', 'albania:2154', 'ireland:2078', 'armenia:1952', 'belarus:1868', 'slovenia:1751', 'bulgaria:1720', 'germany:1499', 'and:1466', 'bosnia:1466', 'herzegovina:1466', 'macedonia:1436', 'azerbaijan:1420', 'spain:1250', 'kingdom:947', 'united:947', 'luxembourg:901', 'latvia:890', 'lithuania:882', 'georgia:626', 'denmark:622', 'italy:622', 'estonia:615', 'hungary:604', 'moldova:565', 'cyprus:512', 'kosovo:487', 'malta:459', 'montenegro:261', 'switzerland:247', 'austria:230', 'iceland:179', 'belgium:169', 'turkey:79', 'liechtenstein:66', 'andorra:58', 'monaco:55', 'marino:52', 'san:52', 'slovakia:40', 'romania:10'], 'loginLastMonth': 17175, 'wineDistribution': ['blancs:132139', 'rouges:129335', 'champagne:110044', 'rosés:75002'], 'activeUsers': 143212}
+2017-05-19 23:00:45,719 :: INFO :: 127.0.0.1 - - [19/May/2017 23:00:45] "GET /wine/admin/dashboard/init HTTP/1.1" 200 -
+2017-05-19 23:36:54,244 :: INFO :: GET http://localhost:9200/db_wine_admin/_search?size=0 [status:200 request:0.008s]
+2017-05-19 23:36:54,280 :: INFO :: GET http://localhost:9200/db_wine_admin/_search?size=0 [status:200 request:0.035s]
+2017-05-19 23:36:54,327 :: INFO :: GET http://localhost:9200/db_wine_admin/_search?size=0 [status:200 request:0.046s]
+2017-05-19 23:36:54,354 :: INFO :: GET http://localhost:9200/db_wine_admin/_search?size=0 [status:200 request:0.025s]
+2017-05-19 23:36:54,356 :: INFO :: <class 'list'>
+2017-05-19 23:36:54,357 :: INFO :: {'wineCountries': ['poland:17015', 'portugal:16560', 'france:15015', 'sweden:13111', 'ukraine:8478', 'czech:8324', 'republic:8324', 'greece:6458', 'finland:2827', 'serbia:2776', 'croatia:2642', 'norway:2283', 'albania:2154', 'ireland:2078', 'armenia:1952', 'belarus:1868', 'slovenia:1751', 'bulgaria:1720', 'germany:1499', 'and:1466', 'bosnia:1466', 'herzegovina:1466', 'macedonia:1436', 'azerbaijan:1420', 'spain:1250', 'kingdom:947', 'united:947', 'luxembourg:901', 'latvia:890', 'lithuania:882', 'georgia:626', 'denmark:622', 'italy:622', 'estonia:615', 'hungary:604', 'moldova:565', 'cyprus:512', 'kosovo:487', 'malta:459', 'montenegro:261', 'switzerland:247', 'austria:230', 'iceland:179', 'belgium:169', 'turkey:79', 'liechtenstein:66', 'andorra:58', 'monaco:55', 'marino:52', 'san:52', 'slovakia:40', 'romania:10'], 'loginLastMonth': 17175, 'wineDistribution': ['blancs:132139', 'rouges:129335', 'champagne:110044', 'rosés:75002'], 'activeUsers': 143212}
+2017-05-19 23:36:54,362 :: INFO :: 127.0.0.1 - - [19/May/2017 23:36:54] "GET /wine/admin/dashboard/init HTTP/1.1" 200 -
+2017-05-19 23:37:21,327 :: INFO :: GET http://localhost:9200/db_wine_admin/_search?size=0 [status:200 request:0.032s]
+2017-05-19 23:37:21,340 :: INFO :: GET http://localhost:9200/db_wine_admin/_search?size=0 [status:200 request:0.011s]
+2017-05-19 23:37:21,418 :: INFO :: GET http://localhost:9200/db_wine_admin/_search?size=0 [status:200 request:0.077s]
+2017-05-19 23:37:21,471 :: INFO :: GET http://localhost:9200/db_wine_admin/_search?size=0 [status:200 request:0.051s]
+2017-05-19 23:37:21,472 :: INFO :: <class 'list'>
+2017-05-19 23:37:21,473 :: INFO :: {'wineCountries': ['poland:17015', 'portugal:16560', 'france:15015', 'sweden:13111', 'ukraine:8478', 'czech:8324', 'republic:8324', 'greece:6458', 'finland:2827', 'serbia:2776', 'croatia:2642', 'norway:2283', 'albania:2154', 'ireland:2078', 'armenia:1952', 'belarus:1868', 'slovenia:1751', 'bulgaria:1720', 'germany:1499', 'and:1466', 'bosnia:1466', 'herzegovina:1466', 'macedonia:1436', 'azerbaijan:1420', 'spain:1250', 'kingdom:947', 'united:947', 'luxembourg:901', 'latvia:890', 'lithuania:882', 'georgia:626', 'denmark:622', 'italy:622', 'estonia:615', 'hungary:604', 'moldova:565', 'cyprus:512', 'kosovo:487', 'malta:459', 'montenegro:261', 'switzerland:247', 'austria:230', 'iceland:179', 'belgium:169', 'turkey:79', 'liechtenstein:66', 'andorra:58', 'monaco:55', 'marino:52', 'san:52', 'slovakia:40', 'romania:10'], 'loginLastMonth': 17175, 'wineDistribution': ['blancs:132139', 'rouges:129335', 'champagne:110044', 'rosés:75002'], 'activeUsers': 143212}
+2017-05-19 23:37:21,475 :: INFO :: 127.0.0.1 - - [19/May/2017 23:37:21] "GET /wine/admin/dashboard/init HTTP/1.1" 200 -
