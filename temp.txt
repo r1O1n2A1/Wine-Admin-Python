@@ -33,3 +33,41 @@ user.inscription": {
       '/home/ronan/Documents/BigData/spark/spark-2.0.2/bin/spark-submit' --jars /home/ronan/Documents/BigData/elasticSearch/elasticsearch-hadoop-5.4.0/dist/elasticsearch-hadoop-5.4.0.jar ~/Project1AL/Wine-Admin-Python/pysparkImportTest.py
 
       '/home/ronan/Documents/BigData/spark/spark-2.0.2/bin/spark-submit' --jars /home/ronan/Documents/BigData/elasticSearch/elasticsearch-hadoop-5.4.0/dist/elasticsearch-hadoop-5.4.0.jar ~/Project1AL/Wine-Admin-Python/runbackend.py
+
+
+[ 
+   "serbia:2776",
+   "croatia:2642",
+   "norway:2283",
+   "albania:2154",
+   "ireland:2078",
+   "armenia:1952",
+   "belarus:1868",
+   "slovenia:1751",
+   "bulgaria:1720",
+   "germany:1499",
+   "and:1466", "
+   bosnia:1466",
+   "herzegovina:1466",
+   "macedonia:1436",
+   "azerbaijan:1420",
+   "spain:1250",
+   "kingdom:947",
+    "united:947",
+    "luxembourg:901",
+    "latvia:890",
+    "lithuania:882",
+    "georgia:626",
+    "denmark:622",
+    "italy:622",
+    estonia:615",
+    "hungary:604",
+    "moldova:565",
+    "cyprus:512",
+    "kosovo:487",
+    "malta:459",
+    "montenegro:261",
+    "switzerland:247",
+    "austria:230",
+    "iceland:179",
+    "belgium:169", "turkey:79", "liechtenstein:66", "andorra:58", "monaco:55", "marino:52", "san:52", "slovakia:40", "romania:10"]
